@@ -1,0 +1,11 @@
+name: Lightning Talks
+timezone: Europe/Berlin
+
+events:
+  - summary: "Results of Gaia-X Hackathon #4"
+    begin: 2022-06-23 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Kurt will give a short overview about the results that were made during the Gaia-X Hackathon #4 regarding service self-description.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
