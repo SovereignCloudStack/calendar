@@ -9,3 +9,10 @@ events:
     description: |
       Kurt will give a short overview about the results that were made during the Gaia-X Hackathon #4 regarding service self-description.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Timeboxing - how to scale the power of your calendar"
+    begin: 2022-07-07 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+	  Handling lot's of items in the queue as well as meetings can be overwhelming. Felix will give an introduction to timeboxing and how he handles his calendar.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
