@@ -26,4 +26,4 @@ jobs:
         pip install yaml2ics
     - name: Execute yaml2ics
       run: |
-        python yaml2ics.py all.yaml
+        python yaml2ics lightning_talks.yaml
