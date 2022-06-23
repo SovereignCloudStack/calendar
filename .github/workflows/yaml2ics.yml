@@ -24,6 +24,17 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install yaml2ics
+        pip install -r requirements.txt
     - name: Execute yaml2ics
       run: |
-        python yaml2ics lightning_talks.yaml
+        mkdir ./calendar
+        yaml2ics main.yaml > ./calendar/scs.ics
+    - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./calendar
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Update SCS community calendar'
