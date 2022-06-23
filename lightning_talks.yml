@@ -14,5 +14,5 @@ events:
     duration:
       minutes: 15
     description: |
-	  Handling lot's of items in the queue as well as meetings can be overwhelming. Felix will give an introduction to timeboxing and how he handles his calendar.
+      Handling lot's of items in the queue as well as meetings can be overwhelming. Felix will give an introduction to timeboxing and how he handles his calendar.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
