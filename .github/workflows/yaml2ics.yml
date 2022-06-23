@@ -28,7 +28,7 @@ jobs:
     - name: Execute yaml2ics
       run: |
         mkdir ./calendar
-        yaml2ics main.yaml > ./calendar/scs.ics
+        yaml2ics main.yml > ./calendar/scs.ics
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
