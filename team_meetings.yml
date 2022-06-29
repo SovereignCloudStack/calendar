@@ -84,7 +84,7 @@ events:
       interval:
         weeks: 2
       until: 2022-12-31
-   - summary: "Team Container Sprint Review/Planning and Refinement"
+  - summary: "Team Container Sprint Review/Planning and Refinement"
     begin: 2022-06-27 10:05:00
     duration:
       minutes: 50
