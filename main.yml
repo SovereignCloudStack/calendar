@@ -3,3 +3,4 @@ timezone: Europe/Berlin
 include:
   - lightning_talks.yml
   - team_meetings.yml
+  - other.yml
