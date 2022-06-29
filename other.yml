@@ -13,7 +13,7 @@ events:
     location: "https://conf.scs.koeln:8443/SCS-Tech"
     repeat:
       interval:
-        months: 1
+        weeks: 4
       until: 2022-12-31  # required
   - summary: "Monthly SCS Onboarding Session"
     begin: 2022-07-01 15:05:00
@@ -26,5 +26,5 @@ events:
     location: "https://conf.scs.koeln:8443/SCS-Tech"
     repeat:
       interval:
-        months: 1
+        weeks: 4
       until: 2022-12-31  # required
