@@ -11,7 +11,7 @@ The public calendar is automatically published at <https://sovereigncloudstack.g
 We'll make use of the python script [yaml2ics](https://github.com/scientific-python/yaml2ics). The generated `ics` file will automatically be published in a seperate branch and pushed to a GitHub page.
 
 ### Testing locally
-If you want to test the generation of our public calendar locally, simpkly install [yaml2ics](https://github.com/scientific-python/yaml2ics):
+If you want to test the generation of our public calendar locally, simply install [yaml2ics](https://github.com/scientific-python/yaml2ics):
 ```
 python -m pip install --upgrade pip
 pip install yaml2ics
