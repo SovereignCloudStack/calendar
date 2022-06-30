@@ -158,7 +158,7 @@ events:
       minutes: 50
     description: |
       Location for Meeting Notes: https://scs.sovereignit.de/nextcloud/apps/files/?dir=/Sovereign%20Cloud%20Stack/SIGs/IAM&fileid=41002
-      Matrix channel for quick heads up messages: https://matrix.to/#/!WXPYkbcGzyIxFhwIqM:matrix.org?via=matrix.org
+      Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!WXPYkbcGzyIxFhwIqM:matrix.org?via=matrix.org
     location: "https://conf.scs.koeln:8443/SCS-SIG-IAM"
     repeat:
       interval:
