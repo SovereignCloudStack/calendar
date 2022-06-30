@@ -152,3 +152,15 @@ events:
       interval:
         weeks: 1
       until: 2022-12-31
+  - summary: "SIG IAM"
+    begin: 2022-07-08 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      Location for Meeting Notes: https://scs.sovereignit.de/nextcloud/apps/files/?dir=/Sovereign%20Cloud%20Stack/SIGs/IAM&fileid=41002
+      Matrix channel for quick heads up messages: https://matrix.to/#/!WXPYkbcGzyIxFhwIqM:matrix.org?via=matrix.org
+    location: "https://conf.scs.koeln:8443/SCS-SIG-IAM"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2022-12-31
