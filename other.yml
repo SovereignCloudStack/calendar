@@ -39,3 +39,13 @@ events:
       interval:
         weeks: 1
       until: 2022-12-31  # required
+  - summary: "Team Container workshop on a standardized set of parameters"
+    begin: 2022-07-04 15:05:00
+    duration:
+      minutes: 140
+    description: |
+      https://github.com/SovereignCloudStack/issues/discussions/93#discussioncomment-2983888
+      We need to continue with defining a set of standard settings (clusterctl.yaml / values.yaml) that define the
+      cluster with its standard features. This is the set of cluster-API parameters, generalized a bit where needed
+      to allow for other CAPx providers than CAPO and even for non-CAPI implementations.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
