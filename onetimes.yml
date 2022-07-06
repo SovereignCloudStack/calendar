@@ -1,0 +1,11 @@
+name: One-Time Events
+timezone: Europe/Berlin
+
+events:
+  - summary: "Hands-on session on how multi-inventory/environment scenarios work in OSISM"
+    begin: 2022-07-13 12:05:00         # uses default timezone above
+    duration:
+      minutes: 50
+    description: |
+      Hands-on session with the colleagues from OSISM on how multi-inventory/environment scenarios work in OSISM.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
