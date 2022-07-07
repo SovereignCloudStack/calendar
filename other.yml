@@ -39,3 +39,14 @@ events:
       interval:
         weeks: 1
       until: 2022-12-31  # required
+  - summary: "Blocker: SCS Team Overflow/Replacement Slot"
+    begin: 2022-07-11 15:05:00
+    duration:
+      minutes: 50
+    description: |
+      Overflow/Replacement slot for SCS team meetings. May not take place every week. Concrete topic is announcend as parallel event in the public calendar. Ask on Matrix if in doubt.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 1
+      until: 2022-12-31  # required
