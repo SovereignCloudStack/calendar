@@ -102,7 +102,25 @@ events:
       interval:
         weeks: 1
       until: 2022-12-31
-
+  - summary: "SCS Product Board"
+    begin: 2022-07-04 14:05:00
+    duration:
+      minutes: 50
+    description: |
+      Our SCS Product Board: This is our virtual technical leadership team: CPO, Team/SIG POs/Speakers, Key contributors. This tactically prepares the team meetings (sprint planning).
+      But more importantly it takes a look at more strategic topics:
+      - What is our roadmap?
+      - How do we grow?
+      - How do we organize ourselves?
+      - What are key OSS/industry trends to take into account?
+      
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 1
+      until: 2022-12-31
   - summary: "SIG Community"
     begin: 2022-06-29 11:05:00
     duration:
