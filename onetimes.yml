@@ -19,3 +19,9 @@ events:
       cluster with its standard features. This is the set of cluster-API parameters, generalized a bit where needed
       to allow for other CAPx providers than CAPO and even for non-CAPI implementations.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Team Container workshop on operator-based approach to lifecycle management of Cluster API"
+    begin: 2022-07-18 15:05:00
+    duration:
+      minutes: 90
+    description: |
+      Sven from syself will present an idea on a operator-based approach to lifecycle management of Cluster API.
