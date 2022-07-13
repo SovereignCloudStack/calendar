@@ -17,7 +17,7 @@ events:
       Show how NBDE is integrated to OSISM. Mathias will give an introduction to NBDE and show in a Demo how does it work.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "Timeboxing - how to scale the power of your calendar"
-    begin: 2022-07-07 15:45:00         # uses default timezone above
+    begin: 2022-07-21 15:45:00         # uses default timezone above
     duration:
       minutes: 15
     description: |
