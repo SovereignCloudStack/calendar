@@ -22,7 +22,7 @@ events:
   - summary: "OSS Review Toolkit presentation"
     begin: 2022-07-21 10:05:00
     duration:
-      minutes: 50
+      minutes: 30
     description: |
       Sebastian Schuberth, founder of OSS Review Toolkit (ORT), will join us during our regular Team OPS meeting to present ORT and be available to answer your questions. You are welcome to send us your questions in advance so that we can prepare this meeting in the best possible way.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
