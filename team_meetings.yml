@@ -155,7 +155,7 @@ events:
         weeks: 2
       until: 2022-12-31
   - summary: "SIG Monitoring"
-    begin: 2022-06-24 12:05:00
+    begin: 2022-06-24 11:05:00
     duration:
       minutes: 50
     description: |
