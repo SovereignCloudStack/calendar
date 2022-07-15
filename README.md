@@ -2,7 +2,7 @@
 This repository contains various `yaml` files to announce public events, meetings and other interesting happenings of 
 our [Sovereign Cloud Stack](https://scs.community) community.
 
-## Import public SCS communuty calendar
+## Import public SCS community calendar
 The public calendar is automatically published at <https://sovereigncloudstack.github.io/calendar/scs.ics>. We recommend importing the calendar with an iCalendar client like [Thunderbird](https://support.mozilla.org/en-US/kb/creating-new-calendars#w_on-the-network-connect-to-your-online-calendars).
 
 ## Development
