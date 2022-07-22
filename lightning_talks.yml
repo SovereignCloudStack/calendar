@@ -23,3 +23,10 @@ events:
     description: |
       Handling lot's of items in the queue as well as meetings can be overwhelming. Felix will give an introduction to timeblocking and how he handles his calendar.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Empowering an open community"
+    begin: 2022-07-28 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Eduard collected various good examples and techniques on how to empower an open community. This lightning talk will give a brief overview on what it needs to make a FOSS community lift off.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
