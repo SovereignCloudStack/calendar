@@ -1,0 +1,364 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Berlin
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220623T154500
+DURATION:PT15M
+SUMMARY:Results of Gaia-X Hackathon #4
+UID:b69b61ec-8201-44e1-a25d-057901ea2e75@b69b.org
+DESCRIPTION:Kurt will give a short overview about the results that were 
+ made during the Gaia-X Hackathon #4 regarding service self-description.
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220630T154500
+DURATION:PT15M
+SUMMARY:NBDE - how tang and clevis are integrated in OSISM
+UID:6e98859c-c3df-4af4-aff9-3b3fdcc4727c@6e98.org
+DESCRIPTION:Show how NBDE is integrated to OSISM. Mathias will give an 
+ introduction to NBDE and show in a Demo how does it work.
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220721T154500
+DURATION:PT15M
+SUMMARY:Timeblocking - how to scale the power of your calendar
+UID:368f893c-fa31-414b-a9c6-92b046867251@368f.org
+DESCRIPTION:Handling lot's of items in the queue as well as meetings can be
+  overwhelming. Felix will give an introduction to timeblocking and how he 
+ handles his calendar.
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220728T154500
+DURATION:PT15M
+SUMMARY:Empowering an open community
+UID:25e37b81-1fbc-434c-9786-2f478714436d@25e3.org
+DESCRIPTION:Eduard collected various good examples and techniques on how to
+  empower an open community. This lightning talk will give a brief overview
+  on what it needs to make a FOSS community lift off.
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220630T150500
+DURATION:PT40M
+SUMMARY:Weekly SCS Community Meeting
+UID:d543daea-15ef-4bda-ba40-951d100e3c51@d543.org
+DESCRIPTION:Our weekly SCS Community Meeting. This meeting features a round
+  of updates from the various technical\nteams as well as Special Interest 
+ Groups (SIGs). Furthermore the SCS project team gives an update\non the 
+ overall project.\n\nJitsi server on https://conf.scs.koeln:8443/SCS-
+ Tech\nDial-In: +49-221-292772-611
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+RRULE:FREQ=WEEKLY;UNTIL=20221231T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220622T100500
+DURATION:PT50M
+SUMMARY:Team IaaS Sprint Review/Planning and Refinement
+UID:4026505d-802e-4189-a7a2-5f149b5f2537@4026.org
+DESCRIPTION:This is our bi-weekly sprint review\, planning and refinement 
+ meeting for Team IaaS.\n- Sprint review: Let's look at the stories that 
+ were being worked on and completed.\n- Backlog refinement: Let's look at 
+ the backlog and work on refining the stories such that they can be worked 
+ on.\n- Sprint planning: Let's look at what we can achieve in the next 
+ cycle.\n\nKanban-Board: 
+ https://github.com/orgs/SovereignCloudStack/projects/6/views/4\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/iaas\nEtherpad: 
+ https://input.osb-alliance.de/p/2022-scs-team-iaas\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: +49-221-292772-611
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20221231T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220629T100500
+DURATION:PT50M
+SUMMARY:Team IaaS Meeting
+UID:f17ad2b6-5a4a-46dc-bf9c-800ea0fe13b3@f17a.org
+DESCRIPTION:This is our bi-weekly meeting for Team IaaS in which we deep-
+ dive into topics.\nThere is a github issue to which items that need to be 
+ discussed can be added: 
+ https://github.com/SovereignCloudStack/issues/issues/46\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/iaas\nEtherpad: 
+ https://input.osb-alliance.de/p/2022-scs-team-iaas\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: +49-221-292772-611
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20221231T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220623T100500
+DURATION:PT50M
+SUMMARY:Team OPS / IAM Sprint Review/Planning and Refinement
+UID:0ab92166-4ebd-4c2c-8979-35b7eadfe495@0ab9.org
+DESCRIPTION:This is our bi-weekly sprint review\, planning and refinement 
+ meeting for Team OPS / IAM.\n- Sprint review: Let's look at the stories 
+ that were being worked on and completed.\n- Backlog refinement: Let's look
+  at the backlog and work on refining the stories such that they can be 
+ worked on.\n- Sprint planning: Let's look at what we can achieve in the 
+ next cycle.\n\nKanban-Board: 
+ https://github.com/orgs/SovereignCloudStack/projects/6/views/8\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/ops-
+ iam\nEtherpad: https://input.osb-alliance.de/p/2022-scs-team-ops-
+ iam\nJitsi server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20221231T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220630T100500
+DURATION:PT50M
+SUMMARY:Team OPS / IAM Meeting
+UID:496bcba8-2e63-4ef0-bf9f-356472982b37@496b.org
+DESCRIPTION:This is our bi-weekly meeting for Team OPS / IAM in which we 
+ deep-dive into topics.\nThere is a github issue to which items that need 
+ to be discussed can be added: 
+ https://github.com/SovereignCloudStack/issues/issues/51\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/ops-
+ iam\nEtherpad: https://input.osb-alliance.de/p/2022-scs-team-ops-
+ iam\nJitsi server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20221231T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220627T100500
+DURATION:PT50M
+SUMMARY:Team Container Sprint Review/Planning and Refinement
+UID:03424bd5-5714-4dc9-9d69-7e835f13a852@0342.org
+DESCRIPTION:This is our weekly sprint review\, planning and refinement 
+ meeting for Team Container.\n- Sprint review: Let's look at the stories 
+ that were being worked on and completed.\n- Backlog refinement: Let's look
+  at the backlog and work on refining the stories such that they can be 
+ worked on.\n- Sprint planning: Let's look at what we can achieve in the 
+ next cycle.\n\nKanban-Board: 
+ https://github.com/orgs/SovereignCloudStack/projects/6/views/7\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/container 
+ \nEtherpad: https://input.osb-alliance.de/p/2022-scs-team-container\nJitsi
+  server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+RRULE:FREQ=WEEKLY;UNTIL=20221231T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220704T140500
+DURATION:PT50M
+SUMMARY:SCS Product Board
+UID:b7192d5d-4147-4ce4-bb08-2ebc401c2f78@b719.org
+DESCRIPTION:Our SCS Product Board: This is our virtual technical leadership
+  team: CPO\, Team/SIG POs/Speakers\, Key contributors. This tactically 
+ prepares the team meetings (sprint planning).\nBut more importantly it 
+ takes a look at more strategic topics:\n- What is our roadmap?\n- How do 
+ we grow?\n- How do we organize ourselves?\n- What are key OSS/industry 
+ trends to take into account?\n\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: +49-221-292772-611
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+RRULE:FREQ=WEEKLY;UNTIL=20221231T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220629T110500
+DURATION:PT50M
+SUMMARY:SIG Community
+UID:6a245bcf-28df-45ef-8590-eb97d9f7f635@6a24.org
+DESCRIPTION:For the time being\, we will have the Community SIG Call on a 
+ bi-weekly basis.\n\nKanban-Board: 
+ https://github.com/orgs/SovereignCloudStack/projects/6/views/14\nJitsi 
+ server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20221231T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220630T140500
+DURATION:PT50M
+SUMMARY:SIG Standardization/Certification
+UID:7afffbc2-d5d5-4969-9fab-3216515a4f0d@7aff.org
+DESCRIPTION:Special Interest Group to discuss and align our activities and 
+ approach to standardization and certification.\n\nThe idea is to agree on 
+ relevant standards that are fulfilled by the SCS reference implementation 
+ (at IaaS layer - optional\, at CaaS layer\, federation and possibly even 
+ operational transparency). In general\, standards should be defined such 
+ that they can be fulfilled by partners that do only use some of the 
+ modules of the reference implementation or even none of them.\nMain goal 
+ for standards is to create a high level of assurance for interoperability 
+ – a service that is developed against SCS CaaS standards should work 
+ without any adaptation of the service and its deployment/operations 
+ automation of all clouds that have a SCS-certified CaaS implementation. 
+ For sovereignty and transparency aspects\, we may provide assurance also 
+ with respect to open source and open operations\, but these are topics for
+  later. See https://scs.sovereignit.de/nextcloud/apps/files/?dir=/Sovereig
+ n%20Cloud%20Stack/Certification&fileid=61594\nThis group should discuss 
+ strategy and most importantly align on which standards we need and then 
+ work with the teams to align on existing or to be created standards. We 
+ should take the user perspective: As a member of a DevOps team developing 
+ a service (think SaaS or PaaS) for SCS\, I need XXXX.\n\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: +49-221-292772-611
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20221231T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220624T120500
+DURATION:PT50M
+SUMMARY:SIG Monitoring
+UID:bd34be18-e1ae-43a3-9b02-332a03db3047@bd34.org
+DESCRIPTION:The Special Interest Group (SIG) Monitoring meets on a weekly 
+ base to discuss the monitoring needs\nof SCS Operators\, Users and 
+ Integrators. Together we shape how monitoring and observability 
+ within\nthe SCS landscape looks like.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/sig-
+ monitoring\nEtherpad: https://input.osb-alliance.de/p/2022-scs-sig-
+ monitoring\nMatrix channel for SIG related discussion and coordination: 
+ https://matrix.to/#/!ToxwzOWTBqSjxRAwuj:matrix.org?via=matrix.org\nJitsi 
+ server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+RRULE:FREQ=WEEKLY;UNTIL=20221231T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220708T100500
+DURATION:PT50M
+SUMMARY:SIG IAM
+UID:f9634c58-b108-41fd-ad94-ce134c4874d7@f963.org
+DESCRIPTION:The Special Interest Group (SIG) Identity and Access Management
+  (IAM) meets on a bi-weekly base to discuss federation\nwithin a cloud 
+ ecosystem.\n\nJitsi server on https://conf.scs.koeln:8443/SCS-SIG-
+ IAM\nLocation for Meeting Notes: https://scs.sovereignit.de/nextcloud/apps
+ /files/?dir=/Sovereign%20Cloud%20Stack/SIGs/IAM&fileid=41002\nMatrix 
+ channel for SIG related discussion and coordination: 
+ https://matrix.to/#/!WXPYkbcGzyIxFhwIqM:matrix.org?via=matrix.org
+LOCATION:https://conf.scs.koeln:8443/SCS-SIG-IAM
+DTSTAMP:20220729T171412Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20221231T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220713T120500
+DURATION:PT50M
+SUMMARY:Hands-on session on how multi-inventory/environment scenarios work 
+ in OSISM
+UID:0c1ffaab-d3a7-4d19-bb87-8a1e4e320aeb@0c1f.org
+DESCRIPTION:Hands-on session with the colleagues from OSISM on how multi-
+ inventory/environment scenarios work in OSISM.
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220704T150500
+DURATION:PT2H20M
+SUMMARY:Team Container workshop on a standardized set of parameters
+UID:d61d79dc-bee5-4601-845c-6d1199415d3f@d61d.org
+DESCRIPTION:https://github.com/SovereignCloudStack/issues/discussions/93#di
+ scussioncomment-2983888\nWe need to continue with defining a set of 
+ standard settings (clusterctl.yaml / values.yaml) that define the\ncluster
+  with its standard features. This is the set of cluster-API parameters\, 
+ generalized a bit where needed\nto allow for other CAPx providers than 
+ CAPO and even for non-CAPI implementations.
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220718T150500
+DURATION:PT1H30M
+SUMMARY:Team Container workshop on operator-based approach to lifecycle 
+ management of Cluster API
+UID:d42af1dc-f633-4824-af17-27afded37a47@d42a.org
+DESCRIPTION:Sven from syself will present an idea on a operator-based 
+ approach to lifecycle management of Cluster API.
+DTSTAMP:20220729T171412Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220721T100500
+DURATION:PT30M
+SUMMARY:OSS Review Toolkit presentation
+UID:24cf1ed0-38ae-431e-be49-18f96163b239@24cf.org
+DESCRIPTION:Sebastian Schuberth\, founder of OSS Review Toolkit (ORT)\, 
+ will join us during our regular Team OPS meeting to present ORT and be 
+ available to answer your questions. You are welcome to send us your 
+ questions in advance so that we can prepare this meeting in the best 
+ possible way.
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220801T150500
+DURATION:PT1H
+SUMMARY:Infrastructure layout discussion
+UID:44fcfabc-c3d2-4854-9fb8-3535b517fef6@44fc.org
+DESCRIPTION:Let's discuss about IaaS layout: What are typical control and 
+ compute roles and which services belongs to these roles and which not. 
+ Which services and applications should run on other layers in the SCS 
+ stack? Feel free to join this discussion!
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220627T150500
+DURATION:PT50M
+SUMMARY:Lean SCS Operator Coffee
+UID:3c311414-daf7-42b9-9b53-850690374583@3c31.org
+DESCRIPTION:This format offers a place where SCS operators can meet and 
+ discuss operating SCS with the various topics around that.\nJitsi server 
+ on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: +49-221-292772-611
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+RRULE:FREQ=WEEKLY;INTERVAL=4;UNTIL=20221231T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220701T130500
+DURATION:PT1H50M
+SUMMARY:Open Hacking Session
+UID:d49d6ef4-7058-4cd9-8500-1405f1c444e7@d49d.org
+DESCRIPTION:Blocker for spontaneous hacking sessions to work on our various
+  tasks. May not take place every week. Ask on Matrix if in doubt.
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+RRULE:FREQ=WEEKLY;UNTIL=20221231T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20220711T150500
+DURATION:PT50M
+SUMMARY:Blocker: SCS Team Overflow/Replacement Slot
+UID:b17ffe34-bd27-48e9-83e1-85fa9b9af99b@b17f.org
+DESCRIPTION:Overflow/Replacement slot for SCS team meetings. May not take 
+ place every week. Concrete topic is announcend as parallel event in the 
+ public calendar. Ask on Matrix if in doubt.
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20220729T171412Z
+RRULE:FREQ=WEEKLY;UNTIL=20221231T000000
+END:VEVENT
+NAME:Overall calendar of SCS community related events
+X-WR-CALNAME:Overall calendar of SCS community related events
+END:VCALENDAR
