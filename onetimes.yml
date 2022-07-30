@@ -32,14 +32,21 @@ events:
     description: |
       Sebastian Schuberth, founder of OSS Review Toolkit (ORT), will join us during our regular Team OPS meeting to present ORT and be available to answer your questions. You are welcome to send us your questions in advance so that we can prepare this meeting in the best possible way.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Infrastructure layout discussion"
+    begin: 2022-08-01 15:05:00
+    duration:
+      minutes: 60
+    description: |
+      Let's discuss about IaaS layout: What are typical control and compute roles and which services belongs to these roles and which not. Which services and applications should run on other layers in the SCS stack? Feel free to join this discussion!
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: SIG standard/cert: IaaS deep dive
     begin: 2022-08-04 14:05:00
     duration:
       minutes: 50
     description: |
-      Deep dive on IaaS:
-      From the three standardization topics (OpenStack powered compute cert,
-      image metadata, flavor naming): What do we need to adjust, enhance.
+      Deep dive on IaaS standardization:
+      From the three existing standardization topics (OpenStack powered compute
+      cert, image metadata, flavor naming): What do we need to adjust, enhance?
       What other standards do we need? Which ones to focus on first?
       We have a list on the etherpad.
 
