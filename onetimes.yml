@@ -15,9 +15,7 @@ events:
       minutes: 140
     description: |
       https://github.com/SovereignCloudStack/issues/discussions/93#discussioncomment-2983888
-      We need to continue with defining a set of standard settings (clusterctl.yaml / values.yaml) that define the
-      cluster with its standard features. This is the set of cluster-API parameters, generalized a bit where needed
-      to allow for other CAPx providers than CAPO and even for non-CAPI implementations.
+      We need to continue with defining a set of standard settings (clusterctl.yaml / values.yaml) that define the cluster with its standard features. This is the set of cluster-API parameters, generalized a bit where needed to allow for other CAPx providers than CAPO and even for non-CAPI implementations.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "Team Container workshop on operator-based approach to lifecycle management of Cluster API"
     begin: 2022-07-18 15:05:00
@@ -45,8 +43,7 @@ events:
       minutes: 50
     description: |
       Deep dive on IaaS standardization:
-      From the three existing standardization topics (OpenStack powered compute
-      cert, image metadata, flavor naming): What do we need to adjust, enhance?
+      From the three existing standardization topics (OpenStack powered compute cert, image metadata, flavor naming): What do we need to adjust, enhance?
       What other standards do we need? Which ones to focus on first?
       We have a list on the etherpad.
 
