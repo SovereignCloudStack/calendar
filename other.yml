@@ -32,6 +32,7 @@ events:
       minutes: 50
     description: |
       Overflow/Replacement slot for SCS team meetings. May not take place every week. Concrete topic is announcend as parallel event in the public calendar. Ask on Matrix if in doubt.
+      Dial-In: +49-221-292772-611
     location: "https://conf.scs.koeln:8443/SCS-Tech"
     repeat:
       interval:
