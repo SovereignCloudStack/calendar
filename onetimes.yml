@@ -52,3 +52,19 @@ events:
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Who runs the API server for SCS KaaS?"
+    begin: 2022-08-08 15:05:00
+    duration:
+      minutes: 60
+    description: |
+      Continue the discussion from the container team meeting (2022-08-08):
+      KaaS offering: The assumption is that the provider offers a k8s (kube-apiserver) style interface (where in the reference implementation a management server with CAPI/SCS operator is running), accepting custom resources for controlling customer workload clusters.
+        * Challenge: If cloud providers offer a k8s (kube-apiserver) endpoint for cluster management, there are a few challenges: If the endpoint is backed by a k8s cluster, it needs serious multi-tenancy features (authentication+authorization concepts, strong isolation beyond just namespaces, ...).
+        * Alternative challenge: The cloud provider could run a management cluster per customer. Trouble is the overhead then: Running a 3c+1w cluster per customer. (Could we just run the single-node kind cluster and defer the clusterctl move when this is really used? Move to first workload cluster? Move to another cluster or back to kind cluster if that first workload cluster gets deleted?)
+        * Discussion: If DevOps teams want to control their own cluster using a k8s style API, aren't they capable and willing to run the management cluster anyway, deployable by a single click/API call? If the SCS operator supposedly takes out most pain from operating workload clusters, it should also take out the pain from running the management cluster, no?
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-standardization
+      Etherpad: https://input.osb-alliance.de/p/2022-scs-sig-standardization
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
