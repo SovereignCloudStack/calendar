@@ -221,3 +221,18 @@ events:
       interval:
         weeks: 2
       until: 2022-12-31
+  - summary: "SIG Release"
+    begin: 2022-08-17 14:05:00
+    duration:
+      minutes: 50
+    description: |
+      The Special Interest Group (SIG) Release meets on a weekly base to prepare the upcoming release 3 of Sovereign Cloud Stack.
+
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Location for Meeting Notes: https://github.com/SovereignCloudStack/minutes
+      Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!WXPYkbcGzyIxFhwIqM:matrix.org?via=matrix.org
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 1
+      until: 2022-09-28
