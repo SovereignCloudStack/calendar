@@ -68,3 +68,19 @@ events:
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Debug session for the harbor k8s cluster"
+    begin: 2022-08-12 14:05:00
+    duration:
+      minutes: 80
+    description: |
+      The old k8s cluster that supports the harbor registry behind https://registry.scs.community/ got broken by expired internal certs.
+      A `kubeadm (alpha) certs renew` was insufficient to repair it. The additional kubelet server certificate rotation proved
+      insufficient as well, see https://github.com/SovereignCloudStack/issues/issues/155#issuecomment-1211844406 .
+      We want to analyze this together and understand what else is wrong in the k8s cluster.
+      Once the cluster works again, we want to proceed to looking at harbor.
+
+      Etherpad: https://input.osb-alliance.de/p/20220812-k8s-cluster-certs-debugging
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      (If others in the hacking session are using this room, we can create another one.)
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
