@@ -101,3 +101,16 @@ events:
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Handling the CA for kubernetes"
+    begin: 2022-08-22 15:05:00
+    duration:
+      minutes: 80
+    description: |
+      Having the kubernetes CA as a local file on all control plane nodes might be risky.
+      See discussion at https://github.com/orgs/SovereignCloudStack/discussions/114
+      Let's learn from Jonas about the investigation and considered approaches for their cluster solution and discuss where secrets can be stored and how retrieval can be authorized (unsealing) in a secure (yet automatable) way.
+
+      Etherpad: https://input.osb-alliance.de/p/20220822-k8s-clusterCA-security
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
