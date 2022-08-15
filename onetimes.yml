@@ -101,3 +101,15 @@ events:
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Open Operations Manifesto #2"
+    begin: 2022-08-17 12:05:00
+    duration:
+      minutes: 50
+    description: |
+      We had a very good first session during which we created a boilerplate for our Open Operations Manifesto: https://openoperations.org/
+      Let's not stop here and continue our work on the manifesto. What about the idea of meeting a second time in the upcoming week, cutting the tasks and splitting the workload somewhat?
+      See: https://github.com/orgs/SovereignCloudStack/discussions/126
+      
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
