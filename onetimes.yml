@@ -84,3 +84,20 @@ events:
       Dial-In: +49-221-292772-611
       (If others in the hacking session are using this room, we can create another one.)
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "KaaS standardization deep dive"
+    begin: 2022-08-18 14:05:00
+    duration:
+      minutes: 50
+    description: |
+      Standards for the container management interface:
+      For our KaaS interface, we want to create both a standard and a reference implementation that implements the standards.
+      The reference implementation will use the Cluster-API and can assume an SCS-compliant IaaS. It should be easily adaptable to other IaaS with existing CAPI providers (CAPx) and CCMs. It will split the cluster-description into a cloud-stack template and a parameter file. The parameter file should use variables that are NOT dependent on the underlaying IaaS (which means we may require flavor names to be translated from an SCS standard into the native flavor naming in the implementation). The parameter file can also be supported by implementations that may not even use CAPI, such as Gardener (or Gridscale's in case they decide against CAPI).
+      The parameter file is thus a standard. (We can define several of them, having a simple as well as more complicated cloud stacks.)
+      The resulting cluster obviously also needs to have certain predefined standardized properties, this is the other half of what we need to standardize in this model.
+      Today's discussion on the parameter files and the standard cluster properties.
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-standardization
+      Etherpad: https://input.osb-alliance.de/p/2022-scs-sig-standardization
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
