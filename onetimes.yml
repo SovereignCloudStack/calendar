@@ -102,7 +102,7 @@ events:
       Dial-In: +49-221-292772-611
     location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "Handling the CA for kubernetes"
-    begin: 2022-08-22 15:05:00
+    begin: 2022-08-29 15:05:00
     duration:
       minutes: 80
     description: |
