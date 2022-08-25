@@ -224,8 +224,8 @@ events:
       The Special Interest Group (SIG) Release meets on a weekly base to prepare the upcoming release 3 of Sovereign Cloud Stack.
 
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Location for Meeting Notes: https://github.com/SovereignCloudStack/minutes
-      Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!WXPYkbcGzyIxFhwIqM:matrix.org?via=matrix.org
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-release
+      Etherpad: https://input.osb-alliance.de/p/2022-scs-sig-release
     location: "https://conf.scs.koeln:8443/SCS-Tech"
     repeat:
       interval:
