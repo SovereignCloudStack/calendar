@@ -122,6 +122,8 @@ events:
       - How do we organize ourselves?
       - What are key OSS/industry trends to take into account?
       
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/product-board
+      Etherpad: https://input.osb-alliance.de/p/2022-scs-product-board
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
     location: "https://conf.scs.koeln:8443/SCS-Tech"
