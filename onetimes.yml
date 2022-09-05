@@ -136,6 +136,21 @@ events:
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Future of harbor in SCS"
+    begin: 2022-09-06 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      How do we proceed with
+      (a) SCS/k8s-harbor:
+        * does it work? certainly needs more documentation ...
+        * should we update it?
+        * how to keep a running instance up2date?
+      (b) Upgrade OR create a new, upgraded instance for repository.scs.community
+
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "Hands-On Session SCS from the ground up"
     begin: 2022-09-23 13:05:00         # uses default timezone above
     duration:
