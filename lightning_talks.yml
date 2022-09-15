@@ -30,3 +30,10 @@ events:
     description: |
       Eduard collected various good examples and techniques on how to empower an open community. This lightning talk will give a brief overview on what it needs to make a FOSS community lift off.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Gaia-X Federation Services"
+    begin: 2022-09-15 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      This lightning talk by Alexander will give a brief overview of the Gaia-X Fedartion Services and what services the toolbox can leverage.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
