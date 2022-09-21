@@ -25,6 +25,43 @@ events:
       - Sprint review: Let's look at the stories that were being worked on and completed.
       - Backlog refinement: Let's look at the backlog and work on refining the stories such that they can be worked on.
       - Sprint planning: Let's look at what we can achieve in the next cycle.
+
+      Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/4
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iaas
+      Etherpad: https://input.osb-alliance.de/p/2022-scs-team-iaas
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2022-09-21
+  - summary: "Team IaaS Meeting"
+    begin: 2022-06-29 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly meeting for Team IaaS in which we deep-dive into topics.
+      There is a github issue to which items that need to be discussed can be added: https://github.com/SovereignCloudStack/issues/issues/46
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iaas
+      Etherpad: https://input.osb-alliance.de/p/2022-scs-team-iaas
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2022-09-21
+  - summary: "Team IaaS Sprint Review/Planning and Refinement"
+    begin: 2022-09-28 09:05:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly sprint review, planning and refinement meeting for Team IaaS.
+      - Sprint review: Let's look at the stories that were being worked on and completed.
+      - Backlog refinement: Let's look at the backlog and work on refining the stories such that they can be worked on.
+      - Sprint planning: Let's look at what we can achieve in the next cycle.
       
       Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/4
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iaas
@@ -37,7 +74,7 @@ events:
         weeks: 2
       until: 2022-12-31
   - summary: "Team IaaS Meeting"
-    begin: 2022-06-29 10:05:00
+    begin: 2022-10-05 09:05:00
     duration:
       minutes: 50
     description: |
