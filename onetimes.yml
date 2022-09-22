@@ -151,12 +151,12 @@ events:
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
     location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "Hands-On Session SCS from the ground up"
+  - summary: "Hands-On Session SCS Testbed and Keycloak"
     begin: 2022-09-23 13:05:00         # uses default timezone above
     duration:
       minutes: 110
     description: |
-      Hands-on session on the gory details of the SCS reference implementation. We will dive into OSISM and the testbed in a shared terminal session.
+      Hands-on session on keycloak within the testbed as way to prep ourselves for the upcoming gaia-x hackathon \#5.
     location: "https://conf.scs.koeln:8443/SCS-Tech-Deepdive"
   - summary: "Open Operations Manifesto #4"
     begin: 2022-09-14 12:05:00
@@ -169,3 +169,10 @@ events:
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Hands-On Session SCS from the ground up"
+    begin: 2022-10-07 13:05:00         # uses default timezone above
+    duration:
+      minutes: 110
+    description: |
+      Hands-on session on the gory details of the SCS reference implementation. We will dive into OSISM and the testbed in a shared terminal session.
+    location: "https://conf.scs.koeln:8443/SCS-Tech-Deepdive"
