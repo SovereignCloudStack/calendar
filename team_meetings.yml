@@ -272,3 +272,21 @@ events:
       interval:
         weeks: 1
       until: 2022-09-28
+  - summary: "WG Open Operations Manifesto"
+    begin: 2022-09-30 11:05:00
+    duration:
+      minutes: 50
+    description: |
+      The Working Group (WG) Open Operations Manifesto meets on a weekly base to discuss about open PR, conclude the next steps and finalize a first (signable) version of our manifest. Feel free to join us during this open meeting.
+      
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/openops
+      Etherpad: https://input.osb-alliance.de/p/open-operations-manifesto
+
+      Repository: https://github.com/SovereignCloudStack/open-operations-manifesto
+      Rendered preview: https://openoperations.org/
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 1
+      until: 2022-12-01
