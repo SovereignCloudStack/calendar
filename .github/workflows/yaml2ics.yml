@@ -29,6 +29,7 @@ jobs:
       run: |
         mkdir ./calendar
         yaml2ics main.yml > ./calendar/scs.ics
+        yaml2ics upstream_meetings.yml > ./calendar/upstream.ics
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:

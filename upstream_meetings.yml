@@ -1,0 +1,42 @@
+name: Upstream community meetings we're attending on a regular basis
+timezone: Europe/Berlin
+
+events:
+  - summary: "Gaia-X Open Source Software Community Weekly"
+    begin: 2022-09-29 09:00:00
+    duration:
+      minutes: 60
+    description: |
+      Lead: Eduard / Kurt
+      
+      This is the (new) weekly meeting of the Gaia-X Open Source Software Community.
+      Mission statement: The Gaia-X Open-Source Software (OSS) Community aims to engage and grow the Gaia-X developer community through outreach, onboarding, software development and the organization of the Gaia-X hackathon event.
+      Mission Documents can be found on GitLab in the Operational Handbook (https://gaia-x.gitlab.io/technical-committee/operational-handbook/) and on the Gaia-X DCP (https://community.gaia-x.eu/f/14633138).
+      Engagement: If you want to engage with the group please join our weekly meetings and collaborate with the Open-Source Software Community through the mailing list (oss-community@list.gaia-x.eu<mailto:oss-community@list.gaia-x.eu>) by sending a request (empty mail) to oss-community-request@list.gaia-x.eu<mailto:oss-community-request@list.gaia-x.eu>, the Gaia-X Slack (https://join.slack.com/t/gaia-xworkspace/shared_invite/zt-1cjc6bpqp-KgNBldvOXLIcDqS1I1o_sA) or the Matrix Chatroom (https://matrix.to/#/#gaiax-community:matrix.org), depending on your preferences.
+      Our GitLab repository is located here: https://gitlab.com/gaia-x/gaia-x-community and the group, as an Open Work Package (OWP) does not require a Gaia-X membership.
+
+      Standard Agenda for the meeting:
+      * Competition and Antitrust Guidelines
+      * Acceptance of Agenda
+      * Introduction of new participants and regulator contributors
+      * Interesting (upcoming and recent) sessions events and news?
+      * Organizational topics
+      * Work on the Deliverables:
+      * Mission Document
+      * Organization of the Gaia-X Hackathon
+      * Onboarding Guide to Gaia-X software development and ecosystem
+      * Demonstrations of available Gaia-X Open-Source Software
+      * Release of Gaia-X Open-Source Software
+      * AOB (any other business?)
+
+      Summary of Toolings and Resources:
+      * Mailing List: oss-community@list.gaia-x.eu<mailto:oss-community@list.gaia-x.eu>
+      * Gaia-X OSS Community Slack Channel: https://join.slack.com/t/gaia-xworkspace/shared_invite/zt-1cjc6bpqp-KgNBldvOXLIcDqS1I1o_sA
+      * Matrix Chatroom: https://matrix.to/#/#gaiax-community:matrix.org
+      * Repository: https://gitlab.com/gaia-x/gaia-x-community
+      * Meeting Notes: https://gitlab.com/gaia-x/gaia-x-community/owp-mvg-piloting-organization/-/tree/main/minutes_weekly_meeting
+    location: ""
+    repeat:
+      interval:
+        weeks: 1
+      until: 2022-12-31
