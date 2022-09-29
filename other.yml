@@ -38,3 +38,5 @@ events:
       interval:
         weeks: 1
       until: 2022-12-31  # required
+      except_on:
+        - 2022-10-03
