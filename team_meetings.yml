@@ -148,7 +148,7 @@ events:
         weeks: 1
       until: 2022-12-31
       except_on:
-        - 2022-10-03
+        - 2022-10-03 10:05:00
   - summary: "SCS Product Board"
     begin: 2022-07-04 14:05:00
     duration:
@@ -171,7 +171,7 @@ events:
         weeks: 1
       until: 2022-12-31
       except_on:
-        - 2022-10-03
+        - 2022-10-03 14:05:00
   - summary: "SIG Community"
     begin: 2022-09-26 11:05:00
     duration:
@@ -189,6 +189,8 @@ events:
       interval:
         weeks: 2
       until: 2022-12-31
+    except_on:
+        - 2022-10-03 11:05:00
   - summary: "SIG Standardization/Certification"
     begin: 2022-06-30 14:05:00
     duration:
