@@ -177,3 +177,23 @@ events:
       Hands-on session on the gory details of the SCS reference implementation. We will dive into OSISM and the testbed in a shared terminal session.
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech-Deepdive"
+  - summary: "IAM Workshop - Part I"
+    begin: 2022-10-11 09:05:00         # uses default timezone above
+    duration:
+      minutes: 230
+    description: |
+      - Start at 09:05 - arrival, coffee and a bit of chatter before we dive in
+      - 09:15 - 12:55 (there will be short breaks in between, depending on the discussion flow)
+      See etherpad for agenda and ideas. Feel free to add and comment in the pad.
+      Etherpad: https://input.osb-alliance.de/p/2022-10-scs-iam-workshop
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "IAM Workshop - Part II"
+    begin: 2022-10-11 14:30:00         # uses default timezone above
+    duration:
+      minutes: 85
+    description: |
+      Finishing discussion and documentation of results
+      Etherpad: https://input.osb-alliance.de/p/2022-10-scs-iam-workshop
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
