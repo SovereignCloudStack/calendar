@@ -177,6 +177,18 @@ events:
       Hands-on session on the gory details of the SCS reference implementation. We will dive into OSISM and the testbed in a shared terminal session.
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech-Deepdive"
+  - summary: "ephemeral storage requirements discussion"
+    begin: 2022-10-10 15:05:00         # uses default timezone above
+    duration:
+      minutes: 60
+    description: |
+      Open Discussion for local ephemeral disks as optional standard.
+      the requirement from Team CAAS etcd as workload need IO performation
+      and low latency. CloudService Provider want to know which IO Performance
+      is needed.
+      Etherpad: https://input.osb-alliance.de/p/local-ephemeral-storage-disscusion
+      Coordinator: Mathias Fechner <fechner[at]osism.tech>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "IAM Workshop - Part I"
     begin: 2022-10-11 09:05:00         # uses default timezone above
     duration:
