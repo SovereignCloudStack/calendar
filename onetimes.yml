@@ -219,7 +219,7 @@ events:
       Coordinator: Eduard Itrich <itrich[at]osb-alliance.com>
     location: PlusServer GmbH, Welserstraße 14, 51149 Köln, Germany
   - summary: "Architecture of Managed KaaS offerings"
-    begin: 2022-11-31 15:05:00         # uses default timezone above
+    begin: 2022-10-31 15:05:00         # uses default timezone above
     duration:
       minutes: 60
     description: |
