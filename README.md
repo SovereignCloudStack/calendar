@@ -14,8 +14,8 @@ We'll make use of the python script [yaml2ics](https://github.com/scientific-pyt
 If you want to test the generation of our public calendar locally, simply install [yaml2ics](https://github.com/scientific-python/yaml2ics):
 ```
 python -m pip install --upgrade pip
-pip install yaml2ics
-pip install -r requirements.txt
+pip install ics==0.8.0.dev0
+pip install yaml2ics==0.1
 ```
 and call `yaml2ics` on `main.yml` (or any of the sub-calendars):
 ```
