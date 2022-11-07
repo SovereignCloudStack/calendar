@@ -44,3 +44,11 @@ events:
     description: |
       Markus will explain how Confidential Computing implements data protection at runtime and enables new use cases particularly in regulated verticals. He will furthermore dig secifically into Intel SGX, a process-based Trusted Execution Environment and how it can be enabled in SCS/OpenStack.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Zitadel"
+    begin: 2022-11-03 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      ZITADEL combines the ease of Auth0 with the versatility of Keycloak with a better multi-tenant user management and self-service. With ZITADEL you can rely on a hardened and extensible turnkey solution to solve all of your authentication and authorization needs.
+      Learn why Wavecon is realizing their IAM with ZITADEL and don't miss this live demonstration of Wavestack's authentication flow.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
