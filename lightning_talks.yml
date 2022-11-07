@@ -44,8 +44,8 @@ events:
     description: |
       Markus will explain how Confidential Computing implements data protection at runtime and enables new use cases particularly in regulated verticals. He will furthermore dig secifically into Intel SGX, a process-based Trusted Execution Environment and how it can be enabled in SCS/OpenStack.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "Zitadel"
-    begin: 2022-11-03 15:45:00         # uses default timezone above
+  - summary: "ZITADEL: The best of Auth0 and Keycloak combined. Built for the serverless era."
+    begin: 2022-11-24 15:45:00         # uses default timezone above
     duration:
       minutes: 15
     description: |
