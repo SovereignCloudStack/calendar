@@ -281,6 +281,11 @@ events:
       interval:
         weeks: 2
       until: 2022-12-31
+      except_on:
+        - 2022-11-17 14:05:00
+      #also_on:
+        # - 2022-11-16 11:05:00
+
   - summary: "SIG Standards/Cert Deep Dive"
     begin: 2022-08-04 14:05:00
     duration:
