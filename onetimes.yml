@@ -217,7 +217,7 @@ events:
       SIG Monitoring Audit logging kick-off with STACKIT. Define which things are in scope ("how to get the right info from OpenStack", "which tools can be used how to audit log OpenStack") and then hope for a fruitful basis of future collaboration.
       Etherpad: https://input.osb-alliance.de/p/2022-11-scs-monitoring-audit-logging
       Coordinator: Jonas Schäfer <jonas.schaefer[at]cloudandheat.com>
-    location: tbd
+    location: "https://conf.scs.koeln:8443/SCS-SIG-Monitoring"
   - summary: "SCS Community Hackathon 2022"
     begin: 2022-11-22 13:00:00         # uses default timezone above
     duration:
