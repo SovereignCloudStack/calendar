@@ -255,7 +255,7 @@ events:
       Dial-In: +49-221-292772-611
     location: "https://conf.scs.koeln:8443/SCS-Tech" 
   - summary: "SIG Standardization/Certification"
-    begin: 2022-11-15 11:05:00
+    begin: 2022-11-16 11:05:00
     duration:
       minutes: 50
     description: |
