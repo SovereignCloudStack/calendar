@@ -15,7 +15,7 @@ events:
     repeat:
       interval:
         weeks: 4
-      until: 2022-12-31  # required
+      until: 2023-06-30  # required
   - summary: "Open Hacking Session"
     begin: 2022-07-01 13:05:00
     duration:
@@ -26,7 +26,7 @@ events:
     repeat:
       interval:
         weeks: 1
-      until: 2022-12-31  # required
+      until: 2023-06-30  # required
   - summary: "Blocker: SCS Team Overflow/Replacement Slot"
     begin: 2022-07-11 15:05:00
     duration:
@@ -38,6 +38,6 @@ events:
     repeat:
       interval:
         weeks: 1
-      until: 2022-12-31  # required
+      until: 2023-06-30  # required
       except_on:
         - 2022-10-03 15:05:00
