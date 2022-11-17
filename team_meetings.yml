@@ -340,6 +340,21 @@ events:
     repeat:
       interval:
         weeks: 2
+      until: 2022-11-17
+  - summary: "SIG IAM"
+    begin: 2022-11-18 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      The Special Interest Group (SIG) Identity and Access Management (IAM) meets on a bi-weekly base to discuss federation within a cloud ecosystem.
+
+      Jitsi server on https://conf.scs.koeln:8443/SCS-SIG-IAM
+      Location for Meeting Notes: https://scs.sovereignit.de/nextcloud/apps/files/?dir=/Sovereign%20Cloud%20Stack/SIGs/IAM&fileid=41002
+      Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!WXPYkbcGzyIxFhwIqM:matrix.org?via=matrix.org
+    location: "https://conf.scs.koeln:8443/SCS-SIG-IAM"
+    repeat:
+      interval:
+        weeks: 1
       until: 2023-06-30
   - summary: "SIG Release"
     begin: 2022-08-17 14:05:00
