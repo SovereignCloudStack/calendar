@@ -328,6 +328,8 @@ events:
       interval:
         weeks: 1
       until: 2023-06-30
+      except_on:
+        - 2022-11-25 12:05:00
   - summary: "SIG IAM"
     begin: 2022-07-08 10:05:00
     duration:
