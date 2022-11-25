@@ -29,7 +29,7 @@ jobs:
       run: |
         mkdir ./calendar
         yaml2ics main.yml > ./calendar/scs.ics
-        yaml2ics openops.yml > ./clanedar/openops.ics
+        yaml2ics openops.yml > ./calendar/openops.ics
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
