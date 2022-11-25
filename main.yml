@@ -5,3 +5,4 @@ include:
   - team_meetings.yml
   - onetimes.yml
   - other.yml
+  - openops.yml
