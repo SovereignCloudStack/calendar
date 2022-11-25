@@ -9,9 +9,9 @@ events:
     description: |
       The Open Operations Community meets on a weekly base to foster a thriving community around Open Operations. Feel free to join us during this open meeting.
 
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Jitsi server on https://conf.scs.koeln:8443/Open-Operations
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/openops
-      Etherpad: https://input.osb-alliance.de/p/open-operations-manifesto
+      Etherpad: https://input.osb-alliance.de/p/open-operations
       Repository: https://github.com/SovereignCloudStack/open-operations-manifesto
     location: "https://conf.scs.koeln:8443/SCS-Tech"
     repeat:
