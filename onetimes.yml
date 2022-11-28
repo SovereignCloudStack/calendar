@@ -298,3 +298,11 @@ events:
       Next, we will look at managing Kubernetes clusters using SCS tooling.
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech-Deepdive"
+  - summary: "Deep Dive: k8s on the management plane"
+    begin: 2022-12-05 15:05:00         # uses default timezone above
+    duration:
+      minutes: 85
+    description: |
+      Deep dive into the idea of bringing k8s onto the management plane.
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
