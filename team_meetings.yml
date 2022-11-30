@@ -233,7 +233,7 @@ events:
     duration:
       minutes: 50
     description: |
-      The SIG Community is meeting on a monthly basis to work on various community-related topics, e.g. enhancing overall on-boarding and contribtion experience.   
+      The SIG Community is meeting on a monthly basis to work on various community-related topics, e.g. enhancing overall on-boarding and contribution experience.   
 
       Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/14
       Etherpad: https://input.osb-alliance.de/p/2022-scs-sig-community
@@ -334,7 +334,7 @@ events:
       minutes: 50
     description: |
       The Special Interest Group (SIG) Monitoring meets on a fortnightly base (alternating with the audit log WG) to discuss the monitoring needs of SCS Operators, Users and Integrators. Together we shape how monitoring and observability within the SCS landscape looks like.
-      
+
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-monitoring
       Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-monitoring
       Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!ToxwzOWTBqSjxRAwuj:matrix.org?via=matrix.org
@@ -351,8 +351,8 @@ events:
     duration:
       minutes: 50
     description: |
-      The Special Interest Group (SIG) Monitoring has created an Audit Logging Working Group which meets on a fortnightly base to discuss the audit logging needs of SCS Operators, Users and Integrators. 
-      
+      The Special Interest Group (SIG) Monitoring has created an Audit Logging Working Group which meets on a fortnightly base to discuss the audit logging needs of SCS Operators, Users and Integrators.
+
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-monitoring-audit-log-wg
       Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-monitoring-audit-log-wg
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
