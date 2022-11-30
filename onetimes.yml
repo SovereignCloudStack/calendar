@@ -247,7 +247,7 @@ events:
       Dial-In: +49-221-292772-611
     location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "Deepdive: Insights into running Gaia-X Federation Services on Sovereign Cloud Stack"
-    begin: 2022-12-05 15:05:00         # uses default timezone above
+    begin: 2023-01-16 15:05:00         # uses default timezone above
     duration:
       minutes: 90
     description: |
