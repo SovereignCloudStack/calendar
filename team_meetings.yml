@@ -233,7 +233,7 @@ events:
     duration:
       minutes: 50
     description: |
-      The SIG Community is meeting on a monthly basis to work on various community-related topics, e.g. enhancing overall on-boarding and contribution experience.   
+      The SIG Community is meeting on a monthly basis to work on various community-related topics, e.g. enhancing overall on-boarding and contribution experience.
 
       Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/14
       Etherpad: https://input.osb-alliance.de/p/2022-scs-sig-community
@@ -287,6 +287,7 @@ events:
       until: 2023-06-30
       except_on:
         - 2022-11-17 14:05:00
+        - 2022-12-01 14:05:00
   - summary: "SIG Standards/Cert Deep Dive"
     begin: 2022-08-04 14:05:00
     duration:
