@@ -19,9 +19,9 @@ f.write('name: Community call meetings\n')
 f.write('timezone: Europe/Berlin\n\n')
 f.write('events:\n')
 
-for x in range(1,26):
+for calendarweek in range(1,26):
 
-    year_week_day = f"{year}/{x}/{day}"
+    year_week_day = f"{year}/{calendarweek}/{day}"
     result_date = datetime.datetime.strptime(year_week_day, "%Y/%W/%A").strftime("%Y-%m-%d")
 
     if result_date not in exceptions:
@@ -48,6 +48,6 @@ for x in range(1,26):
         if i == len(coords):
             i= 0
 
-        x= x+1
+        calendarweek= calendarweek+1
 
 f.close()
