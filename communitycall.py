@@ -15,8 +15,7 @@ coords = data['Coordinators']
 exceptions = data['Except']
 f = open('communitycall.yml', 'w')
 
-f.write('--- \n')
-f.write('name: Technical team meetings\n')
+f.write('name: Community call meetings\n')
 f.write('timezone: Europe/Berlin\n\n')
 f.write('events:\n')
 
