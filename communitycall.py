@@ -49,6 +49,5 @@ for calendarweek in range(1,26):
         if i == len(coords):
             i= 0
 
-        calendarweek= calendarweek+1
 
 f.close()
