@@ -16,7 +16,7 @@ events:
     repeat:
       interval:
         weeks: 1
-      until: 2023-06-30
+      until: 2022-12-31
       except_on:
         - 2022-11-10 15:05:00
   - summary: "Team IaaS Sprint Review/Planning and Refinement"

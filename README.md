@@ -16,6 +16,7 @@ If you want to test the generation of our public calendar locally, simply instal
 python -m pip install --upgrade pip
 pip install ics==0.8.0.dev0
 pip install yaml2ics==0.1
+pip install pyyaml
 ```
 and call `yaml2ics` on `main.yml` (or any of the sub-calendars):
 ```
