@@ -28,7 +28,7 @@ jobs:
         pip install pyyaml
     - name: Run communitycall.py
       run: |
-        communitycall.py
+        python communitycall.py
     - name: Execute yaml2ics
       run: |
         mkdir ./calendar
