@@ -45,6 +45,7 @@ for calendarweek in range(1,26):
         f.write('\n')
         i= i+1
 
+        # reset coord index if end has reached
         if i == len(coords):
             i= 0
 
