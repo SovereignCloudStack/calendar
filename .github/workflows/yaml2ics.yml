@@ -25,6 +25,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install ics==0.8.0.dev0
         pip install yaml2ics==0.1
+        pip install pyyaml
+    - name: Run communitycall.py
+      run: |
+        communitycall.py
     - name: Execute yaml2ics
       run: |
         mkdir ./calendar
