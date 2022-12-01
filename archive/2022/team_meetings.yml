@@ -1,0 +1,168 @@
+name: Technical team meetings 2022
+timezone: Europe/Berlin
+
+events:
+  - summary: "Weekly SCS Community Meeting"
+    begin: 2022-06-30 15:05:00
+    duration:
+      minutes: 40
+    description: |
+      Our weekly SCS Community Meeting. This meeting features a round of updates from the various technical teams as well as Special Interest Groups (SIGs). Furthermore the SCS project team gives an update on the overall project.
+
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: SCS Project Team <project[at]scs.sovereignit.de>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 1
+      until: 2022-12-31
+      except_on:
+        - 2022-11-10 15:05:00
+  - summary: "Team IaaS Sprint Review/Planning and Refinement"
+    begin: 2022-06-22 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly sprint review, planning and refinement meeting for Team IaaS.
+      - Sprint review: Let's look at the stories that were being worked on and completed.
+      - Backlog refinement: Let's look at the backlog and work on refining the stories such that they can be worked on.
+      - Sprint planning: Let's look at what we can achieve in the next cycle.
+
+      Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/4
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iaas
+      Etherpad: https://input.osb-alliance.de/p/2022-scs-team-iaas
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2022-09-21
+  - summary: "Team IaaS Meeting"
+    begin: 2022-06-29 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly meeting for Team IaaS in which we deep-dive into topics.
+      There is a github issue to which items that need to be discussed can be added: https://github.com/SovereignCloudStack/issues/issues/46
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iaas
+      Etherpad: https://input.osb-alliance.de/p/2022-scs-team-iaas
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2022-09-21
+  - summary: "Team IaaS Sprint Review/Planning and Refinement"
+    begin: 2022-09-28 09:05:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly sprint review, planning and refinement meeting for Team IaaS.
+      - Sprint review: Let's look at the stories that were being worked on and completed.
+      - Backlog refinement: Let's look at the backlog and work on refining the stories such that they can be worked on.
+      - Sprint planning: Let's look at what we can achieve in the next cycle.
+
+      Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/4
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iaas
+      Etherpad: https://input.osb-alliance.de/p/2022-scs-team-iaas
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2022-10-26
+  - summary: "Team IaaS Meeting"
+    begin: 2022-10-05 09:05:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly meeting for Team IaaS in which we deep-dive into topics.
+      There is a github issue to which items that need to be discussed can be added: https://github.com/SovereignCloudStack/issues/issues/46
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iaas
+      Etherpad: https://input.osb-alliance.de/p/2022-scs-team-iaas
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2022-11-02
+  - summary: "SIG Monitoring"
+    begin: 2022-06-24 12:05:00
+    duration:
+      minutes: 50
+    description: |
+      The Special Interest Group (SIG) Monitoring meets on a weekly base to discuss the monitoring needs of SCS Operators, Users and Integrators. Together we shape how monitoring and observability within the SCS landscape looks like.
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-monitoring
+      Etherpad: https://input.osb-alliance.de/p/2022-scs-sig-monitoring
+      Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!ToxwzOWTBqSjxRAwuj:matrix.org?via=matrix.org
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 1
+      until: 2023-01-01
+  - summary: "SIG IAM"
+    begin: 2022-07-08 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      The Special Interest Group (SIG) Identity and Access Management (IAM) meets on a bi-weekly base to discuss federation within a cloud ecosystem.
+
+      Jitsi server on https://conf.scs.koeln:8443/SCS-SIG-IAM
+      Location for Meeting Notes: https://scs.sovereignit.de/nextcloud/apps/files/?dir=/Sovereign%20Cloud%20Stack/SIGs/IAM&fileid=41002
+      Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!WXPYkbcGzyIxFhwIqM:matrix.org?via=matrix.org
+    location: "https://conf.scs.koeln:8443/SCS-SIG-IAM"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2022-11-17
+  - summary: "SIG Release"
+    begin: 2022-08-17 14:05:00
+    duration:
+      minutes: 50
+    description: |
+      The Special Interest Group (SIG) Release meets on a weekly base to prepare the upcoming release 3 of Sovereign Cloud Stack.
+
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-release
+      Etherpad: https://input.osb-alliance.de/p/2022-scs-sig-release
+      Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 1
+      until: 2022-09-28
+  - summary: "SIG Community"
+    begin: 2022-09-26 11:05:00
+    duration:
+      minutes: 50
+    description: |
+      The SIG Community is meeting on a monthly basis to work on various community-related topics, e.g. enhancing overall on-boarding and contribution experience.
+
+      Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/14
+      Etherpad: https://input.osb-alliance.de/p/2022-scs-sig-community
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-community
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Eduard Itrich <itrich[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2022-11-21
+      except_on:
+        - 2022-10-03 11:05:00

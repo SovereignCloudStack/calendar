@@ -1,6 +1,9 @@
 name: Overall calendar of SCS community related events
 timezone: Europe/Berlin
 include:
+  - archive/2022/lightning_talks.yml
+  - archive/2022/team_meetings.yml
+  - archive/2022/onetimes.yml
   - lightning_talks.yml
   - team_meetings.yml
   - onetimes.yml
