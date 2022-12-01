@@ -5,13 +5,14 @@ import yaml
 from yaml.loader import SafeLoader
 
 # Open the file and load the file
-with open('coordinators.yml') as f:
+with open('communitycall-data.yml') as f:
     data = yaml.load(f, Loader=SafeLoader)
 
 year = "2023"
 day = "Thursday"
 i = 0
 coords = data['Coordinators']
+exceptions = data['Except']
 f = open('communitycall.yml', 'w')
 
 f.write('--- \n')
@@ -24,9 +25,11 @@ for x in range(1,26):
     year_week_day = f"{year}/{x}/{day}"
     result_date = datetime.datetime.strptime(year_week_day, "%Y/%W/%A").strftime("%Y-%m-%d")
 
-    coord = coords[i]
+    if result_date not in exceptions:
 
-    event_string = '''\
+        coord = coords[i]
+
+        event_string = '''\
  - summary: "Weekly SCS Community Meeting"
    begin: {date} 15:05:00
    duration:
@@ -39,13 +42,13 @@ for x in range(1,26):
      Coordinator: {coordinator}
    location: "https://conf.scs.koeln:8443/SCS-Tech"\
 '''.format(coordinator=coord, date=result_date)
-    f.write(event_string)
-    f.write('\n')
-    i= i+1
+        f.write(event_string)
+        f.write('\n')
+        i= i+1
 
-    if i == len(coords):
-        i= 0
+        if i == len(coords):
+            i= 0
 
-    x= x+1
+        x= x+1
 
 f.close()
