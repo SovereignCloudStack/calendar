@@ -2,23 +2,6 @@ name: Technical team meetings
 timezone: Europe/Berlin
 
 events:
-  - summary: "Weekly SCS Community Meeting"
-    begin: 2022-06-30 15:05:00
-    duration:
-      minutes: 40
-    description: |
-      Our weekly SCS Community Meeting. This meeting features a round of updates from the various technical teams as well as Special Interest Groups (SIGs). Furthermore the SCS project team gives an update on the overall project.
-
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: SCS Project Team <project[at]scs.sovereignit.de>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-    repeat:
-      interval:
-        weeks: 1
-      until: 2022-12-31
-      except_on:
-        - 2022-11-10 15:05:00
   - summary: "Team IaaS Sprint Review/Planning and Refinement"
     begin: 2022-11-09 10:05:00
     duration:
@@ -270,21 +253,6 @@ events:
       until: 2023-06-30
       except_on:
         - 2022-11-25 12:05:00
-  - summary: "SIG IAM"
-    begin: 2022-07-08 10:05:00
-    duration:
-      minutes: 50
-    description: |
-      The Special Interest Group (SIG) Identity and Access Management (IAM) meets on a bi-weekly base to discuss federation within a cloud ecosystem.
-
-      Jitsi server on https://conf.scs.koeln:8443/SCS-SIG-IAM
-      Location for Meeting Notes: https://scs.sovereignit.de/nextcloud/apps/files/?dir=/Sovereign%20Cloud%20Stack/SIGs/IAM&fileid=41002
-      Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!WXPYkbcGzyIxFhwIqM:matrix.org?via=matrix.org
-    location: "https://conf.scs.koeln:8443/SCS-SIG-IAM"
-    repeat:
-      interval:
-        weeks: 2
-      until: 2022-11-17
   - summary: "SIG IAM"
     begin: 2022-11-18 10:05:00
     duration:
