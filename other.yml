@@ -16,6 +16,8 @@ events:
       interval:
         weeks: 4
       until: 2023-06-30  # required
+      except_on:
+        - 2022-12-12
   - summary: "Open Hacking Session"
     begin: 2022-07-01 13:05:00
     duration:
