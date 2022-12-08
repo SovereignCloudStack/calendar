@@ -7,7 +7,7 @@ events:
     duration:
       minutes: 50
     description: |
-      The Open Operations Community meets on a weekly base to foster a thriving community around Open Operations. Feel free to join us during this open meeting.
+      The Open Operations Community meets on a weekly basis to foster a thriving community around Open Operations. Feel free to join us during this open meeting.
 
       Jitsi server on https://conf.scs.koeln:8443/Open-Operations
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/openops
@@ -17,4 +17,20 @@ events:
     repeat:
       interval:
         weeks: 1
-      until: 2023-06-01
+      until: 2022-12-09
+  - summary: "Regular Open Operations meeting"
+    begin: 2023-01-23 15:05:00
+    duration:
+      minutes: 50
+    description: |
+      The Open Operations Community meets on a monthly basis to foster a thriving community around Open Operations. Feel free to join us during this open meeting.
+
+      Jitsi server on https://conf.scs.koeln:8443/Open-Operations
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/openops
+      Etherpad: https://input.osb-alliance.de/p/open-operations
+      Repository: https://github.com/SovereignCloudStack/open-operations-manifesto
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 4
+      until: 2022-06-01
