@@ -289,6 +289,7 @@ events:
         weeks: 1
       until: 2023-06-30
       except_on:
+        - 2022-12-23 10:05:00
         - 2022-12-30 10:05:00
   - summary: "SIG SCS Market"
     begin: 2022-12-05 11:05:00
