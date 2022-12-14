@@ -68,6 +68,7 @@ events:
       until: 2023-06-30
       except_on:
         - 2022-11-10 10:05:00
+        - 2022-12-22 10:05:00
   - summary: "Team OPS / IAM Meeting"
     begin: 2022-06-30 10:05:00
     duration:
