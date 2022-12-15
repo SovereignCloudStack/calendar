@@ -19,6 +19,7 @@ events:
       until: 2022-12-31
       except_on:
         - 2022-11-10 15:05:00
+        - 2022-12-29 15:05:00
   - summary: "Team IaaS Sprint Review/Planning and Refinement"
     begin: 2022-06-22 10:05:00
     duration:
@@ -115,6 +116,9 @@ events:
       interval:
         weeks: 1
       until: 2023-01-01
+      except_on:
+        - 2022-12-23 12:05:00
+        - 2022-12-30 12:05:00
   - summary: "SIG IAM"
     begin: 2022-07-08 10:05:00
     duration:
