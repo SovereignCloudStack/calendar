@@ -289,9 +289,9 @@ events:
         - 2022-12-23 10:05:00
         - 2022-12-30 10:05:00
   - summary: "SIG SCS Market"
-    begin: 2022-12-05 11:05:00
+    begin: 2023-01-12 11:05:00
     duration:
-      minutes: 50
+      minutes: 30
     description: |
       The mission of the special interest group „SCS Market“ is to discuss and agree upon measures and actions to increase the adoption and dissemination of SCS as a technology standard and a technology stack. We will collect ideas and decide, where SCS can sensibly be introduced, presented and deployed and what resources must be provided and applied, in order to successfully bring SCS in usage.
 
@@ -303,5 +303,5 @@ events:
     location: "https://conf.scs.koeln:8443/SCS-Tech"
     repeat:
       interval:
-        weeks: 4
+        weeks: 1
       until: 2023-06-30
