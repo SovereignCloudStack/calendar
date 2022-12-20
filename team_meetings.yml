@@ -185,7 +185,7 @@ events:
         - 2022-12-12 11:05:00
         - 2022-12-26 11:05:00
   - summary: "SIG Standardization/Certification"
-    begin: 2022-06-30 14:05:00
+    begin: 2023-01-12 14:05:00
     duration:
       minutes: 50
     description: |
@@ -204,35 +204,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
-      except_on:
-        - 2022-11-17 14:05:00
-        - 2022-12-01 14:05:00
-        - 2022-12-29 14:05:00
-  - summary: "SIG Standards/Cert Deep Dive"
-    begin: 2022-08-04 14:05:00
-    duration:
-      minutes: 50
-    description: |
-      SIG standardization and certification -- deep dive sessions
-
-      Rather than delegating all topics into the IaaS/KaaS/IAM+Ops teams, let's use this slot to do deep dives into specific standardization topics. We'll report these back to the teams. (The SIGs need to stay well connected to the teams.)
-
-      We'll start with IaaS focus on Aug 4 and will announce the topics per meeting.
-
-      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-standardization
-      Etherpad: https://input.osb-alliance.de/p/2022-scs-sig-standardization
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-    repeat:
-      interval:
-        weeks: 2
-      until: 2023-06-30
-      except_on:
-        - 2022-10-27 14:05:00
-        - 2022-11-10 14:05:00
-        - 2023-01-05 14:05:00
+      until: 2023-12-20
   - summary: "SIG Monitoring"
     begin: 2023-01-06 12:05:00
     duration:
