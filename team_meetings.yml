@@ -14,7 +14,7 @@ events:
 
       Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/4
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iaas
-      Etherpad: https://input.osb-alliance.de/p/2022-scs-team-iaas
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-iaas
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
@@ -35,7 +35,7 @@ events:
       There is a github issue to which items that need to be discussed can be added: https://github.com/SovereignCloudStack/issues/issues/46
 
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iaas
-      Etherpad: https://input.osb-alliance.de/p/2022-scs-team-iaas
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-iaas
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
@@ -58,7 +58,7 @@ events:
 
       Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/8
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/ops-iam
-      Etherpad: https://input.osb-alliance.de/p/2022-scs-team-ops-iam
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-ops-iam
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
@@ -80,7 +80,7 @@ events:
       There is a github issue to which items that need to be discussed can be added: https://github.com/SovereignCloudStack/issues/issues/51
 
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/ops-iam
-      Etherpad: https://input.osb-alliance.de/p/2022-scs-team-ops-iam
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-ops-iam
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
@@ -104,7 +104,7 @@ events:
 
       Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/7
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/container
-      Etherpad: https://input.osb-alliance.de/p/2022-scs-team-container
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-container
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
@@ -131,7 +131,7 @@ events:
       - What are key OSS/industry trends to take into account?
 
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/product-board
-      Etherpad: https://input.osb-alliance.de/p/2022-scs-product-board
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-product-board
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
@@ -153,7 +153,7 @@ events:
       The SIG Community is meeting on a monthly basis to work on various community-related topics, e.g. enhancing overall on-boarding and contribution experience.
 
       Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/14
-      Etherpad: https://input.osb-alliance.de/p/2022-scs-sig-community
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-community
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-community
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
@@ -172,7 +172,7 @@ events:
     description: |
       For the time being, we will have the Documentation SIG Call on a bi-weekly basis.
 
-      Etherpad: https://input.osb-alliance.de/p/2022-scs-sig-docs
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-docs
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Max Wolfs <wolfs[at]osb-alliance.com>
@@ -196,7 +196,7 @@ events:
       This group should discuss strategy and most importantly align on which standards we need and then work with the teams to align on existing or to be created standards. We should take the user perspective: As a member of a DevOps team developing a service (think SaaS or PaaS) for SCS, I need XXXX.
 
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-standardization
-      Etherpad: https://input.osb-alliance.de/p/2022-scs-sig-standardization
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-standardization
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Alexander Diab <diab[at]osb-alliance.com>
@@ -249,8 +249,9 @@ events:
     description: |
       The Special Interest Group (SIG) Identity and Access Management (IAM) meets on a bi-weekly base to discuss federation within a cloud ecosystem.
 
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-iam
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-iam
       Jitsi server on https://conf.scs.koeln:8443/SCS-SIG-IAM
-      Location for Meeting Notes: https://scs.sovereignit.de/nextcloud/apps/files/?dir=/Sovereign%20Cloud%20Stack/SIGs/IAM&fileid=41002
       Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!WXPYkbcGzyIxFhwIqM:matrix.org?via=matrix.org
     location: "https://conf.scs.koeln:8443/SCS-SIG-IAM"
     repeat:
@@ -267,7 +268,7 @@ events:
     description: |
       The mission of the special interest group „SCS Market“ is to discuss and agree upon measures and actions to increase the adoption and dissemination of SCS as a technology standard and a technology stack. We will collect ideas and decide, where SCS can sensibly be introduced, presented and deployed and what resources must be provided and applied, in order to successfully bring SCS in usage.
 
-      Etherpad: https://input.osb-alliance.de/p/2022-scs-sig-market
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-market
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-market
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
