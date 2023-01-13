@@ -46,19 +46,19 @@ events:
       until: 2023-06-30
       except_on:
         - 2022-12-28 10:05:00
-  - summary: "Team OPS / IAM Sprint Review/Planning and Refinement"
+  - summary: "Team OPS Sprint Review/Planning and Refinement"
     begin: 2022-06-23 10:05:00
     duration:
       minutes: 50
     description: |
-      This is our bi-weekly sprint review, planning and refinement meeting for Team OPS / IAM.
+      This is our bi-weekly sprint review, planning and refinement meeting for Team OPS.
       - Sprint review: Let's look at the stories that were being worked on and completed.
       - Backlog refinement: Let's look at the backlog and work on refining the stories such that they can be worked on.
       - Sprint planning: Let's look at what we can achieve in the next cycle.
 
       Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/8
-      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/ops-iam
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-ops-iam
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/ops
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-ops
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
@@ -71,16 +71,16 @@ events:
         - 2022-11-10 10:05:00
         - 2022-12-22 10:05:00
         - 2023-01-05 10:05:00
-  - summary: "Team OPS / IAM Meeting"
+  - summary: "Team OPS Meeting"
     begin: 2022-06-30 10:05:00
     duration:
       minutes: 50
     description: |
-      This is our bi-weekly meeting for Team OPS / IAM in which we deep-dive into topics.
+      This is our bi-weekly meeting for Team OPS in which we deep-dive into topics.
       There is a github issue to which items that need to be discussed can be added: https://github.com/SovereignCloudStack/issues/issues/51
 
-      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/ops-iam
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-ops-iam
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/ops
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-ops
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
@@ -277,4 +277,42 @@ events:
     repeat:
       interval:
         weeks: 1
+      until: 2023-06-30
+  - summary: "Team IAM Sprint Review/Planning and Refinement"
+    begin: 2023-01-25 11:30:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly sprint review, planning and refinement meeting for Team IAM.
+      - Sprint review: Let's look at the stories that were being worked on and completed.
+      - Backlog refinement: Let's look at the backlog and work on refining the stories such that they can be worked on.
+      - Sprint planning: Let's look at what we can achieve in the next cycle.
+
+      Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/27
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iam
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-iam
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2023-06-30
+  - summary: "Team IAM Meeting"
+    begin: 2023-02-01 11:30:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly meeting for Team IAM in which we deep-dive into topics.
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iam
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-iam
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
       until: 2023-06-30
