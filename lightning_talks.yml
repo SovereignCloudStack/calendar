@@ -9,3 +9,17 @@ events:
     description: |
       Presentation of the GXFS Microservices, and how they are developed in interdisciplinary teams. An outlook on how GXFS can be deployed with one click on clusters based on Sovereign Cloud Stack using GitOps.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "A compliance check tool for SCS"
+    begin: 2023-01-19 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      As community we set out to foster standardization among cloud offerings and create a well-trusted certification that users can rely on. To simplify testing an environment against these standards Kurt and Eduard have started to work on a compliance check tool. This lightning talk sheds some light on our approach to publish the upcoming certification program in a machine-readable way and offers a first live demonstration of the SCS compliance tool.  
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "All your OpenStack VMs at your fingertips"
+    begin: 2023-01-26 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      If you have a growing number of VMs running in various OpenStack projects or clouds, it may quickly become tedious to access them with ssh/scp, looking up (floating) IPs and then copy-pasting the addresses and remembering user names and SSH keypairs associated with them. This lightning talk drills down into the motivation of Kurt to develop a tool that queries OpenStack cloud servers and automatically creates a ssh config files for them.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
