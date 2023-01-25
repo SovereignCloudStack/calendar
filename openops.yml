@@ -13,7 +13,7 @@ events:
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/openops
       Etherpad: https://input.osb-alliance.de/p/open-operations
       Repository: https://github.com/SovereignCloudStack/open-operations-manifesto
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    location: "https://conf.scs.koeln:8443/Open-Operations"
     repeat:
       interval:
         weeks: 1
@@ -29,7 +29,7 @@ events:
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/openops
       Etherpad: https://input.osb-alliance.de/p/open-operations
       Repository: https://github.com/SovereignCloudStack/open-operations-manifesto
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    location: "https://conf.scs.koeln:8443/Open-Operations"
     repeat:
       interval:
         weeks: 4
