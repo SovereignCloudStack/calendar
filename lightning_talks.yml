@@ -23,3 +23,11 @@ events:
     description: |
       If you have a growing number of VMs running in various OpenStack projects or clouds, it may quickly become tedious to access them with ssh/scp, looking up (floating) IPs and then copy-pasting the addresses and remembering user names and SSH keypairs associated with them. This lightning talk drills down into the motivation of Kurt to develop a tool that queries OpenStack cloud servers and automatically creates a ssh config files for them.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Airgapped installation architecture"
+    begin: 2023-02-09 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      As part of R4 we want to allow SCS operators to prepare airgapped installations. This lighning talk shows the current implementation state and offers the ability to discuss and give feedback.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+
