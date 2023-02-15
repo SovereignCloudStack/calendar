@@ -262,6 +262,22 @@ events:
       interval:
         weeks: 2
       until: 2023-06-30
+      except_on:
+        - 2023-02-17 12:05:00
+  - summary: "SIG Monitoring"
+    begin: 2023-02-17 12:05:00
+    duration:
+      minutes: 50
+    description: |
+      The Special Interest Group (SIG) Monitoring meets on a fortnightly base (alternating with the audit log WG) to discuss the monitoring needs of SCS Operators, Users and Integrators. Together we shape how monitoring and observability within the SCS landscape looks like.
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-monitoring
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-monitoring
+      Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!ToxwzOWTBqSjxRAwuj:matrix.org?via=matrix.org
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Jan Schoone <schoone[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "Audit Logging Breakout – SIG Monitoring"
     begin: 2023-01-13 12:05:00
     duration:
@@ -321,7 +337,7 @@ events:
         - 2023-01-26 11:05:00
         - 2023-02-16 11:05:00
   - summary: "Team IAM Sprint Review/Planning and Refinement"
-    begin: 2023-01-25 11:30:00
+    begin: 2023-01-25 11:35:00
     duration:
       minutes: 50
     description: |
@@ -342,7 +358,7 @@ events:
         weeks: 2
       until: 2023-06-30
   - summary: "Team IAM Meeting"
-    begin: 2023-02-01 11:30:00
+    begin: 2023-02-01 11:35:00
     duration:
       minutes: 50
     description: |
