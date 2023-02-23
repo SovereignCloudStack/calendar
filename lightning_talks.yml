@@ -30,4 +30,10 @@ events:
     description: |
       As part of R4 we want to allow SCS operators to prepare airgapped installations. This lighning talk shows the current implementation state and offers the ability to discuss and give feedback.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
-
+  - summary: "Community Health Analytics in Open Source Software (CHAOSS)"
+    begin: 2023-03-30 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Georg Link will introduce us into the Community Health Analytics in Open Source Software (CHAOSS) project focused on creating metrics, metrics models, and software to better understand open source community health on a global scale. The intention of this keynote presentation is to facilitate a first step towards standardising and, where necessary, expanding our own open source health checklist with well-proven and community-maintained metrics.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
