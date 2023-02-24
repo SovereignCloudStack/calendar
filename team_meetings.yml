@@ -14,7 +14,7 @@ events:
 
       Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/4
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iaas
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-iaas
+      Etherpad: https://input.scs.community/2023-scs-team-iaas
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
@@ -35,7 +35,7 @@ events:
       There is a github issue to which items that need to be discussed can be added: https://github.com/SovereignCloudStack/issues/issues/46
 
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iaas
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-iaas
+      Etherpad: https://input.scs.community/2023-scs-team-iaas
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
@@ -143,7 +143,7 @@ events:
 
       Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/7
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/container
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-container
+      Etherpad: https://input.scs.community/2023-scs-team-container
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
@@ -170,7 +170,7 @@ events:
       - What are key OSS/industry trends to take into account?
 
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/product-board
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-product-board
+      Etherpad: https://input.scs.community/2023-scs-product-board
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
@@ -192,7 +192,7 @@ events:
       The SIG Community is meeting on a monthly basis to work on various community-related topics, e.g. enhancing overall on-boarding and contribution experience.
 
       Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/14
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-community
+      Etherpad: https://input.scs.community/2023-scs-sig-community
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-community
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
@@ -211,7 +211,7 @@ events:
     description: |
       For the time being, we will have the Documentation SIG Call on a bi-weekly basis.
 
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-docs
+      Etherpad: https://input.scs.community/2023-scs-sig-docs
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Max Wolfs <wolfs[at]osb-alliance.com>
@@ -235,7 +235,7 @@ events:
       This group should discuss strategy and most importantly align on which standards we need and then work with the teams to align on existing or to be created standards. We should take the user perspective: As a member of a DevOps team developing a service (think SaaS or PaaS) for SCS, I need XXXX.
 
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-standardization
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-standardization
+      Etherpad: https://input.scs.community/2023-scs-sig-standardization
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Alexander Diab <diab[at]osb-alliance.com>
@@ -256,7 +256,7 @@ events:
       This group should discuss strategy and most importantly align on which standards we need and then work with the teams to align on existing or to be created standards. We should take the user perspective: As a member of a DevOps team developing a service (think SaaS or PaaS) for SCS, I need XXXX.
 
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-standardization
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-standardization
+      Etherpad: https://input.scs.community/2023-scs-sig-standardization
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Alexander Diab <diab[at]osb-alliance.com>
@@ -273,7 +273,7 @@ events:
       The Special Interest Group (SIG) Monitoring meets on a fortnightly base (alternating with the audit log WG) to discuss the monitoring needs of SCS Operators, Users and Integrators. Together we shape how monitoring and observability within the SCS landscape looks like.
 
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-monitoring
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-monitoring
+      Etherpad: https://input.scs.community/2023-scs-sig-monitoring
       Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!ToxwzOWTBqSjxRAwuj:matrix.org?via=matrix.org
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
@@ -293,7 +293,7 @@ events:
       The Special Interest Group (SIG) Monitoring meets on a fortnightly base (alternating with the audit log WG) to discuss the monitoring needs of SCS Operators, Users and Integrators. Together we shape how monitoring and observability within the SCS landscape looks like.
 
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-monitoring
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-monitoring
+      Etherpad: https://input.scs.community/2023-scs-sig-monitoring
       Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!ToxwzOWTBqSjxRAwuj:matrix.org?via=matrix.org
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
@@ -307,7 +307,7 @@ events:
       The Special Interest Group (SIG) Monitoring has created an Audit Logging Working Group which meets on a fortnightly base to discuss the audit logging needs of SCS Operators, Users and Integrators.
 
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-monitoring-audit-log-wg
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-monitoring-audit-log-wg
+      Etherpad: https://input.scs.community/2023-scs-sig-monitoring-audit-log-wg
       Teams Meeting Link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODI2N2Q1MWMtZWEzNS00NjFhLWFkODAtM2YwNTc2ZGE4NDYw%40thread.v2/0?context=%7b%22Tid%22%3a%22d04f4717-5a6e-4b98-b3f9-6918e0385f4c%22%2c%22Oid%22%3a%2219c0feb6-cd2d-4eaa-8f9f-7c1b6e19c54a%22%7d
       Dial-In: +49-221-292772-611
       Coordinator: Jonas Schäfer <jonas.schaefer@cloudandheat.com>
@@ -326,7 +326,7 @@ events:
       The Special Interest Group (SIG) Identity and Access Management (IAM) meets on a bi-weekly base to discuss federation within a cloud ecosystem.
 
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-iam
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-iam
+      Etherpad: https://input.scs.community/2023-scs-sig-iam
       Jitsi server on https://conf.scs.koeln:8443/SCS-SIG-IAM
       Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!WXPYkbcGzyIxFhwIqM:matrix.org?via=matrix.org
     location: "https://conf.scs.koeln:8443/SCS-SIG-IAM"
@@ -344,7 +344,7 @@ events:
     description: |
       The mission of the special interest group „SCS Market“ is to discuss and agree upon measures and actions to increase the adoption and dissemination of SCS as a technology standard and a technology stack. We will collect ideas and decide, where SCS can sensibly be introduced, presented and deployed and what resources must be provided and applied, in order to successfully bring SCS in usage.
 
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-sig-market
+      Etherpad: https://input.scs.community/2023-scs-sig-market
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-market
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
@@ -369,7 +369,7 @@ events:
 
       Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/27
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iam
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-iam
+      Etherpad: https://input.scs.community/2023-scs-team-iam
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
@@ -386,7 +386,7 @@ events:
       This is our bi-weekly meeting for Team IAM in which we deep-dive into topics.
 
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iam
-      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-iam
+      Etherpad: https://input.scs.community/2023-scs-team-iam
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
@@ -404,7 +404,7 @@ events:
 
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-release
-      Etherpad: https://input.osb-alliance.de/p/2022-scs-sig-release
+      Etherpad: https://input.scs.community/2022-scs-sig-release
       Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
     repeat:
