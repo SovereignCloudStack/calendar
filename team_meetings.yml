@@ -26,6 +26,7 @@ events:
       except_on:
         - 2022-11-23 10:05:00
         - 2023-01-04 10:05:00
+        - 2023-03-01 10:05:00
   - summary: "Team IaaS Meeting"
     begin: 2022-11-16 10:05:00
     duration:
@@ -113,6 +114,8 @@ events:
       interval:
         weeks: 2
       until: 2023-06-30
+      except_on:
+        - 2023-03-02 10:05:00
   - summary: "Team OPS Meeting"
     begin: 2023-01-26 10:05:00
     duration:
@@ -285,6 +288,7 @@ events:
       until: 2023-06-30
       except_on:
         - 2023-02-17 12:05:00
+        - 2023-03-03 12:05:00
   - summary: "SIG Monitoring"
     begin: 2023-02-17 12:05:00
     duration:
@@ -337,6 +341,7 @@ events:
       except_on:
         - 2022-12-23 10:05:00
         - 2022-12-30 10:05:00
+        - 2023-03-03 10:05:00
   - summary: "SIG SCS Market"
     begin: 2023-01-12 11:05:00
     duration:
@@ -357,6 +362,7 @@ events:
       except_on:
         - 2023-01-26 11:05:00
         - 2023-02-16 11:05:00
+        - 2023-03-02 11:05:00
   - summary: "Team IAM Sprint Review/Planning and Refinement"
     begin: 2023-01-25 11:35:00
     duration:
@@ -378,6 +384,8 @@ events:
       interval:
         weeks: 2
       until: 2023-06-30
+      except_on:
+        - 2023-03-02 11:35:00
   - summary: "Team IAM Meeting"
     begin: 2023-02-01 11:35:00
     duration:
