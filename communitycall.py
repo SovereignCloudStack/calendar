@@ -13,6 +13,7 @@ day = "Thursday"
 i = 0
 coords = data['Coordinators']
 exceptions = data['Except']
+statics = data['Statics']
 
 f = open('communitycall.yml', 'w')
 f.write('name: Community call meetings\n')
@@ -26,7 +27,10 @@ for calendarweek in range(1,26):
 
     if result_date not in exceptions:
 
-        coord = coords[i]
+        if result_date in statics:
+            coord = coords[statics[result_date]]
+        else:
+            coord = coords[list(coords)[i]]
 
         event_string = '''\
  - summary: "Weekly SCS Community Meeting"
