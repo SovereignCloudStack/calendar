@@ -1,11 +1,14 @@
 ---
   Coordinators:
-    - "Felix Kronlage-Dammers - fkr[at]osb-alliance.com"
-    - "Kurt Garloff - garloff[at]osb-alliance.com"
-    - "Manuela Urban - urban[at]osb-alliance.com"
-    - "Alexander Diab - diab[at]osb-alliance.com"
-    - "Bianca Hollery-Pfister - hollery[at]osb-alliance.com"
-    - "Eduard Itrich - itrich[at]osb-alliance.com"
+    "fkr": "Felix Kronlage-Dammers - fkr[at]osb-alliance.com"
+    "kg": "Kurt Garloff -  garloff[at]osb-alliance.com"
+    "mu": "Manuela Urban - urban[at]osb-alliance.com"
+    "ad": "Alexander Diab - diab[at]osb-alliance.com"
+    "bhp": "Bianca Hollery-Pfister - hollery[at]osb-alliance.com"
+    "ei": "Eduard Itrich - itrich[at]osb-alliance.com"
   Except:
     - "2023-05-18"  # Christi Himmelfahrt
     - "2023-03-02"  # Hackathon NBG
+  Statics:
+    "2023-03-09": "mu"
+    "2023-03-16": "bhp"
