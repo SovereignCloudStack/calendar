@@ -414,7 +414,7 @@ events:
 
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-release
-      Etherpad: https://input.scs.community/2022-scs-sig-release
+      Etherpad: https://input.scs.community/2023-scs-sig-release
       Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
     repeat:
