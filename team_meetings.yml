@@ -22,7 +22,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-03-15
       except_on:
         - 2022-11-23 10:05:00
         - 2023-01-04 10:05:00
@@ -44,9 +44,48 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-03-08
       except_on:
         - 2022-12-28 10:05:00
+  - summary: "Team IaaS Sprint Review/Planning and Refinement"
+    begin: 2023-03-22 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly sprint review, planning and refinement meeting for Team IaaS.
+      - Sprint review: Let's look at the stories that were being worked on and completed.
+      - Backlog refinement: Let's look at the backlog and work on refining the stories such that they can be worked on.
+      - Sprint planning: Let's look at what we can achieve in the next cycle.
+
+      Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/4
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iaas
+      Etherpad: https://input.scs.community/2023-scs-team-iaas
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2023-06-30
+  - summary: "Team IaaS Meeting"
+    begin: 2023-03-29 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly meeting for Team IaaS in which we deep-dive into topics.
+      There is a github issue to which items that need to be discussed can be added: https://github.com/SovereignCloudStack/issues/issues/46
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iaas
+      Etherpad: https://input.scs.community/2023-scs-team-iaas
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2023-06-30
   - summary: "Team OPS / IAM Sprint Review/Planning and Refinement"
     begin: 2022-06-23 10:05:00
     duration:
@@ -113,11 +152,50 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-03-16
       except_on:
         - 2023-03-02 10:05:00
   - summary: "Team OPS Meeting"
     begin: 2023-01-26 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly meeting for Team OPS in which we deep-dive into topics.
+      There is a github issue to which items that need to be discussed can be added: https://github.com/SovereignCloudStack/issues/issues/51
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/ops
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-ops
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2023-03-09
+  - summary: "Team OPS Sprint Review/Planning and Refinement"
+    begin: 2023-03-23 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly sprint review, planning and refinement meeting for Team OPS.
+      - Sprint review: Let's look at the stories that were being worked on and completed.
+      - Backlog refinement: Let's look at the backlog and work on refining the stories such that they can be worked on.
+      - Sprint planning: Let's look at what we can achieve in the next cycle.
+
+      Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/8
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/ops
+      Etherpad: https://input.osb-alliance.de/p/2023-scs-team-ops
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2023-06-30
+  - summary: "Team OPS Meeting"
+    begin: 2023-03-30 10:05:00
     duration:
       minutes: 50
     description: |
@@ -385,11 +463,49 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-03-15
       except_on:
         - 2023-03-01 11:35:00
   - summary: "Team IAM Meeting"
     begin: 2023-01-25 11:35:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly meeting for Team IAM in which we deep-dive into topics.
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iam
+      Etherpad: https://input.scs.community/2023-scs-team-iam
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2023-03-08
+  - summary: "Team IAM Sprint Review/Planning and Refinement"
+    begin: 2023-03-22 11:35:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly sprint review, planning and refinement meeting for Team IAM.
+      - Sprint review: Let's look at the stories that were being worked on and completed.
+      - Backlog refinement: Let's look at the backlog and work on refining the stories such that they can be worked on.
+      - Sprint planning: Let's look at what we can achieve in the next cycle.
+
+      Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/27
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iam
+      Etherpad: https://input.scs.community/2023-scs-team-iam
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2023-06-30
+  - summary: "Team IAM Meeting"
+    begin: 2023-03-29 11:35:00
     duration:
       minutes: 50
     description: |
