@@ -239,7 +239,7 @@ events:
         - 2022-12-26 10:05:00
         - 2023-01-02 10:05:00
   - summary: "Team Container Sprint Review/Planning and Refinement"
-    begin: 2022-03-20 10:05:00
+    begin: 2023-03-20 10:05:00
     duration:
       minutes: 50
     description: |
