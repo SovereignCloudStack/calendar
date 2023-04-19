@@ -263,6 +263,8 @@ events:
       interval:
         weeks: 2
       until: 2023-04-14
+      except_on:
+        - 2023-05-01 10:05:00      
   - summary: "Team Container Meeting"
     begin: 2023-03-27 10:05:00
     duration:
@@ -350,6 +352,7 @@ events:
         - 2022-12-26 14:05:00
         - 2023-01-02 14:05:00
         - 2023-04-10 14:05:00
+        - 2023-05-01 10:05:00
   - summary: "SIG Community"
     begin: 2022-12-19 11:05:00
     duration:
@@ -390,6 +393,7 @@ events:
       except_on:
         - 2022-12-12 11:05:00
         - 2022-12-26 11:05:00
+        - 2023-05-01 10:05:00
   - summary: "SIG Standardization/Certification"
     begin: 2023-01-12 14:05:00
     duration:
