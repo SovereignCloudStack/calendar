@@ -214,6 +214,8 @@ events:
       interval:
         weeks: 2
       until: 2023-06-30
+      except_on:
+        - 2023-04-13 10:05:00
   - summary: "Team Container Sprint Review/Planning and Refinement"
     begin: 2022-06-27 10:05:00
     duration:
@@ -260,7 +262,9 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-04-14
+      except_on:
+        - 2023-05-01 10:05:00      
   - summary: "Team Container Meeting"
     begin: 2023-03-27 10:05:00
     duration:
@@ -278,9 +282,48 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-04-14
       except_on:
         - 2023-04-10 10:05:00
+  - summary: "Team Container Sprint Review/Planning and Refinement"
+    begin: 2023-04-17 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      This is our weekly sprint review, planning and refinement meeting for Team Container.
+      - Sprint review: Let's look at the stories that were being worked on and completed.
+      - Backlog refinement: Let's look at the backlog and work on refining the stories such that they can be worked on.
+      - Sprint planning: Let's look at what we can achieve in the next cycle.
+
+      Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/7
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/container
+      Etherpad: https://input.scs.community/2023-scs-team-container
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Jan Schoone <schoone[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2023-06-30
+  - summary: "Team Container Meeting"
+    begin: 2023-04-24 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly meeting for Team Container in which we deep-dive into topics.
+
+      Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/7
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/container
+      Etherpad: https://input.scs.community/2023-scs-team-container
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Jan Schoone <schoone[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2023-06-30
   - summary: "SCS Product Board"
     begin: 2022-07-04 14:05:00
     duration:
@@ -309,6 +352,7 @@ events:
         - 2022-12-26 14:05:00
         - 2023-01-02 14:05:00
         - 2023-04-10 14:05:00
+        - 2023-05-01 10:05:00
   - summary: "SIG Community"
     begin: 2022-12-19 11:05:00
     duration:
@@ -349,6 +393,7 @@ events:
       except_on:
         - 2022-12-12 11:05:00
         - 2022-12-26 11:05:00
+        - 2023-05-01 10:05:00
   - summary: "SIG Standardization/Certification"
     begin: 2023-01-12 14:05:00
     duration:
@@ -390,11 +435,32 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-04-20
       except_on:
         - 2023-04-13 14:05:00
       also_on:
         - 2023-04-20 14:05:00
+  - summary: "SIG Standardization/Certification"
+    begin: 2023-05-04 14:05:00
+    duration:
+      minutes: 50
+    description: |
+      Special Interest Group to discuss and align our activities and approach to standardization and certification.
+
+      The idea is to agree on relevant standards that are fulfilled by the SCS reference implementation (at IaaS layer - optional, at CaaS layer, federation and possibly even operational transparency). In general, standards should be defined such that they can be fulfilled by partners that do only use some of the modules of the reference implementation or even none of them.
+      Main goal for standards is to create a high level of assurance for interoperability – a service that is developed against SCS CaaS standards should work without any adaptation of the service and its deployment/operations automation of all clouds that have a SCS-certified CaaS implementation. For sovereignty and transparency aspects, we may provide assurance also with respect to open source and open operations, but these are topics for later. See https://scs.sovereignit.de/nextcloud/apps/files/?dir=/Sovereign%20Cloud%20Stack/Certification&fileid=61594
+      This group should discuss strategy and most importantly align on which standards we need and then work with the teams to align on existing or to be created standards. We should take the user perspective: As a member of a DevOps team developing a service (think SaaS or PaaS) for SCS, I need XXXX.
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-standardization
+      Etherpad: https://input.scs.community/2023-scs-sig-standardization
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Alexander Diab <diab[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2023-12-21
   - summary: "SIG Monitoring"
     begin: 2023-01-06 12:05:00
     duration:
