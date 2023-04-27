@@ -5,7 +5,7 @@
     "mu": "Manuela Urban - urban[at]osb-alliance.com"
     "ad": "Alexander Diab - diab[at]osb-alliance.com"
     "bhp": "Bianca Hollery-Pfister - hollery[at]osb-alliance.com"
-    "ei": "Eduard Itrich - itrich[at]osb-alliance.com"
+    "fz": "Friederike Zelke - zelke[at]osb-alliance.com"
   Except:
     - "2023-05-18"  # Christi Himmelfahrt
     - "2023-03-02"  # Hackathon NBG
@@ -16,4 +16,6 @@
     "2023-03-23": "mu"
     "2023-03-16": "fkr"
     "2023-03-30": "kg"
-    "2023-04-06": "ei"
+    "2023-04-06": "fz"
+    "2023-04-27": "ad"
+    "2023-05-04": "mu"
