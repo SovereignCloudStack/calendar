@@ -34,3 +34,5 @@ events:
       interval:
         weeks: 4
       until: 2023-06-01
+      except_on:
+        - 2023-05-01 15:05:00
