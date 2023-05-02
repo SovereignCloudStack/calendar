@@ -104,7 +104,7 @@ events:
       minutes: 360
     description: |
       The SCS Summit - Day 1.
-	  See https://scs.community/summit/ for all details!
+      See https://scs.community/summit/ for all details!
     location: "Berlin-Brandenburg Academy of Sciences and Humanities, Markgrafenstrasse 38, Berlin"
   - summary: "SCS Summit 2023"
     begin: 2023-05-24 09:00:00
@@ -112,7 +112,7 @@ events:
       minutes: 240
     description: |
       The SCS Summit - Day 2.
-	  See https://scs.community/summit/ for all details!
+      See https://scs.community/summit/ for all details!
     location: "Berlin-Brandenburg Academy of Sciences and Humanities, Markgrafenstrasse 38, Berlin"
   - summary: "IaaS Overflow - flavor naming and how to proceed"
     begin: 2023-05-08 15:05:00
