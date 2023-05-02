@@ -88,6 +88,7 @@ events:
       until: 2023-06-30
       except_on:
         - 2023-04-12 10:05:00
+        - 2023-05-24 10:05:00
   - summary: "Team OPS / IAM Sprint Review/Planning and Refinement"
     begin: 2022-06-23 10:05:00
     duration:
@@ -598,6 +599,8 @@ events:
       interval:
         weeks: 2
       until: 2023-03-08
+      except_on:
+        - 2023-05-24 11:35:00
   - summary: "Team IAM Sprint Review/Planning and Refinement"
     begin: 2023-03-22 11:35:00
     duration:
