@@ -98,3 +98,13 @@ events:
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "IaaS Overflow - flavor naming and how to proceed"
+    begin: 2023-05-08 15:05:00
+    duration:
+      minutes: 50
+    description: |
+      Breakout session from the IaaS Team. See https://input.scs.community/Why-Standardized-Flavors-And-Names
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
