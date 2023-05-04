@@ -37,3 +37,15 @@ events:
     description: |
       Georg Link will introduce us into the Community Health Analytics in Open Source Software (CHAOSS) project focused on creating metrics, metrics models, and software to better understand open source community health on a global scale. The intention of this keynote presentation is to facilitate a first step towards standardising and, where necessary, expanding our own open source health checklist with well-proven and community-maintained metrics.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "GX Hack#6: Self-Description Generation via Discoverability"
+    begin: 2023-05-11 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Matej Feder, Roman Hros, Max Wolfs, and Kurt Garloff have actively participated in the Gaia-X Hackathon \#6
+      in Bilbao, where we had the one hybrid hacking session working on 
+      "Self description generation via infrastructure discoverability features".
+      This was the largest track and a lof of contributions happened in a very successful hybrid
+      collaboration mode with ~10 participants in Spain and ~4 online.
+      Matej, Roman, and Max will report from the event, present the results and show a demo of the tool.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
