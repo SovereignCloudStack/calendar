@@ -158,6 +158,7 @@ events:
       until: 2023-03-16
       except_on:
         - 2023-03-02 10:05:00
+        - 2023-05-18 10:05:00
   - summary: "Team OPS Meeting"
     begin: 2023-01-26 10:05:00
     duration:
@@ -439,6 +440,7 @@ events:
       until: 2023-04-20
       except_on:
         - 2023-04-13 14:05:00
+        - 2023-05-18 14:05:00
       also_on:
         - 2023-04-20 14:05:00
   - summary: "SIG Standardization/Certification"
