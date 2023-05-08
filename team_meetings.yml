@@ -643,6 +643,7 @@ events:
       until: 2023-06-30
       except_on:
         - 2023-04-12 11:35:00
+        - 2023-05-10 11:35:00
   - summary: "SIG Release"
     begin: 2023-02-22 14:05:00
     duration:
