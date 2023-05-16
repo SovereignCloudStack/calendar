@@ -361,7 +361,8 @@ events:
     duration:
       minutes: 50
     description: |
-      The SIG Community is meeting on a monthly basis to work on various community-related topics, e.g. enhancing overall on-boarding and contribution experience.
+      The SIG Community is meeting on a bi-weekly basis to work on various community-related topics,
+      e.g. enhancing overall on-boarding and contribution experience.
 
       Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/14
       Etherpad: https://input.scs.community/2023-scs-sig-community
@@ -372,8 +373,8 @@ events:
     location: "https://conf.scs.koeln:8443/SCS-Tech"
     repeat:
       interval:
-        weeks: 4
-      until: 2023-06-30
+        weeks: 2
+      until: 2023-12-20
       except_on:
         - 2022-10-03 11:05:00
         - 2023-04-10 11:05:00
