@@ -50,7 +50,7 @@ events:
       Matej, Roman, and Max will report from the event, present the results and show a demo of the tool.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "OpenStack Image Manager in Action"
-    begin: 2023-05-11 15:45:00         # uses default timezone above
+    begin: 2023-06-11 15:45:00         # uses default timezone above
     duration:
       minutes: 15
     description: |
