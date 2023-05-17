@@ -49,3 +49,10 @@ events:
       collaboration mode with ~10 participants in Spain and ~4 online.
       Matej, Roman, and Max will report from the event, present the results and show a demo of the tool.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "OpenStack Image Manager in Action"
+    begin: 2023-05-11 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Christian (@berendt) and Felix (@fkr) will give an quick introduction to the OpenStack Image Manager and show it off in action.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
