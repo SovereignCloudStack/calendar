@@ -49,6 +49,13 @@ events:
       collaboration mode with ~10 participants in Spain and ~4 online.
       Matej, Roman, and Max will report from the event, present the results and show a demo of the tool.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Rabbitmq lessons and learn"
+    begin: 2023-05-25 15:35:00        # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Felix Huettner will report us about the challenges to run Rabbitmq in a large scale setup
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "OpenStack Image Manager in Action"
     begin: 2023-06-22 15:45:00         # uses default timezone above
     duration:
