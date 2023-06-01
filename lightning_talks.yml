@@ -17,7 +17,7 @@ events:
       As community we set out to foster standardization among cloud offerings and create a well-trusted certification that users can rely on. To simplify testing an environment against these standards Kurt and Eduard have started to work on a compliance check tool. This lightning talk sheds some light on our approach to publish the upcoming certification program in a machine-readable way and offers a first live demonstration of the SCS compliance tool.  
     location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "All your OpenStack VMs at your fingertips"
-    begin: 2023-01-26 15:45:00         # uses default timezone above
+    begin: 2023-08-26 15:45:00         # uses default timezone above
     duration:
       minutes: 15
     description: |
