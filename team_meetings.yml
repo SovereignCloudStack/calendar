@@ -540,16 +540,17 @@ events:
     repeat:
       interval:
         weeks: 1
-      until: 2023-01-20
+      until: 2023-01-26
       except_on:
         - 2022-12-23 10:05:00
         - 2022-12-30 10:05:00
   - summary: "IAM Hacking session"
-    begin: 2023-01-20 10:05:00
+    begin: 2023-01-27 10:05:00
     duration:
       minutes: 50
     description: |
-      The Special Interest Group (SIG) Identity and Access Management (IAM) meets on a bi-weekly base to discuss federation within a cloud ecosystem.
+      This is the IAM hacking session meeting, complementing the weekly Team IAM meetings and replacing the Special Interest Group (SIG) Identity and Access Management (IAM) meetings to hack in making federation within a cloud ecosystem work better.
+      (For historic reasons, we keep the SIG-IAM in meeting room and etherpad name.)
 
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-iam
       Etherpad: https://input.scs.community/2023-scs-sig-iam
