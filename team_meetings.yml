@@ -540,10 +540,27 @@ events:
     repeat:
       interval:
         weeks: 1
-      until: 2023-06-30
+      until: 2023-01-20
       except_on:
         - 2022-12-23 10:05:00
         - 2022-12-30 10:05:00
+  - summary: "IAM Hacking session"
+    begin: 2023-01-20 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      The Special Interest Group (SIG) Identity and Access Management (IAM) meets on a bi-weekly base to discuss federation within a cloud ecosystem.
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-iam
+      Etherpad: https://input.scs.community/2023-scs-sig-iam
+      Jitsi server on https://conf.scs.koeln:8443/SCS-SIG-IAM
+      Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!WXPYkbcGzyIxFhwIqM:matrix.org?via=matrix.org
+    location: "https://conf.scs.koeln:8443/SCS-SIG-IAM"
+    repeat:
+      interval:
+        weeks: 1
+      until: 2023-12-30
+      except_on:
         - 2023-03-03 10:05:00
         - 2023-05-19 10:05:00
   - summary: "SIG SCS Market"
