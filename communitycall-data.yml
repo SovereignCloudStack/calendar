@@ -1,6 +1,8 @@
 ---
-  CW_start: 1
-  CW_end: 52
+  Date:
+    begin: 2023-01-01
+    end: 2023-12-31
+    day: "Thursday"
   Coordinators:
     "fkr": "Felix Kronlage-Dammers - fkr[at]osb-alliance.com"
     "kg": "Kurt Garloff -  garloff[at]osb-alliance.com"

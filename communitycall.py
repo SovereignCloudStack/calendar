@@ -8,22 +8,29 @@ from yaml.loader import SafeLoader
 with open('communitycall-data.yml') as f:
     data = yaml.load(f, Loader=SafeLoader)
 
-year = "2023"
 day = "Thursday"
 i = 0
 coords = data['Coordinators']
 exceptions = data['Except']
 statics = data['Statics']
+date_config = data['Date']
+
+date_start = date_config['begin']
+date_end = date_config['end']
+date_day = date_config['day']
+date_delta = datetime.timedelta(days=7)
 
 f = open('communitycall.yml', 'w')
 f.write('name: Community call meetings\n')
 f.write('timezone: Europe/Berlin\n\n')
 f.write('events:\n')
 
-for calendarweek in range(data['CW_start'],data['CW_end']):
+while (date_start <= date_end):
 
-    year_week_day = f"{year}/{calendarweek}/{day}"
+    year_week_day = f"{date_start.year}/{date_start.isocalendar().week}/{date_day}"
     result_date = datetime.datetime.strptime(year_week_day, "%Y/%W/%A").strftime("%Y-%m-%d")
+
+    date_start += date_delta
 
     if result_date not in exceptions:
 
