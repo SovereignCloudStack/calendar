@@ -20,7 +20,7 @@ f.write('name: Community call meetings\n')
 f.write('timezone: Europe/Berlin\n\n')
 f.write('events:\n')
 
-for calendarweek in range(1,26):
+for calendarweek in range(data['CW_start'],data['CW_end']):
 
     year_week_day = f"{year}/{calendarweek}/{day}"
     result_date = datetime.datetime.strptime(year_week_day, "%Y/%W/%A").strftime("%Y-%m-%d")
