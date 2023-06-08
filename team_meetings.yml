@@ -67,7 +67,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-12-22
   - summary: "Team IaaS Meeting"
     begin: 2023-03-29 10:05:00
     duration:
@@ -85,7 +85,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-12-22
       except_on:
         - 2023-04-12 10:05:00
         - 2023-05-24 10:05:00
@@ -196,7 +196,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-12-22
       except_on:
         - 2023-05-18 10:05:00
   - summary: "Team OPS Meeting"
@@ -216,7 +216,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-12-22
       except_on:
         - 2023-04-13 10:05:00
   - summary: "Team Container Sprint Review/Planning and Refinement"
@@ -306,7 +306,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-12-22
       except_on:
         - 2023-05-01 10:05:00
         - 2023-05-29 10:05:00
@@ -327,7 +327,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-12-22
   - summary: "SCS Product Board"
     begin: 2022-07-04 14:05:00
     duration:
@@ -349,7 +349,7 @@ events:
     repeat:
       interval:
         weeks: 1
-      until: 2023-06-30
+      until: 2023-12-22
       except_on:
         - 2022-10-03 14:05:00
         - 2022-12-12 14:05:00
@@ -396,7 +396,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-12-22
       except_on:
         - 2022-12-12 11:05:00
         - 2022-12-26 11:05:00
@@ -488,7 +488,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-12-22
       except_on:
         - 2023-02-17 12:05:00
         - 2023-03-03 12:05:00
@@ -647,7 +647,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-12-22
   - summary: "Team IAM Meeting"
     begin: 2023-03-29 11:35:00
     duration:
@@ -664,7 +664,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-06-30
+      until: 2023-12-22
       except_on:
         - 2023-04-12 11:35:00
         - 2023-05-10 11:35:00
