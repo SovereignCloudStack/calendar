@@ -27,7 +27,7 @@ events:
 
       Jitsi server on https://conf.scs.koeln:8443/Open-Operations
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/openops
-      Etherpad: https://input.osb-alliance.de/p/open-operations
+      Etherpad: https://input.scs.community/Open-Operations
       Repository: https://github.com/SovereignCloudStack/open-operations-manifesto
     location: "https://conf.scs.koeln:8443/Open-Operations"
     repeat:
