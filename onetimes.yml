@@ -153,3 +153,10 @@ events:
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "SCS API Mini Hackathon"
+    begin: 2023-07-18 09:00:00
+    duration:
+      minutes: 540
+    description: |
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "GONICUS, Möhnestraße 55, 59755 Arnsberg"
