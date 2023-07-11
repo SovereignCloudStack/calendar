@@ -63,3 +63,10 @@ events:
     description: |
       Christian (@berendt) and Felix (@fkr) will give an quick introduction to the OpenStack Image Manager and show it off in action.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+    - summary: "Observer Cluster"
+    begin: 2023-07-27 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Martin (@mpilka) and Matej (@matofeder) will talk about dNation monitoring solution, their architecture, how they monitor multiple Kubernetes clusters, OpenShift clusters, Virtual machines, and Physical nodes from the observer cluster, and how they are able to see all relevant info at a glance.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
