@@ -154,9 +154,9 @@ events:
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "SCS API Mini Hackathon"
-    begin: 2023-07-18 09:00:00
+    begin: 2023-07-18 10:00:00
     duration:
-      minutes: 540
+      minutes: 480
     description: |
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "GONICUS, Möhnestraße 55, 59755 Arnsberg"
