@@ -70,3 +70,10 @@ events:
     description: |
       Martin (@mpilka) and Matej (@matofeder) will talk about dNation monitoring solution, their architecture, how they monitor multiple Kubernetes clusters, OpenShift clusters, Virtual machines, and Physical nodes from the observer cluster, and how they are able to see all relevant info at a glance.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Glasskube Kubernetes Operator"
+    begin: 2023-08-03 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Louis and Philip from Glasskube will introduce their fully automated deployments for open source tools. Using an open source Kubernetes Operator to simplify cloud-native deployments of tools like Gitlab, Vault and NextCloud.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
