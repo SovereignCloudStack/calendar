@@ -309,10 +309,10 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-12-22
       except_on:
         - 2023-05-01 10:05:00
         - 2023-05-29 10:05:00
+      until: 2023-07-23
   - summary: "Team Container Meeting"
     begin: 2023-04-24 10:05:00
     duration:
@@ -330,7 +330,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2023-12-22
+      until: 2023-07-23
   - summary: "SCS Product Board"
     begin: 2022-07-04 14:05:00
     duration:
@@ -648,12 +648,12 @@ events:
       Etherpad: https://input.scs.community/2023-scs-team-iam
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
-      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+      Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
     repeat:
       interval:
         weeks: 2
-      until: 2023-12-22
+      until: 2023-07-23
       except_on:
         - 2023-07-12 11:35:00
   - summary: "Team IAM Meeting"
@@ -667,12 +667,12 @@ events:
       Etherpad: https://input.scs.community/2023-scs-team-iam
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
-      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+      Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
     repeat:
       interval:
         weeks: 2
-      until: 2023-12-22
+      until: 2023-07-23
       except_on:
         - 2023-04-12 11:35:00
         - 2023-05-10 11:35:00
@@ -695,3 +695,80 @@ events:
       until: 2023-03-22
       except_on:
         - 2023-03-01 14:05:00
+  - summary: "Team IAM Sprint Review/Planning and Refinement"
+    begin: 2023-07-27 11:35:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly sprint review, planning and refinement meeting for Team IAM.
+      - Sprint review: Let's look at the stories that were being worked on and completed.
+      - Backlog refinement: Let's look at the backlog and work on refining the stories such that they can be worked on.
+      - Sprint planning: Let's look at what we can achieve in the next cycle.
+
+      Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/27
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iam
+      Etherpad: https://input.scs.community/2023-scs-team-iam
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2023-12-22
+  - summary: "Team IAM Meeting"
+    begin: 2023-08-03 11:35:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly meeting for Team IAM in which we deep-dive into topics.
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/iam
+      Etherpad: https://input.scs.community/2023-scs-team-iam
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2023-12-22
+  - summary: "Team Container Sprint Review/Planning and Refinement"
+    begin: 2023-07-26 11:35:00
+    duration:
+      minutes: 50
+    description: |
+      This is our weekly sprint review, planning and refinement meeting for Team Container.
+      - Sprint review: Let's look at the stories that were being worked on and completed.
+      - Backlog refinement: Let's look at the backlog and work on refining the stories such that they can be worked on.
+      - Sprint planning: Let's look at what we can achieve in the next cycle.
+
+      Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/7
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/container
+      Etherpad: https://input.scs.community/2023-scs-team-container
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Jan Schoone <schoone[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2023-12-22
+  - summary: "Team Container Meeting"
+    begin: 2023-08-02 11:35:00
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly meeting for Team Container in which we deep-dive into topics.
+
+      Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/7
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/container
+      Etherpad: https://input.scs.community/2023-scs-team-container
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Jan Schoone <schoone[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2023-12-22
