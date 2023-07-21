@@ -309,6 +309,9 @@ events:
     repeat:
       interval:
         weeks: 2
+      except_on:
+        - 2023-05-01 10:05:00
+        - 2023-05-29 10:05:00
       until: 2023-07-23
   - summary: "Team Container Meeting"
     begin: 2023-04-24 10:05:00
