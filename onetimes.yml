@@ -191,3 +191,13 @@ events:
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Team Container Overflow - E2E test integration with Zuul"
+    begin: 2023-08-28 15:05:00
+    duration:
+      minutes: 50
+    description: |
+      We will discuss the proposal for the E2E testing and how we can get this into the SCS Zuul instance
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Jan Schoone <schoone[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
