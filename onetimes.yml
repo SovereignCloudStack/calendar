@@ -201,7 +201,7 @@ events:
       Dial-In: +49-221-292772-611
       Coordinator: Jan Schoone <schoone[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
- - summary: "SCS Hackathon #3"
+  - summary: "SCS Hackathon #3"
     begin: 2023-11-08 10:00:00
     duration:
       minutes: 480
