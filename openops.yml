@@ -25,7 +25,8 @@ events:
     description: |
       The Open Operations Community meets on a monthly basis to foster a thriving community around Open Operations. Feel free to join us during this open meeting.
 
-      Jitsi server on https://conf.scs.koeln:8443/Open-Operations
+      Jitsi video conf server on https://conf.scs.koeln:8443/Open-Operations
+      Dial-In via +49-221-292772-613
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/openops
       Etherpad: https://input.scs.community/Open-Operations
       Repository: https://github.com/SovereignCloudStack/open-operations-manifesto
@@ -36,3 +37,18 @@ events:
       until: 2023-12-22
       except_on:
         - 2023-05-01 15:05:00
+        - 2023-09-04 15:05:00
+  - summary: "OpenOps Meetup: Power Outage in your DC?"
+    begin: 2023-09-04 15:00:00
+    duration:
+      minutes: 60
+    description: |
+      https://www.meetup.com/open-operations-meetup/events/295367760/
+
+      With our first meetup we want to enter directly the world of cloud
+      operations and making it transparent: Christian from OSISM and Julian from
+      JH-Computing tell us how they dealt with a power outage and how they found
+      proper solutions.
+
+      In the second part of the meetup there will be plenty of time for your experience!
+    location: "https://conf.scs.koeln:8443/Open-Operations"
