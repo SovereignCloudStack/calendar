@@ -39,10 +39,10 @@ events:
         - 2023-05-01 15:05:00
         - 2023-09-04 15:05:00
   - summary: "OpenOps Meetup: Power Outage in your DC?"
-      begin: 2023-09-04 15:00:00
-      duration:
-        minutes: 60
-      description: |
+    begin: 2023-09-04 15:00:00
+    duration:
+      minutes: 60
+    description: |
       https://www.meetup.com/open-operations-meetup/events/295367760/
 
       With our first meetup we want to enter directly the world of cloud
