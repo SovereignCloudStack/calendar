@@ -52,3 +52,16 @@ events:
 
       In the second part of the meetup there will be plenty of time for your experience!
     location: "https://conf.scs.koeln:8443/Open-Operations"
+  - summary: "OpenOps Meetup: Cloud Operation Platform - CLOPS"
+    begin: 2023-10-02 15:00:00
+    duration:
+      minutes: 60
+    description: |
+      https://www.meetup.com/open-operations-meetup/events/296182178/
+
+      What does it take to run Kubernetes clusters? What tools should be integrated? How should they be coordinated?
+
+      We answer these questions and show insights into the CLOPS platform - Cloud Operations Platform - automated roll-out, all necessary tools integrated, usable even for complex cluster architectures. And everything is open-source!
+
+      In the second part of the meetup there will be plenty of time for your experience!
+    location: "https://conf.scs.koeln:8443/Open-Operations"
