@@ -220,3 +220,10 @@ events:
       create a smooth R6 cycle and release.
       Coordinator: Kurt Garloff <garloff[at]osb[minus]alliance[dot]com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "SCS PaaS Mini Hackathon (remote)"
+    begin: 2023-10-09 09:30:00
+    duration:
+      minutes: 480
+    description: |
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-PaaS-for-all-the-things"
