@@ -77,3 +77,11 @@ events:
     description: |
       Louis and Philip from Glasskube will introduce their fully automated deployments for open source tools. Using an open source Kubernetes Operator to simplify cloud-native deployments of tools like Gitlab, Vault and NextCloud.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Kamaji"
+    begin: 2023-10-05 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Dario Tranchitella from Clastix will introduce us to their product Kamaji.
+      Kamaji is a Kubernetes Control Plane Manager. It operates Kubernetes at scale with a fraction of the operational burden.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
