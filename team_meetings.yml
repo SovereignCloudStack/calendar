@@ -403,7 +403,7 @@ events:
         - 2023-05-22 14:05:00
         - 2023-05-29 14:05:00
   - summary: "SCS Product Board"
-    begin: 2023-10-09 14:05:00
+    begin: 2023-10-23 14:05:00
     duration:
       minutes: 50
     description: |
