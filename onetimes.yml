@@ -227,3 +227,13 @@ events:
     description: |
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-PaaS-for-all-the-things"
+  - summary: "Team IaaS R5 retro"
+    begin: 2023-10-10 11:05:00
+    duration:
+      minutes: 55
+    description: |
+      Let's take the chance and inspect and adapt how we work in the Team IaaS.
+      Maybe this is also a good chance to take a step back and define what the Team IaaS
+      is and how it is defined.
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
