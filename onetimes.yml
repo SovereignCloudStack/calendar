@@ -206,20 +206,9 @@ events:
     duration:
       minutes: 480
     description: |
-      We meet as community to develop, think, collect, and hack together. Details follow soon.
+      We meet as community to develop, think, collect, and hack together. All information here: https://input.scs.community/Third-Community-Hackathon---SCS#
       Coordinator: Friederike Zelke <zelke[at]osb-alliance.com>
     location: "CLOUD&HEAT, Halle 15, Königsbrücker Straße 96, 01099 Dresden, Germany"
-  - summary: "R5 retro"
-    begin: 2023-10-26 14:05:00
-    duration:
-      minutes: 50
-    description: |
-      Let's look at the R5 development cycle and the release process.
-      What went well? What did not work out?
-      Let's have the discussion to understand how we can get better and
-      create a smooth R6 cycle and release.
-      Coordinator: Kurt Garloff <garloff[at]osb[minus]alliance[dot]com>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "SCS PaaS Mini Hackathon (remote)"
     begin: 2023-10-05 10:30:00
     duration:
