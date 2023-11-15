@@ -226,7 +226,7 @@ events:
       is and how it is defined.
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "Team SCS Overflow - All your SDS are belong to SCS"
+  - summary: "Team SCS Overflow - All your SDN are belong to SCS"
     begin: 2023-11-20 15:05:00
     duration:
       minutes: 55
