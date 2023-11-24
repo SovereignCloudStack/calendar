@@ -92,3 +92,10 @@ events:
     description: |
       In this Lighting Talk the ECO:DIGIT project will introduce itself to the SCS community. The aims, partners, technical approaches of the project and the collaboration with SCS.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Gaia-X Trust Framework"
+    begin: 2023-12-14 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      In this Lighting Talk Yassir Sellami from the Gaia-X European Association for Data and Cloud AISBL will talk about: What is "Trust" in a data exchange context and how to achieve it ? And he will be explaining how each aspect of Trust is used in Gaia-X and how is that deployed with the Digital Clearing Houses.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
