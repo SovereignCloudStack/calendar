@@ -27,4 +27,4 @@ events:
     repeat:
       interval:
         weeks: 1
-      until: 2024-22  # required
+      until: 2024-12-22  # required
