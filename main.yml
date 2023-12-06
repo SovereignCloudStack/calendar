@@ -4,9 +4,13 @@ include:
   - archive/2022/lightning_talks.yml
   - archive/2022/team_meetings.yml
   - archive/2022/onetimes.yml
+  - archive/2023/lightning_talks.yml
+  - archive/2023/team_meetings.yml
+  - archive/2023/onetimes.yml
+  - archive/2023/other.yml
   - lightning_talks.yml
   - team_meetings.yml
-  - onetimes.yml
-  - other.yml
+#  - onetimes.yml
+#  - other.yml
   - communitycall.yml
   - openops.yml
