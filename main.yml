@@ -8,9 +8,9 @@ include:
   - archive/2023/team_meetings.yml
   - archive/2023/onetimes.yml
   - archive/2023/other.yml
-  - lightning_talks.yml
+#  - lightning_talks.yml
   - team_meetings.yml
 #  - onetimes.yml
-#  - other.yml
+  - other.yml
   - communitycall.yml
   - openops.yml
