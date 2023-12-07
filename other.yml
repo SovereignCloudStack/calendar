@@ -28,3 +28,29 @@ events:
       interval:
         weeks: 1
       until: 2024-12-22  # required
+  - summary: "Open Door Operator Office Hours"
+    begin: 2024-01-11 12:05:00
+    duration:
+      minutes: 50
+    description: |
+      Open Door Operator Office Hours. Operators are welcome to join this coffee session with felix in order to discuss product aspects of the SCS full-stack.
+      Jitsi server on https://conf.scs.koeln:8443/SCS-fkr
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-fkr"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2024-12-22  # required
+  - summary: "Open Door Integrator Office Hours"
+    begin: 2024-02-01 12:05:00
+    duration:
+      minutes: 50
+    description: |
+      Open Door Integrator Office Hours. Integrators are welcome to join this coffee session with felix in order to discuss product aspects of the SCS full-stack.
+      Jitsi server on https://conf.scs.koeln:8443/SCS-fkr
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-fkr"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2024-12-22  # required
