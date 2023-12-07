@@ -1,0 +1,101 @@
+name: Lightning Talks
+timezone: Europe/Berlin
+
+events:
+  - summary: "Insights into running Gaia-X Federation Services on Sovereign Cloud Stack."
+    begin: 2023-01-12 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Presentation of the GXFS Microservices, and how they are developed in interdisciplinary teams. An outlook on how GXFS can be deployed with one click on clusters based on Sovereign Cloud Stack using GitOps.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "A compliance check tool for SCS"
+    begin: 2023-01-19 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      As community we set out to foster standardization among cloud offerings and create a well-trusted certification that users can rely on. To simplify testing an environment against these standards Kurt and Eduard have started to work on a compliance check tool. This lightning talk sheds some light on our approach to publish the upcoming certification program in a machine-readable way and offers a first live demonstration of the SCS compliance tool.  
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "All your OpenStack VMs at your fingertips"
+    begin: 2023-01-26 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      If you have a growing number of VMs running in various OpenStack projects or clouds, it may quickly become tedious to access them with ssh/scp, looking up (floating) IPs and then copy-pasting the addresses and remembering user names and SSH keypairs associated with them. This lightning talk drills down into the motivation of Kurt to develop a tool that queries OpenStack cloud servers and automatically creates a ssh config files for them.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Airgapped installation architecture"
+    begin: 2023-02-09 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      As part of R4 we want to allow SCS operators to prepare airgapped installations. This lighning talk shows the current implementation state and offers the ability to discuss and give feedback.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Community Health Analytics in Open Source Software (CHAOSS)"
+    begin: 2023-03-30 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Georg Link will introduce us into the Community Health Analytics in Open Source Software (CHAOSS) project focused on creating metrics, metrics models, and software to better understand open source community health on a global scale. The intention of this keynote presentation is to facilitate a first step towards standardising and, where necessary, expanding our own open source health checklist with well-proven and community-maintained metrics.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "GX Hack#6: Self-Description Generation via Discoverability"
+    begin: 2023-05-11 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Matej Feder, Roman Hros, Max Wolfs, and Kurt Garloff have actively participated in the Gaia-X Hackathon \#6
+      in Bilbao, where we had the one hybrid hacking session working on 
+      "Self description generation via infrastructure discoverability features".
+      This was the largest track and a lof of contributions happened in a very successful hybrid
+      collaboration mode with ~10 participants in Spain and ~4 online.
+      Matej, Roman, and Max will report from the event, present the results and show a demo of the tool.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Rabbitmq lessons and learn"
+    begin: 2023-05-25 15:35:00        # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Felix Huettner will report us about the challenges to run Rabbitmq in a large scale setup
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "OpenStack Image Manager in Action"
+    begin: 2023-06-29 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Christian (@berendt) and Felix (@fkr) will give an quick introduction to the OpenStack Image Manager and show it off in action.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Observer Cluster"
+    begin: 2023-07-27 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Martin (@mpilka) and Matej (@matofeder) will talk about dNation monitoring solution, their architecture, how they monitor multiple Kubernetes clusters, OpenShift clusters, Virtual machines, and Physical nodes from the observer cluster, and how they are able to see all relevant info at a glance.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Glasskube Kubernetes Operator"
+    begin: 2023-08-03 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Louis and Philip from Glasskube will introduce their fully automated deployments for open source tools. Using an open source Kubernetes Operator to simplify cloud-native deployments of tools like Gitlab, Vault and NextCloud.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Kamaji"
+    begin: 2023-10-05 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Dario Tranchitella from Clastix will introduce us to their product Kamaji.
+      Kamaji is a Kubernetes Control Plane Manager. It operates Kubernetes at scale with a fraction of the operational burden.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "ECO:DIGIT"
+    begin: 2023-11-23 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      In this Lighting Talk the ECO:DIGIT project will introduce itself to the SCS community. The aims, partners, technical approaches of the project and the collaboration with SCS.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Gaia-X Trust Framework"
+    begin: 2023-12-14 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      In this Lighting Talk Yassir Sellami from the Gaia-X European Association for Data and Cloud AISBL will talk about: What is "Trust" in a data exchange context and how to achieve it ? And he will be explaining how each aspect of Trust is used in Gaia-X and how is that deployed with the Digital Clearing Houses.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
