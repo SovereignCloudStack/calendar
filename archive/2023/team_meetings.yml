@@ -449,6 +449,7 @@ events:
       except_on:
         - 2022-10-03 11:05:00
         - 2023-04-10 11:05:00
+        - 2023-12-18 11:05:00
   - summary: "SIG Documentation"
     begin: 2022-11-14 11:05:00
     duration:
