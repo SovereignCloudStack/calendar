@@ -658,6 +658,7 @@ events:
       except_on:
         - 2023-03-03 10:05:00
         - 2023-05-19 10:05:00
+        - 2023-12-29 10:05:00
   - summary: "SIG SCS Market"
     begin: 2023-01-12 11:05:00
     duration:
