@@ -10,7 +10,7 @@ include:
   - archive/2023/other.yml
 #  - lightning_talks.yml
   - team_meetings.yml
-#  - onetimes.yml
+  - onetimes.yml
   - other.yml
   - communitycall.yml
   - openops.yml
