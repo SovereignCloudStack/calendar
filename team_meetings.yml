@@ -213,6 +213,8 @@ events:
       interval:
         weeks: 1
       until: 2024-12-22
+      except_on:
+        - 2024-01-18 10:35:00
   - summary: "SIG Central API MVP"
     begin: 2024-01-16 10:05:00
     duration:
