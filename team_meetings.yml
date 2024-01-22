@@ -100,6 +100,8 @@ events:
       interval:
         weeks: 2
       until: 2024-12-20
+      except_on:
+        - 2024-01-22 11:05:00
   - summary: "SIG Documentation"
     begin: 2024-01-15 11:05:00
     duration:
