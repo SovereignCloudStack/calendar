@@ -41,6 +41,8 @@ events:
       interval:
         weeks: 2
       until: 2024-12-22  # required
+      except_on:
+        - 2024-01-24 12:05:00
   - summary: "Open Door Integrator Office Hours"
     begin: 2024-02-01 12:05:00
     duration:
