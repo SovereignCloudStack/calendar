@@ -56,3 +56,5 @@ events:
       interval:
         weeks: 2
       until: 2024-12-22  # required
+      except_on:
+        - 2024-02-15 12:05:00
