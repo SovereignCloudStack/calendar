@@ -7,9 +7,9 @@
     "fkr": "Felix Kronlage-Dammers - fkr[at]osb-alliance.com"
     "kg": "Kurt Garloff -  garloff[at]osb-alliance.com"
     "mu": "Manuela Urban - urban[at]osb-alliance.com"
-    "bhp": "Bianca Hollery-Pfister - hollery[at]osb-alliance.com"
     "fz": "Friederike Zelke - zelke[at]osb-alliance.com"
     "js": "Jan Schoone - schoone[at]osb-alliance.com"
+    "dpa": "Dominik Pataky - pataky[at]osb-alliance.com"
   Except:
     - "2023-05-18"  # Christi Himmelfahrt
     - "2023-03-02"  # Hackathon NBG
@@ -31,3 +31,4 @@
     "2023-06-15": "kg"
     "2023-09-21": "mu"
     "2024-01-11": "fz"
+    "2024-02-29": "js"
