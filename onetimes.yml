@@ -28,3 +28,11 @@ events:
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "SCS Hackathon #4"
+    begin: 2024-04-16 10:00:00
+    duration:
+      minutes: 480
+    description: |
+      We meet as community to develop, think, collect, and hack together. All information here: https://input.scs.community/Hy0HqULMTGeeVIcy0vmBgA
+      Coordinator: Friederike Zelke <zelke[at]osb-alliance.com>
+    location: "GONICUS GmbH, Möhnestraße 55, 59755 Arnsberg, Germany"
