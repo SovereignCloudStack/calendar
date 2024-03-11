@@ -1,0 +1,5 @@
+name: Calendar of SCS community related events for team OPS
+timezone: Europe/Berlin
+include:
+#  - teams/ops/onetimes.yml
+  - teams/ops/team_meetings.yml

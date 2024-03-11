@@ -1,0 +1,5 @@
+name: Calendar of SCS community related events for team SIG central API
+timezone: Europe/Berlin
+include:
+#  - teams/sig_central_api/onetimes.yml
+  - teams/sig_central_api/team_meetings.yml

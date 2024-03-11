@@ -1,0 +1,22 @@
+name: Team SIG Monitoring meetings
+timezone: Europe/Berlin
+
+events:
+  - summary: "SIG Monitoring"
+    begin: 2024-01-19 13:05:00
+    duration:
+      minutes: 50
+    description: |
+      The Special Interest Group (SIG) Monitoring meets on a fortnightly base (alternating with the audit log WG) to discuss the monitoring needs of SCS Operators, Users and Integrators. Together we shape how monitoring and observability within the SCS landscape looks like.
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/sig-monitoring
+      Etherpad: https://input.scs.community/2024-scs-sig-monitoring
+      Matrix channel for SIG related discussion and coordination: https://matrix.to/#/!ToxwzOWTBqSjxRAwuj:matrix.org?via=matrix.org
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Dominik Pataky <pataky[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2024-12-22
