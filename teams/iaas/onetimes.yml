@@ -1,0 +1,30 @@
+name: One-Time Events
+timezone: Europe/Berlin
+
+events:
+  - summary: "IaaS Breakout room - E2EE between OpenStack services in ansible Kolla"
+    begin: 2024-01-12 14:05:00
+    duration:
+      minutes: 50
+    description: |
+      This is a breakout room from the IaaS team focused around #462 epic.
+      We want to discuss the current state of encryption and which services
+      do we want to encrypt and in what way we implement the E2E encryption.
+
+      Github EPIC: https://github.com/SovereignCloudStack/issues/issues/462
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Filip Dobrovolny <filip.dobrovolny[at]dnation.cloud>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "IaaS Breakout room - Migration Requirements for existing Ceph Cluster"
+    begin: 2024-02-05 15:05:00
+    duration:
+      minutes: 50
+    description: |
+      This is a breakout room from the IaaS team focused around #515 and the
+      corresponding requirements for migration of existing ceph clusters.
+      Issue Link: https://github.com/SovereignCloudStack/issues/issues/515
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"

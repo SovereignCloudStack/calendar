@@ -1,0 +1,5 @@
+name: Calendar of SCS community related events for team IaaS
+timezone: Europe/Berlin
+include:
+  - teams/iaas/onetimes.yml
+  - teams/iaas/team_meetings.yml

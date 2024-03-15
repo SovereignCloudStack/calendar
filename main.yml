@@ -14,3 +14,21 @@ include:
   - other.yml
   - communitycall.yml
   - openops.yml
+  - teams/iaas/onetimes.yml
+  - teams/iaas/team_meetings.yml
+#  - teams/iam_n_sec/onetimes.yml
+  - teams/iam_n_sec/team_meetings.yml
+#  - teams/container/onetimes.yml
+  - teams/container/team_meetings.yml
+#  - teams/ops/onetimes.yml
+  - teams/ops/team_meetings.yml
+#  - teams/sig_central_api/onetimes.yml
+  - teams/sig_central_api/team_meetings.yml
+#  - teams/sig_community/onetimes.yml
+  - teams/sig_community/team_meetings.yml
+#  - teams/sig_docs/onetimes.yml
+  - teams/sig_docs/team_meetings.yml
+#  - teams/sig_monitoring/onetimes.yml
+  - teams/sig_monitoring/team_meetings.yml
+#  - teams/sig_standard_cert/onetimes.yml
+  - teams/sig_standard_cert/team_meetings.yml

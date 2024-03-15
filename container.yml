@@ -1,0 +1,5 @@
+name: Calendar of SCS community related events for team Container
+timezone: Europe/Berlin
+include:
+#  - teams/container/onetimes.yml
+  - teams/container/team_meetings.yml

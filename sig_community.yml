@@ -1,0 +1,5 @@
+name: Calendar of SCS community related events for team SIG Community
+timezone: Europe/Berlin
+include:
+#  - teams/sig_community/onetimes.yml
+  - teams/sig_community/team_meetings.yml
