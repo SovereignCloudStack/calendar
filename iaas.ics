@@ -1,0 +1,94 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Berlin
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240112T140500
+DURATION:PT50M
+SUMMARY:IaaS Breakout room - E2EE between OpenStack services in ansible 
+ Kolla
+UID:77db3aa3-21e1-48bb-b4b9-09a653264b5d@77db.org
+DESCRIPTION:This is a breakout room from the IaaS team focused around #462 
+ epic.\nWe want to discuss the current state of encryption and which 
+ services\ndo we want to encrypt and in what way we implement the E2E 
+ encryption.\n\nGithub EPIC: 
+ https://github.com/SovereignCloudStack/issues/issues/462\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Filip Dobrovolny 
+ <filip.dobrovolny[at]dnation.cloud>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20240326T130625Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240205T150500
+DURATION:PT50M
+SUMMARY:IaaS Breakout room - Migration Requirements for existing Ceph 
+ Cluster
+UID:b8cf1061-d50b-4fe8-a88d-94d4c888ad58@b8cf.org
+DESCRIPTION:This is a breakout room from the IaaS team focused around #515 
+ and the\ncorresponding requirements for migration of existing ceph 
+ clusters.\nIssue Link: 
+ https://github.com/SovereignCloudStack/issues/issues/515\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Felix Kronlage-Dammers <fkr[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20240326T130625Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240318T150500
+DURATION:PT50M
+SUMMARY:IaaS Breakout room - Classification of SCS-supported OpenStack 
+ components and services
+UID:81579574-1a45-4bcc-87e7-0ea7f82077eb@8157.org
+DESCRIPTION:See this hedgedoc:\nhttps://input.scs.community/list-of-
+ required-recommended-and-optional-openstack-projects\nIssue Link: 
+ https://github.com/SovereignCloudStack/issues/issues/528\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Kurt Garloff <garloff[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20240326T130625Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240110T100500
+DURATION:PT50M
+SUMMARY:Team IaaS Meeting
+UID:342a6084-f6bf-4bf5-a80f-f3a88c3a7d88@342a.org
+DESCRIPTION:This is our bi-weekly meeting for Team IaaS in which we deep-
+ dive into topics.\nThere is a github issue to which items that need to be 
+ discussed can be added: 
+ https://github.com/SovereignCloudStack/issues/issues/46\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/iaas\nEtherpad: 
+ https://input.scs.community/2023-scs-team-iaas\nMatrix room: 
+ https://matrix.to/#/#scs-iaas:matrix.org\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Felix Kronlage-Dammers <fkr[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20240326T130625Z
+RRULE:FREQ=WEEKLY;UNTIL=20241222T000000
+END:VEVENT
+NAME:Calendar of SCS community related events for team IaaS
+X-WR-CALNAME:Calendar of SCS community related events for team IaaS
+END:VCALENDAR
