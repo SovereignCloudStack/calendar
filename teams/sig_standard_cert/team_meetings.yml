@@ -22,4 +22,4 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2024-03-31
+      until: 2024-09-30
