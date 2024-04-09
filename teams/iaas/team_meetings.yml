@@ -21,3 +21,5 @@ events:
       interval:
         weeks: 1
       until: 2024-12-22
+      except_on:
+        - 2024-05-01 10:05:00
