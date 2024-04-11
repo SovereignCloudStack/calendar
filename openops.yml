@@ -72,7 +72,7 @@ events:
     duration:
       minutes: 60
     description: |
-      Cloud Interconnectivity aims to provide seamless connectivity between clouds, enabling VMs and tenants across different cloud environments to communicate directly via VPN or IXP links. In this meetup Angel and Bozhidar from Daiteap present the Cloud Interconnectivity solution from the SCS project, which approach they choose and why://www.meetup.com/open-operations-meetup/events/
+      Cloud Interconnectivity aims to provide seamless connectivity between clouds, enabling VMs and tenants across different cloud environments to communicate directly via VPN or IXP links. In this meetup Angel and Bozhidar from Daiteap present the Cloud Interconnectivity solution from the SCS project, which approach they choose and why. All information here: //www.meetup.com/open-operations-meetup/events/
     location: "https://conf.scs.koeln:8443/Open-Operations"
 
   - summary: "OpenOps Meetup May'24"
