@@ -72,7 +72,7 @@ events:
     duration:
       minutes: 80
     description: |
-      In this meeting we will have mostly hands-on sessions on our projects.
+      In this meeting, we will mainly be doing hands-on sessions on our projects.
       Everyone is invited to actively participate.
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Coordinator: Jan Schoone <schoone[at]osb-alliance.com>
