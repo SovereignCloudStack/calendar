@@ -67,3 +67,17 @@ events:
         - 2024-04-25 12:05:00
         - 2024-05-09 12:05:00
         - 2024-05-23 12:05:00
+  - summary: "Hacking Session"
+    begin: 2024-05-10 11:35:00
+    duration:
+      minutes: 80
+    description: |
+      In this meeting we will have mostly hands-on sessions on our projects.
+      Everyone is invited to actively participate.
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Coordinator: Jan Schoone <schoone[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 1
+      until: 2024-09-30  # required
