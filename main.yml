@@ -8,7 +8,7 @@ include:
   - archive/2023/team_meetings.yml
   - archive/2023/onetimes.yml
   - archive/2023/other.yml
-#  - lightning_talks.yml
+  - lightning_talks.yml
   - team_meetings.yml
   - onetimes.yml
   - other.yml
@@ -16,7 +16,7 @@ include:
   - openops.yml
   - teams/iaas/onetimes.yml
   - teams/iaas/team_meetings.yml
-#  - teams/iam_n_sec/onetimes.yml
+  - teams/iam_n_sec/onetimes.yml
   - teams/iam_n_sec/team_meetings.yml
 #  - teams/container/onetimes.yml
   - teams/container/team_meetings.yml
