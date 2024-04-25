@@ -2,10 +2,10 @@ name: Lightning Talks
 timezone: Europe/Berlin
 
 events:
-  - summary: "Short presentation of the technical preview of the SCS Status Page"
-    begin: 2024-04-18 15:45:00         # uses default timezone above
+  - summary: "Short presentation of the technical preview of the how is a pentesting in SCS"
+    begin: 2024-04-25 15:45:00         # uses default timezone above
     duration:
       minutes: 15
     description: |
-      A short overview of the now available (as a technical preview) SCS Status Page, the new frontend to our Status API Server.
+      A short overview of how we made automatized pentesting in SCS actually.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
