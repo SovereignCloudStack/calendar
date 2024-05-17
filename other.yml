@@ -28,6 +28,8 @@ events:
       interval:
         weeks: 1
       until: 2024-12-22  # required
+      except_on:
+        - 2024-05-20 15:05:00
   - summary: "Open Door Operator Office Hours"
     begin: 2024-01-11 12:05:00
     duration:
