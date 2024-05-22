@@ -3,7 +3,7 @@ timezone: Europe/Berlin
 
 events:
   - summary: "Breakout Session - Taxonomy of Failsafe Levels/Classes"
-    begin: 2024-05-13 15:05:00
+    begin: 2024-05-23 14:05:00
     duration:
       minutes: 50
     description: |
