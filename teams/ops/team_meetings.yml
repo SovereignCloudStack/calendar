@@ -23,6 +23,8 @@ events:
       interval:
         weeks: 2
       until: 2024-12-22
+      except_on:
+        - 2024-05-30 09:05:00
   - summary: "Team OPS Meeting"
     begin: 2024-01-18 09:05:00
     duration:
