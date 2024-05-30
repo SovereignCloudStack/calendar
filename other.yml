@@ -42,13 +42,14 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2024-12-22  # required
+      until: 2024-05-30  # required
       except_on:
         - 2024-01-24 12:05:00
         - 2024-03-21 12:05:00
         - 2024-04-04 12:05:00
         - 2024-05-02 12:05:00
         - 2024-05-16 12:05:00
+        - 2024-05-30 12:05:00
   - summary: "Open Door Integrator Office Hours"
     begin: 2024-02-01 12:05:00
     duration:
@@ -61,7 +62,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2024-12-22  # required
+      until: 2024-06-06  # required
       except_on:
         - 2024-02-15 12:05:00
         - 2024-03-14 12:05:00
@@ -69,6 +70,7 @@ events:
         - 2024-04-25 12:05:00
         - 2024-05-09 12:05:00
         - 2024-05-23 12:05:00
+        - 2024-06-06 12:05:00
   - summary: "Hacking Session"
     begin: 2024-05-10 11:35:00
     duration:
