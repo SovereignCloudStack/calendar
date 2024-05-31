@@ -85,3 +85,5 @@ events:
       interval:
         weeks: 1
       until: 2024-09-30  # required
+      except_on:
+        - 2024-06-07 11:35:00
