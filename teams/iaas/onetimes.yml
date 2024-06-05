@@ -53,3 +53,16 @@ events:
       Dial-In: +49-221-292772-611
       Coordinator: Patrick Thiem <patrick.thiem[at]cloudandheat.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "IaaS Breakout room - DNS Standardization"
+    begin: 2024-06-17 14:05:00
+    duration:
+      minutes: 50
+    description: |
+      See this hedgedoc:
+      https://input.scs.community/2023-scs-team-iaas#DNS-Standard-markus-hentsch
+      Issue Link: https://github.com/SovereignCloudStack/issues/issues/229
+      PR Link: https://github.com/SovereignCloudStack/standards/pull/570
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
