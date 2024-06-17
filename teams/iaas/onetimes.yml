@@ -54,7 +54,7 @@ events:
       Coordinator: Patrick Thiem <patrick.thiem[at]cloudandheat.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "IaaS Breakout room - DNS Standardization"
-    begin: 2024-06-17 14:05:00
+    begin: 2024-06-24 15:05:00
     duration:
       minutes: 50
     description: |
