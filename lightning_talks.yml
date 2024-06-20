@@ -21,5 +21,6 @@ events:
     duration:
       minutes: 15
     description: |
-      Let's discover the Moin Cluster.
+      In the SCS community we use a Kubernetes cluster called Moin Cluster for dogfooding.
+      Let's discover the Moin Cluster in this Lightning Talk.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
