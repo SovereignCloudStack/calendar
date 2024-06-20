@@ -16,3 +16,10 @@ events:
     description: |
       A short overview of how we made automatized pentesting in SCS actually.
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Overview of the Moin Cluster"
+    begin: 2024-06-27 15:45:00         # uses default timezone above
+    duration:
+      minutes: 15
+    description: |
+      Let's discover the Moin Cluster.
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
