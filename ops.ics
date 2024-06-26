@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Berlin
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240111T090500
+DURATION:PT50M
+SUMMARY:Team OPS Sprint Review/Planning and Refinement
+UID:869e31a6-d2e5-4ada-a427-ae2f772c0fa6@869e.org
+DESCRIPTION:This is our bi-weekly sprint review\, planning and refinement 
+ meeting for Team OPS.\n- Sprint review: Let's look at the stories that 
+ were being worked on and completed.\n- Backlog refinement: Let's look at 
+ the backlog and work on refining the stories such that they can be worked 
+ on.\n- Sprint planning: Let's look at what we can achieve in the next 
+ cycle.\n\nKanban-Board: 
+ https://github.com/orgs/SovereignCloudStack/projects/6/views/8\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/ops\nEtherpad: 
+ https://input.scs.community/2024-scs-team-ops\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Dominik Pataky <pataky[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20240626T121518Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20241222T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20240530T090500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240118T090500
+DURATION:PT50M
+SUMMARY:Team OPS Meeting
+UID:4d434292-5780-4639-b252-6b074750c975@4d43.org
+DESCRIPTION:This is our bi-weekly meeting for Team OPS in which we deep-
+ dive into topics.\nThere is a github issue to which items that need to be 
+ discussed can be added: 
+ https://github.com/SovereignCloudStack/issues/issues/51\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/ops\nEtherpad: 
+ https://input.scs.community/2024-scs-team-ops\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Dominik Pataky <pataky[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20240626T121518Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20241222T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20240509T090500
+END:VEVENT
+NAME:Calendar of SCS community related events for team OPS
+X-WR-CALNAME:Calendar of SCS community related events for team OPS
+END:VCALENDAR
