@@ -24,4 +24,6 @@ events:
         weeks: 2
       until: 2024-09-30
       except_on:
-        - 2024-05-30 14:05:00
+        - 2024-05-30 14:05:00  # public holiday: Fronleichnam
+        - 2024-07-11 14:05:00  # summer pause
+        - 2024-09-05 14:05:00  # EOF event takes precedence
