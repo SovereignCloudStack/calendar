@@ -91,12 +91,12 @@ events:
       We'll continue with Open Operations in 2024! The topic for this meeting will be updated later and published at https://www.meetup.com/open-operations-meetup/events/
     location: "https://conf.scs.koeln:8443/Open-Operations"
 
-  - summary: "OpenOps Meetup July'24"
+  - summary: "OpenOps Meetup July'24: Security Insights: OpenStack and SCS"
     begin: 2024-07-15 15:00:00
     duration:
       minutes: 60
     description: |
-      We'll continue with Open Operations in 2024! The topic for this meeting will be updated later and published at https://www.meetup.com/open-operations-meetup/events/
+      We'll have a closer look into security-related things in OpenStack and SCS! Meetup: https://www.meetup.com/open-operations-meetup/events/301915478/
     location: "https://conf.scs.koeln:8443/Open-Operations"
 
   - summary: "OpenOps Meetup August'24"
