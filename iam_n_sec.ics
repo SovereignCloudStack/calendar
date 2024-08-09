@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Berlin
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240110T113500
+DURATION:PT50M
+SUMMARY:Team IAM and Security Sprint Review/Planning and Refinement
+UID:220c75b7-0783-4092-b305-aaf29c6c9a95@220c.org
+DESCRIPTION:This is our bi-weekly sprint review\, planning and refinement 
+ meeting for Team IAM.\n- Sprint review: Let's look at the stories that 
+ were being worked on and completed.\n- Backlog refinement: Let's look at 
+ the backlog and work on refining the stories such that they can be worked 
+ on.\n- Sprint planning: Let's look at what we can achieve in the next 
+ cycle.\n\nKanban-Board: 
+ https://github.com/orgs/SovereignCloudStack/projects/6/views/27\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/iam\nEtherpad: 
+ https://input.scs.community/2024-scs-team-iam\nMatrix room: 
+ https://matrix.to/#/!WXPYkbcGzyIxFhwIqM:matrix.org?via=matrix.org\nJitsi 
+ server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Kurt Garloff <garloff[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20240809T063748Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20241222T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20240501T113500,20240515T113500,20
+ 240710T113500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240117T113500
+DURATION:PT50M
+SUMMARY:Team IAM and Security Meeting
+UID:7a375a2d-c843-4077-8467-22e4a62ed71a@7a37.org
+DESCRIPTION:This is our bi-weekly meeting for Team IAM in which we deep-
+ dive into topics.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/iam\nEtherpad: 
+ https://input.scs.community/2024-scs-team-iam\nMatrix room: 
+ https://matrix.to/#/!WXPYkbcGzyIxFhwIqM:matrix.org?via=matrix.org\nJitsi 
+ server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Kurt Garloff <garloff[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20240809T063748Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20241222T000000
+END:VEVENT
+NAME:Calendar of SCS community related events for team IAM and Security
+X-WR-CALNAME:Calendar of SCS community related events for team IAM and 
+ Security
+END:VCALENDAR
