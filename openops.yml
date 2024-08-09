@@ -104,7 +104,7 @@ events:
     duration:
       minutes: 60
     description: |
-      We'll continue with Open Operations in 2024! The topic for this meeting will be updated later and published at https://www.meetup.com/open-operations-meetup/events/
+      Sovereign Cloud Stack (SCS) is, as its name suggests, a stack of multiple layers of software. We use IaaS, we use Kubernetes, and then there's tools around. The powerful benefit of using SCS is the aligned composition of all these parts to have one production-ready package. But nevertheless, the original APIs of these layers and tools still exist! To further enhance the operability of SCS, the Central API sub-project was initialized. With combining all "backend" APIs into one "frontend" API, end-users and customers have it much easier to interact with SCS-based installations. In this talk we'll look at the idea, the concepts and the current implementation status of the Central API. Questions and feedback are very welcome!
     location: "https://conf.scs.koeln:8443/Open-Operations"
 
   - summary: "OpenOps Meetup September'24"
