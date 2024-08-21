@@ -16,4 +16,41 @@ events:
       Dial-In: +49-221-292772-611
       Coordinator: Kurt Garloff <garloff@osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "IAM State of the Union"
+    begin: 2024-08-30 11:05:00
+    duration:
+      minutes: 110
+    description: |
+      So we have worked on Identity federation support for years now, with various
+      design workshops and -- what we believed -- good outcomes.
+      Nevertheless we find ourselves confused and in situations where we start
+      questioning the overall design and usefulness of what we've already built.
+      Let's use the time to review what we have designed, what limitations that
+      brings and also what we learned, especially things that may not have worked
+      out. The things that do work should be documented for our users as well as
+      the current limitations due to our implementation or design.
+      IAM stories: https://github.com/orgs/SovereignCloudStack/projects/6/views/27
+      Minutes: https://input.scs.community/202408-iam-review#
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Kurt Garloff <garloff@osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "IAM Way forward"
+    begin: 2024-08-30 14:05:00
+    duration:
+      minutes: 80
+    description: |
+      2nd part of the workshop: So we hopefully have recorded what works and
+      what does not in out current design.
+      What directions can we take. What can be achieved in the next three months?
+      What can we put into a good path going forward (even if we may have more
+      limited implementation bandwidth in 2025)?
+      Are we confident that we have better designs now that we can at least
+      document as a starting point for a community to work on?
+      IAM stories: https://github.com/orgs/SovereignCloudStack/projects/6/views/27
+      Minutes: https://input.scs.community/202408-iam-review#
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Kurt Garloff <garloff@osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
 
