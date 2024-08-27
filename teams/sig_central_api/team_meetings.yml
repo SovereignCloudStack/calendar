@@ -18,7 +18,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2024-08-27
+      until: 2024-08-28
   - summary: "SIG Central API"
     begin: 2024-09-10 10:05:00
     duration:
