@@ -15,7 +15,7 @@ events:
     repeat:
       interval:
         weeks: 4
-      until: 2024-12-22  # required
+      until: 2024-12-22 # required
   - summary: "Blocker: SCS Team Overflow/Replacement Slot"
     begin: 2024-01-08 15:05:00
     duration:
@@ -27,7 +27,7 @@ events:
     repeat:
       interval:
         weeks: 1
-      until: 2024-12-22  # required
+      until: 2024-12-22 # required
       except_on:
         - 2024-05-20 15:05:00
   - summary: "Open Door Operator Office Hours"
@@ -42,7 +42,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2024-05-30  # required
+      until: 2024-05-30 # required
       except_on:
         - 2024-01-24 12:05:00
         - 2024-03-21 12:05:00
@@ -62,7 +62,7 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2024-06-06  # required
+      until: 2024-06-06 # required
       except_on:
         - 2024-02-15 12:05:00
         - 2024-03-14 12:05:00
@@ -84,6 +84,7 @@ events:
     repeat:
       interval:
         weeks: 1
-      until: 2024-09-30  # required
+      until: 2024-09-30 # required
       except_on:
         - 2024-06-07 11:35:00
+        - 2024-08-30 11:35:00
