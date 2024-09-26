@@ -26,6 +26,7 @@ events:
       except_on:
         - 2024-05-30 09:05:00
         - 2024-09-05 09:05:00  # EOF
+        - 2024-10-03 09:05:00  # German Unity Day
   - summary: "Team OPS Meeting"
     begin: 2024-01-18 09:05:00
     duration:
