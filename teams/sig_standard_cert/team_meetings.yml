@@ -51,3 +51,4 @@ events:
       except_on:
         - 2024-10-03 14:05:00  # public holiday: German reunification
         - 2024-10-31 14:05:00  # public holiday: Reformation day
+        - 2024-10-17 14:05:00  # many protagonists not available
