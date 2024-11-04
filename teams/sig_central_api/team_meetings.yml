@@ -35,6 +35,6 @@ events:
     repeat:
       interval:
         weeks: 2
-      until: 2024-12-31
+      until: 2024-11-04
       except_on:
         - 2024-09-24 10:05:00
