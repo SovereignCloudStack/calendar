@@ -32,6 +32,7 @@ events:
         - 2024-09-04 11:35:00
         - 2024-10-16 11:35:00
         - 2024-10-30 11:35:00
+        - 2024-11-13 11:35:00
   - summary: "Team IAM and Security Meeting"
     begin: 2024-01-17 11:35:00
     # UNEVEN WEEKS
