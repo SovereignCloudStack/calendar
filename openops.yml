@@ -114,7 +114,7 @@ events:
     description: |
       We'll continue with Open Operations in 2024! The topic for this meeting will be updated later and published at https://www.meetup.com/open-operations-meetup/events/
     location: "https://conf.scs.koeln:8443/Open-Operations"
-   - summary: "OpenOps Meetup December'24"
+  - summary: "OpenOps Meetup December'24"
     begin: 2024-12-02 15:00:00
     duration:
       minutes: 60
