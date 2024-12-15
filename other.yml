@@ -16,6 +16,8 @@ events:
       interval:
         weeks: 4
       until: 2024-12-22 # required
+      except_on:
+        - 2024-12-16 15:05:00
   - summary: "Blocker: SCS Team Overflow/Replacement Slot"
     begin: 2024-01-08 15:05:00
     duration:
