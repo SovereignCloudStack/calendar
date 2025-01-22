@@ -27,3 +27,20 @@ events:
       except_on:
         - 2024-05-20 14:05:00
         - 2024-07-29 14:05:00
+  - summary: "SCS Project Board"
+    begin: 2025-01-27 14:05:00
+    duration:
+      minutes: 50
+    description: |
+      The SCS Project Board as described in SCS-0005. The SCS Project Board governs the SCS Open Source Project.
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/project-board
+      Etherpad: https://input.scs.community/2025-scs-project-board
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: tbd
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 1
+      until: 2025-12-15
