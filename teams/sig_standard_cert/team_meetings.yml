@@ -76,3 +76,5 @@ events:
       interval:
         weeks: 1
       until: 2025-02-28
+      except_on:
+        - 2025-01-30 14:05:00  # skip this one; MB (and other key people) n/a
