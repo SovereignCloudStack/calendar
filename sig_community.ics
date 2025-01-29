@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Berlin
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240108T110500
+DURATION:PT50M
+SUMMARY:SIG Community
+UID:96e20a54-e50a-4f42-afb1-674612b10926@96e2.org
+DESCRIPTION:The SIG Community is meeting on a bi-weekly basis to work on 
+ various community-related topics\,\ne.g. enhancing overall on-boarding and
+  contribution experience.\n\nKanban-Board: 
+ https://github.com/orgs/SovereignCloudStack/projects/6/views/14\nEtherpad:
+  https://input.scs.community/2023-scs-sig-community\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/sig-
+ community\nJitsi server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Friederike Zelke <zelke[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20250129T162712Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20241220T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20240122T110500,20240401T110500,20
+ 240415T110500,20240624T110500,20240930T110500,20241014T110500,20241111T110
+ 500,20241209T110500
+END:VEVENT
+NAME:Calendar of SCS community related events for team SIG Community
+X-WR-CALNAME:Calendar of SCS community related events for team SIG 
+ Community
+END:VCALENDAR
