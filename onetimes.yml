@@ -10,6 +10,14 @@ events:
       We meet as community to develop, think, collect, and hack together. All information here: https://input.scs.community/Hy0HqULMTGeeVIcy0vmBgA
       Coordinator: Friederike Zelke <zelke[at]osb-alliance.com>
     location: "GONICUS GmbH, Möhnestraße 55, 59755 Arnsberg, Germany"
+  - summary: "SCS Hackathon #5 - 2025"
+    begin: 2024-04-29 12:00:00
+    duration:
+      minutes: 1500
+    description: |
+      We meet as community to develop, think, collect, and hack together. All information here: https://input.scs.community/uKDOOIPFSi-mg8g4h6Bztg
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "Regionales Rechenzentrum Erlangen (RRZE) und NHR@FAU, Martensstraße 1, 91058 Erlangen"
   - summary: "SCS Community Meeting"
     begin: 2025-01-16 15:05:00
     duration:
