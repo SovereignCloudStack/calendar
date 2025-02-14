@@ -3,32 +3,21 @@ timezone: Europe/Berlin
 
 events:
   - summary: "Team Container Meeting"
-    begin: 2024-01-11 10:35:00
+    begin: 2025-02-21 09:05:00
     duration:
       minutes: 50
     description: |
-      This is our weekly meeting for Team Container in which we deep-dive into topics.
+      This is our bi-weekly meeting for Team Container in which we deep-dive into topics.
 
-      Kanban-Board: https://github.com/orgs/SovereignCloudStack/projects/6/views/7
       Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/container
-      Etherpad: https://input.scs.community/2024-scs-team-container
+      Etherpad: https://input.scs.community/2025-scs-team-container
       Matrix room: https://matrix.to/#/!NZpJdPGjAHISXnHUil:matrix.org?via=matrix.org
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
-      Coordinator: Jan Schoone <schoone[at]osb-alliance.com>
+      Coordinator: Matej Feder <matej.feder[at]dnation.cloud>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
     repeat:
       interval:
-        weeks: 1
-      until: 2024-12-22
-      except_on:
-        - 2024-01-18 10:35:00
-        - 2024-03-07 10:35:00
-        - 2024-05-09 10:35:00
-        - 2024-03-28 10:35:00
-        - 2024-09-05 10:35:00
-        - 2024-09-19 10:35:00
-        - 2024-10-03 10:35:00 # German Unity Day
-        - 2024-10-31 10:35:00 # Reformation Day
-        - 2024-12-05 10:35:00
-        - 2024-12-12 10:35:00
+        weeks: 2
+      until: 2025-12-22
+      except_on: []
