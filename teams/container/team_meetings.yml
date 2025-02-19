@@ -20,4 +20,3 @@ events:
       interval:
         weeks: 2
       until: 2025-12-22
-      except_on: []
