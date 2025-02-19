@@ -91,3 +91,16 @@ events:
         - 2024-06-07 11:35:00
         - 2024-08-30 11:35:00
         - 2024-09-06 11:35:00
+  - summary: "Office Hours - for SCS Community & Forum SCS-Standards"
+    begin: 2025-02-11 09:05:00
+    duration:
+      minutes: 50
+    description: |
+      Office hours for SCS Community & Forum SCS-Standards members. Feel invited to join to discuss SCS and related matters.
+      https://opentalk.mailbox.org/room/38941461-325e-4d0b-a731-c7ffbe4a3c16?invite=8faa2f09-354e-49fd-92d3-941f34e71fa9
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://opentalk.mailbox.org/room/38941461-325e-4d0b-a731-c7ffbe4a3c16?invite=8faa2f09-354e-49fd-92d3-941f34e71fa9"
+    repeat:
+      interval:
+        weeks: 1
+      until: 2025-06-24 # required
