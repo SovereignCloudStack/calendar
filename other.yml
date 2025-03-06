@@ -104,6 +104,9 @@ events:
       interval:
         weeks: 1
       until: 2025-06-24 # required
+      except_on:
+        - 2025-03-11 09:05:00
+        - 2025-03-25 09:05:00
   - summary: "Lean SCS Operator Coffee"
     begin: 2025-03-06 10:05:00
     duration:
