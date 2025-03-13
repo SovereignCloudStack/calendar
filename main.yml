@@ -32,3 +32,5 @@ include:
   - teams/sig_monitoring/team_meetings.yml
   - teams/sig_standard_cert/onetimes.yml
   - teams/sig_standard_cert/team_meetings.yml
+#  - teams/ops_sec_iam/onetimes.yml
+  - teams/ops_sec_iam/team_meetings.yml
