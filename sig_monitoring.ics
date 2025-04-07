@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Berlin
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240119T130500
+DURATION:PT50M
+SUMMARY:SIG Monitoring
+UID:a9572176-e463-43cc-8a2c-5d10646233cb@a957.org
+DESCRIPTION:The Special Interest Group (SIG) Monitoring meets on a 
+ fortnightly base (alternating with the audit log WG) to discuss the 
+ monitoring needs of SCS Operators\, Users and Integrators. Together we 
+ shape how monitoring and observability within the SCS landscape looks 
+ like.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/sig-
+ monitoring\nEtherpad: https://input.scs.community/2024-scs-sig-
+ monitoring\nMatrix channel for SIG related discussion and coordination: 
+ https://matrix.to/#/!ToxwzOWTBqSjxRAwuj:matrix.org?via=matrix.org\nJitsi 
+ server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Dominik Pataky <pataky[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20250407T211446Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20240320T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240405T130500
+DURATION:PT50M
+SUMMARY:SIG Monitoring
+UID:138b37e7-4ba5-4eff-a2d8-fa3dfcbe0c1e@138b.org
+DESCRIPTION:The Special Interest Group (SIG) Monitoring meets on a 
+ fortnightly base (alternating with the audit log WG) to discuss the 
+ monitoring needs of SCS Operators\, Users and Integrators. Together we 
+ shape how monitoring and observability within the SCS landscape looks 
+ like.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/sig-
+ monitoring\nEtherpad: https://input.scs.community/2024-scs-sig-
+ monitoring\nMatrix channel for SIG related discussion and coordination: 
+ https://matrix.to/#/!ToxwzOWTBqSjxRAwuj:matrix.org?via=matrix.org\nJitsi 
+ server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Dominik Pataky <pataky[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20250407T211446Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20240930T000000
+END:VEVENT
+NAME:Calendar of SCS community related events for team SIG Monitoring
+X-WR-CALNAME:Calendar of SCS community related events for team SIG 
+ Monitoring
+END:VCALENDAR
