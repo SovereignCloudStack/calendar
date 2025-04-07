@@ -107,6 +107,7 @@ events:
       except_on:
         - 2025-03-11 09:05:00
         - 2025-03-25 09:05:00
+        - 2025-04-15 09:05:00
   - summary: "Lean SCS Operator Coffee"
     begin: 2025-03-06 10:05:00
     duration:
