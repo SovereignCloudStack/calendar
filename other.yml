@@ -122,6 +122,8 @@ events:
       interval:
         weeks: 4
       until: 2025-06-27 # required
+      except_on:
+        - 2025-05-01 10:05:00
   - summary: "SCS Community Meeting"
     begin: 2025-03-21 11:05:00
     duration:
