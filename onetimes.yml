@@ -52,7 +52,7 @@ events:
       Coordinator: Felix Kronlage-Dammers - fkr[at]osb-alliance.com
     location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "SCS Community Meeting"
-    begin: 2025-04-25 11:05:00
+    begin: 2025-04-25 10:05:00
     duration:
       minutes: 50
     description: |
