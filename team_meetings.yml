@@ -45,5 +45,6 @@ events:
         weeks: 1
       until: 2025-12-15
       except_on:
-        - 2025-04-14 14:05:00
-        - 2025-04-21 14:05:00
+        - 2025-04-14 14:05:00 # Vacation time
+        - 2025-04-21 14:05:00 # Easter Monday
+        - 2025-04-28 14:05:00 # Before the Hackathon #5
