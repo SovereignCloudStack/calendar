@@ -1,0 +1,114 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Berlin
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240111T140500
+DURATION:PT50M
+SUMMARY:SIG Standardization/Certification
+UID:3c82c665-a3fa-4ec5-8af4-f9a587e9d26d@3c82.org
+DESCRIPTION:In this Special Interest Group\, we discuss and align our 
+ activities and approach to standardization and certification. That is to 
+ say\, we devise and refine the relevant concepts and processes\; we work 
+ on a roadmap for new certificate versions\; and we align on which 
+ standards are desireable for each certificate subject. We then work with 
+ the teams to align on existing or new standards.\n\nBesides aspects of 
+ openness and sovereignty\, the main goal of our standards is 
+ interoperability. We should take the user perspective: As a member of a 
+ DevOps team developing a service (think SaaS or PaaS) for SCS\, I need 
+ XYZ. Every standard should be abstract enough to work regardless of the 
+ SCS reference implementation.\n\nThis SIG is a joint effort by SCS and 
+ ALASCA.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/sig-
+ standardization\nEtherpad: https://input.scs.community/2024-scs-sig-
+ standardization\nJitsi server on https://conf.scs.koeln:8443/SCS-
+ Tech\nDial-In: +49-221-292772-611\nCoordinator: Matthias Büchse 
+ <matthias.buechse[at]cloudandheat.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20250512T071053Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20240920T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20240530T140500,20240711T140500,20
+ 240905T140500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240926T140500
+DURATION:PT50M
+SUMMARY:SIG Standardization/Certification
+UID:9cc28644-b192-4c54-8b7c-785aec059aa7@9cc2.org
+DESCRIPTION:In this Special Interest Group\, we discuss and align our 
+ activities and approach to standardization and certification. That is to 
+ say\, we devise and refine the relevant concepts and processes\; we work 
+ on a roadmap for new certificate versions\; and we align on which 
+ standards are desireable for each certificate subject. We then work with 
+ the teams to align on existing or new standards.\n\nBesides aspects of 
+ openness and sovereignty\, the main goal of our standards is 
+ interoperability. We should take the user perspective: As a member of a 
+ DevOps team developing a service (think SaaS or PaaS) for SCS\, I need 
+ XYZ. Every standard should be abstract enough to work regardless of the 
+ SCS reference implementation.\n\nThis SIG is a joint effort by SCS and 
+ ALASCA.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/sig-
+ standardization\nEtherpad: https://input.scs.community/2024-scs-sig-
+ standardization\nJitsi server on https://conf.scs.koeln:8443/SCS-
+ Tech\nDial-In: +49-221-292772-611\nCoordinator: Matthias Büchse 
+ <matthias.buechse[at]cloudandheat.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20250512T071053Z
+RRULE:FREQ=WEEKLY;UNTIL=20241220T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20241003T140500,20241017T140500,20
+ 241031T140500,20241128T140500,20241205T140500,20241212T140500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20250123T140500
+DURATION:PT50M
+SUMMARY:SIG Standardization/Certification
+UID:b9fb937f-e570-4926-a200-7cca7f14bcb4@b9fb.org
+DESCRIPTION:In this Special Interest Group\, we discuss and align our 
+ activities and approach to standardization and certification. That is to 
+ say\, we devise and refine the relevant concepts and processes\; we work 
+ on a roadmap for new certificate versions\; and we align on which 
+ standards are desireable for each certificate subject. We then work with 
+ the teams to align on existing or new standards.\n\nBesides aspects of 
+ openness and sovereignty\, the main goal of our standards is 
+ interoperability. We should take the user perspective: As a member of a 
+ DevOps team developing a service (think SaaS or PaaS) for SCS\, I need 
+ XYZ. Every standard should be abstract enough to work regardless of the 
+ SCS reference implementation.\n\nThis SIG is a joint effort by SCS and 
+ ALASCA.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/sig-
+ standardization\nEtherpad: https://input.scs.community/2025-scs-sig-
+ standardization\nJitsi server on https://conf.scs.koeln:8443/SCS-
+ Tech\nDial-In: +49-221-292772-611\nCoordinator: Matthias Büchse 
+ <matthias.buechse[at]cloudandheat.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20250512T071053Z
+RRULE:FREQ=WEEKLY;UNTIL=20251219T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20250130T140500,20250227T140500,20
+ 250313T140500,20250327T140500,20250417T140500,20250424T140500,20250501T140
+ 500
+END:VEVENT
+NAME:Calendar of SCS community related events for team SIG 
+ Standardization/Certification
+X-WR-CALNAME:Calendar of SCS community related events for team SIG 
+ Standardization/Certification
+END:VCALENDAR
