@@ -125,6 +125,7 @@ events:
       until: 2025-06-27 # required
       except_on:
         - 2025-05-01 10:05:00
+        - 2025-05-29 11:05:00 # public holiday in Germany. 12th of June is the replacement.
   - summary: "SCS Community Meeting"
     begin: 2025-03-21 11:05:00
     duration:
