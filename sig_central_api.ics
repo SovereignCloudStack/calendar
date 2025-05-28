@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Berlin
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240116T100500
+DURATION:PT50M
+SUMMARY:SIG Central API MVP
+UID:97ecb031-370b-4613-826b-90b8bdbd1023@97ec.org
+DESCRIPTION:This is the bi-weekly meeting for the SIG Central API to 
+ discuss the architecture and development of the Central API 
+ MVP.\n\nEtherpad: https://input.scs.community/2024-scs-sig-central-
+ api\nJitsi server on https://conf.scs.koeln:8443/SCS-Tech\nMatrix room: 
+ https://matrix.to/#/#scs-api-minihackathon:matrix.org\nDial-In: 
+ +49-221-292772-611\nCoordinator: Oliver Kautz\, Joshua Muehlfort
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20250528T071126Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20240828T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240910T100500
+DURATION:PT50M
+SUMMARY:SIG Central API
+UID:5ee557ba-2e0c-4640-b236-1268e70c3fc7@5ee5.org
+DESCRIPTION:This is the bi-weekly meeting for the SIG Central API to 
+ discuss the architecture and development of the Central API.\n\nEtherpad: 
+ https://input.scs.community/2024-scs-sig-central-api\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nMatrix room: 
+ https://matrix.to/#/#scs-api-minihackathon:matrix.org\nDial-In: 
+ +49-221-292772-611\nCoordinator: Oliver Kautz\, Joshua Muehlfort
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20250528T071126Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20241104T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20240924T100500
+END:VEVENT
+NAME:Calendar of SCS community related events for team SIG central API
+X-WR-CALNAME:Calendar of SCS community related events for team SIG central 
+ API
+END:VCALENDAR
