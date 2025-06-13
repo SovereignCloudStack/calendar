@@ -83,3 +83,10 @@ events:
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "SCS Summit 2025"
+    begin: 2025-09-24 12:00:00
+    duration:
+      minutes: 360
+    description: |
+      The SCS Summit - The yearly SCS conference
+    location: "Palisa, Palisadenstrasse 48, 10243 Berlin"
