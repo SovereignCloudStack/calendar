@@ -1,0 +1,101 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Berlin
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240111T090500
+DURATION:PT50M
+SUMMARY:Team OPS Sprint Review/Planning and Refinement
+UID:dee381e0-15f8-443c-a10f-1097e04b2d49@dee3.org
+DESCRIPTION:This is our bi-weekly sprint review\, planning and refinement 
+ meeting for Team OPS.\n- Sprint review: Let's look at the stories that 
+ were being worked on and completed.\n- Backlog refinement: Let's look at 
+ the backlog and work on refining the stories such that they can be worked 
+ on.\n- Sprint planning: Let's look at what we can achieve in the next 
+ cycle.\n\nKanban-Board: 
+ https://github.com/orgs/SovereignCloudStack/projects/6/views/8\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/ops\nEtherpad: 
+ https://input.scs.community/2024-scs-team-ops\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Dominik Pataky <pataky[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20250617T105433Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20241104T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20240530T090500,20240905T090500,20
+ 241003T090500,20241017T090500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240118T090500
+DURATION:PT50M
+SUMMARY:Team OPS Meeting
+UID:2797b0a0-6013-4165-9447-1dbeb0a2b2ae@2797.org
+DESCRIPTION:This is our bi-weekly meeting for Team OPS in which we deep-
+ dive into topics.\nThere is a github issue to which items that need to be 
+ discussed can be added: 
+ https://github.com/SovereignCloudStack/issues/issues/51\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/ops\nEtherpad: 
+ https://input.scs.community/2024-scs-team-ops\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Dominik Pataky <pataky[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20250617T105433Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20241104T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20240509T090500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20241107T090500
+DURATION:PT50M
+SUMMARY:Team OPS Meeting
+UID:c4fee684-82cf-4ea6-b338-9824307d9f26@c4fe.org
+DESCRIPTION:This is our bi-weekly meeting for Team OPS in which we deep-
+ dive into topics.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/ops\nEtherpad: 
+ https://input.scs.community/2024-scs-team-ops\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Jan Schoone <schoone[at]osb-alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20250617T105433Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20241222T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20241205T090500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20241114T090500
+DURATION:PT50M
+SUMMARY:Team OPS Meeting
+UID:8dfc94e0-36ff-4d1b-b270-3a1c6fc63d3f@8dfc.org
+DESCRIPTION:This is our bi-weekly meeting for Team OPS in which we deep-
+ dive into topics.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/ops\nEtherpad: 
+ https://input.scs.community/2024-scs-team-ops\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Kurt Garloff <garloff[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20250617T105433Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20241222T000000
+END:VEVENT
+NAME:Calendar of SCS community related events for team OPS
+X-WR-CALNAME:Calendar of SCS community related events for team OPS
+END:VCALENDAR
