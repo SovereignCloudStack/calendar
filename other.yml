@@ -124,7 +124,7 @@ events:
     repeat:
       interval:
         weeks: 4
-      until: 2025-06-27 # required
+      until: 2025-12-19 # required
       except_on:
         - 2025-05-01 10:05:00
         - 2025-05-29 10:05:00 # public holiday in Germany. 12th of June is the replacement.
