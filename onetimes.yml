@@ -84,9 +84,20 @@ events:
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "SCS Summit 2025"
-    begin: 2025-09-24 12:00:00
+    begin: 2025-09-24 09:00:00
     duration:
-      minutes: 360
+      minutes: 780
     description: |
-      The SCS Summit - The yearly SCS conference
+      It’s that time again – the SCS Summit 2025 is just around the corner, and I’m excited to invite you to join us on September 24, 2025, in Berlin!
+      
+      Guided by the theme “Standardization. Collaboration. Continuity.”, we’ll be hosting our 3rd annual summit. It’s the key gathering of the Sovereign Cloud Stack community – bringing together developers, practitioners, public sector representatives, researchers, and community leads to exchange ideas and shape the future of interoperable cloud infrastructure in the context of digital sovereignty. Get ready for exciting sessions, tasty food, a relaxed vibe – and lots of time to connect and chat.
+      
+      All event details can be found HERE: https://sovereigncloudstack.org/summit2025/
+      Reserve your free ticket HERE: https://events.sovereigncloudstack.org/scs-summit-2025/
+      
+      Interested in contributing to the program? Our Call for Papers is open until August 1, 2025 – we’d love to hear from you! Additional information is available on the event page as well.
+      
+      If you have any questions about the summit, feel free to reach out to Lisa Seifert (seifert[at]osb-alliance.com) directly.
+      
+      We’re looking forward to seeing you in Berlin!
     location: "Palisa, Palisadenstrasse 48, 10243 Berlin"
