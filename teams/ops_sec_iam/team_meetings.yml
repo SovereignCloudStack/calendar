@@ -20,5 +20,5 @@ events:
       interval:
         weeks: 2
       until: 2025-12-19
-    except_on:
-      - 2025-07-04 09:05:00 # Unavailable
+      except_on:
+        - 2025-07-04 09:05:00 # Unavailable
