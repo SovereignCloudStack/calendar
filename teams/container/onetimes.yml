@@ -2,3 +2,20 @@ name: One-Time Events
 timezone: Europe/Berlin
 
 events:
+  - summary: "Container Hacking Session"
+    begin: 2025-07-18 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      Hacking Session to:
+        * Finalize the --update-dependencies change
+          [CSO PR#296](https://github.com/SovereignCloudStack/cluster-stack-operator/pull/296)
+        * Work on scs2 cluster stacks
+          [CS PR#225](https://github.com/SovereignCloudStack/cluster-stacks/pull/225)
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/container
+      Etherpad: https://input.scs.community/2025-scs-team-container
+      Matrix room: https://matrix.to/#/!NZpJdPGjAHISXnHUil:matrix.org?via=matrix.org
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Coordinator: Jan Schoone <jan[dot]schoone[at]uhurutec[dot]com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
