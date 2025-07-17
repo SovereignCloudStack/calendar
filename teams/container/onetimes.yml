@@ -1,4 +1,4 @@
-name: One-Time Events
+name: One-Time Events Container Team
 timezone: Europe/Berlin
 
 events:
@@ -6,6 +6,7 @@ events:
     begin: 2025-07-18 10:05:00
     duration:
       minutes: 50
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
     description: |
       Hacking Session to:
         * Finalize the --update-dependencies change
@@ -18,4 +19,3 @@ events:
       Matrix room: https://matrix.to/#/!NZpJdPGjAHISXnHUil:matrix.org?via=matrix.org
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Coordinator: Jan Schoone <jan[dot]schoone[at]uhurutec[dot]com>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"

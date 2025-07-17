@@ -18,7 +18,7 @@ include:
   - teams/iaas/team_meetings.yml
   - teams/iam_n_sec/onetimes.yml
   - teams/iam_n_sec/team_meetings.yml
-#  - teams/container/onetimes.yml
+  - teams/container/onetimes.yml
   - teams/container/team_meetings.yml
 #  - teams/ops/onetimes.yml
   - teams/ops/team_meetings.yml
