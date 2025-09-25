@@ -104,7 +104,7 @@ events:
       Etherpad: https://input.scs.community/2025-scs-sig-standardization
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
-      Coordinator: Matthias Büchse <matthias.buechse[at]cloudandheat.com>
+      Coordinator: Matthias Büchse <matthias.buechse[at]alasca.cloud>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
     repeat:
       interval:
