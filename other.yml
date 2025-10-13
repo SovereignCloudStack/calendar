@@ -146,3 +146,4 @@ events:
       except_on:
         - 2025-04-18 11:05:00
         - 2025-10-03 11:05:00  # Public Holiday in Germany
+        - 2025-10-31 11:05:00  # Public Holiday in parts of Germany
