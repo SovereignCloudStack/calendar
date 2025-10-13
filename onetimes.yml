@@ -144,3 +144,16 @@ events:
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers - fkr[at]osb-alliance.com
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "SCS Connect - Supporting IPv6 Connectivity in OpenStack"
+    begin: 2025-11-20 15:00:00
+    duration:
+      minutes: 60
+    description: |
+      SCS Connect is our webinar series all about SCS – featuring exciting topics from technical insights and practical applications to certification guidance. The webinars are open to everyone and include time for questions and discussion.
+      
+      In this online webinar, Freerk will show how to implement IPv6 connectivity in OpenStack environments, explain the benefits of IPv6, and talk about the challenges regional cloud providers face when assigning public IPv6 addresses and setting up dynamic routing for tenant networks. He’ll also share practical solutions using Neutron Subnet Pools and Neutron Dynamic Routing (BGP). The session is mainly aimed at Cloud Service Providers (CSPs) and operators of OpenStack or SCS reference implementations.
+      
+      To participate, please register here for free: https://events.sovereigncloudstack.org/SCSConnect/
+      
+      Speaker: Freerk-Ole Zakfeld, Head of Cloud Operations at ScaleUp Technologies
+    location: "Online webinar"
