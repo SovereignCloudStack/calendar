@@ -157,3 +157,13 @@ events:
       
       Speaker: Freerk-Ole Zakfeld, Head of Cloud Operations at ScaleUp Technologies
     location: "Online webinar"
+  - summary: "Lean SCS Operator Coffee"
+    begin: 2025-11-20 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      This format offers a place where SCS operators can meet and discuss operating SCS with the various topics around that.
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers - fkr[at]osb-alliance.com
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
