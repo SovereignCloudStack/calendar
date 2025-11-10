@@ -1,0 +1,177 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Berlin
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20221202T110500
+DURATION:PT50M
+SUMMARY:Regular Open Operations meeting
+UID:36cda4f2-e007-4e8f-a54b-39052941ee82@36cd.org
+DESCRIPTION:The Open Operations Community meets on a weekly basis to foster
+  a thriving community around Open Operations. Feel free to join us during 
+ this open meeting.\n\nJitsi server on https://conf.scs.koeln:8443/Open-
+ Operations\nMinutes: https://github.com/SovereignCloudStack/minutes/tree/m
+ ain/openops\nEtherpad: https://input.osb-alliance.de/p/open-
+ operations\nRepository: https://github.com/SovereignCloudStack/open-
+ operations-manifesto
+LOCATION:https://conf.scs.koeln:8443/Open-Operations
+DTSTAMP:20251110T134310Z
+RRULE:FREQ=WEEKLY;UNTIL=20221209T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20230123T150500
+DURATION:PT50M
+SUMMARY:Regular Open Operations meeting
+UID:9fedb870-0a7b-4b00-b080-2932b04148e1@9fed.org
+DESCRIPTION:The Open Operations Community meets on a monthly basis to 
+ foster a thriving community around Open Operations. Feel free to join us 
+ during this open meeting.\n\nJitsi video conf server on 
+ https://conf.scs.koeln:8443/Open-Operations\nDial-In via 
+ +49-221-292772-613\nMinutes: https://github.com/SovereignCloudStack/minute
+ s/tree/main/openops\nEtherpad: https://input.scs.community/Open-
+ Operations\nRepository: https://github.com/SovereignCloudStack/open-
+ operations-manifesto
+LOCATION:https://conf.scs.koeln:8443/Open-Operations
+DTSTAMP:20251110T134310Z
+RRULE:FREQ=WEEKLY;INTERVAL=4;UNTIL=20231222T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20230501T150500,20230904T150500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20230904T150000
+DURATION:PT1H
+SUMMARY:OpenOps Meetup: Power Outage in your DC?
+UID:480a4ba4-c168-4469-b7d3-68b5f9bf02ea@480a.org
+DESCRIPTION:https://www.meetup.com/open-operations-
+ meetup/events/295367760/\n\nWith our first meetup we want to enter 
+ directly the world of cloud\noperations and making it transparent: 
+ Christian from OSISM and Julian from\nJH-Computing tell us how they dealt 
+ with a power outage and how they found\nproper solutions.\n\nIn the second
+  part of the meetup there will be plenty of time for your experience!
+LOCATION:https://conf.scs.koeln:8443/Open-Operations
+DTSTAMP:20251110T134310Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20231002T150000
+DURATION:PT1H
+SUMMARY:OpenOps Meetup: Cloud Operation Platform - CLOPS
+UID:ddfdaae9-9e11-48fc-af71-1d2c0559d746@ddfd.org
+DESCRIPTION:https://www.meetup.com/open-operations-
+ meetup/events/296182178/\n\nWhat does it take to run Kubernetes clusters? 
+ What tools should be integrated? How should they be coordinated?\n\nWe 
+ answer these questions and show insights into the CLOPS platform - Cloud 
+ Operations Platform - automated roll-out\, all necessary tools 
+ integrated\, usable even for complex cluster architectures. And everything
+  is open-source!\n\nIn the second part of the meetup there will be plenty 
+ of time for your experience!
+LOCATION:https://conf.scs.koeln:8443/Open-Operations
+DTSTAMP:20251110T134310Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240422T150000
+DURATION:PT1H
+SUMMARY:OpenOps Meetup April'24
+UID:2124fa61-e0f5-4d4e-a0d3-7b0a9f860ede@2124.org
+DESCRIPTION:Cloud Interconnectivity aims to provide seamless connectivity 
+ between clouds\, enabling VMs and tenants across different cloud 
+ environments to communicate directly via VPN or IXP links. In this meetup 
+ Angel and Bozhidar from Daiteap present the Cloud Interconnectivity 
+ solution from the SCS project\, which approach they choose and why. All 
+ information here: //www.meetup.com/open-operations-meetup/events/
+LOCATION:https://conf.scs.koeln:8443/Open-Operations
+DTSTAMP:20251110T134310Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240527T150000
+DURATION:PT1H
+SUMMARY:OpenOps Meetup May'24
+UID:b02a84ae-259b-4b99-b88d-53c37e3f3a56@b02a.org
+DESCRIPTION:We'll continue with Open Operations in 2024! The topic for this
+  meeting will be updated later and published at 
+ https://www.meetup.com/open-operations-meetup/events/
+LOCATION:https://conf.scs.koeln:8443/Open-Operations
+DTSTAMP:20251110T134310Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240617T150000
+DURATION:PT1H
+SUMMARY:OpenOps Meetup June'24
+UID:e53d7fd3-681c-4453-a2e0-bbb46f7d3cb6@e53d.org
+DESCRIPTION:We'll continue with Open Operations in 2024! The topic for this
+  meeting will be updated later and published at 
+ https://www.meetup.com/open-operations-meetup/events/
+LOCATION:https://conf.scs.koeln:8443/Open-Operations
+DTSTAMP:20251110T134310Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240715T150000
+DURATION:PT1H
+SUMMARY:OpenOps Meetup July'24: Security Insights: OpenStack and SCS
+UID:756d0415-457e-4dec-ac65-d4c2381ba4c8@756d.org
+DESCRIPTION:We'll have a closer look into security-related things in 
+ OpenStack and SCS! Meetup: https://www.meetup.com/open-operations-
+ meetup/events/301915478/
+LOCATION:https://conf.scs.koeln:8443/Open-Operations
+DTSTAMP:20251110T134310Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240812T150000
+DURATION:PT1H
+SUMMARY:OpenOps Meetup August'24
+UID:6cd120af-7a4c-4877-b1ff-c8d38bceb79e@6cd1.org
+DESCRIPTION:Sovereign Cloud Stack (SCS) is\, as its name suggests\, a stack
+  of multiple layers of software. We use IaaS\, we use Kubernetes\, and 
+ then there's tools around. The powerful benefit of using SCS is the 
+ aligned composition of all these parts to have one production-ready 
+ package. But nevertheless\, the original APIs of these layers and tools 
+ still exist! To further enhance the operability of SCS\, the Central API 
+ sub-project was initialized. With combining all "backend" APIs into one 
+ "frontend" API\, end-users and customers have it much easier to interact 
+ with SCS-based installations. In this talk we'll look at the idea\, the 
+ concepts and the current implementation status of the Central API. 
+ Questions and feedback are very welcome!
+LOCATION:https://conf.scs.koeln:8443/Open-Operations
+DTSTAMP:20251110T134310Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20240909T150000
+DURATION:PT1H
+SUMMARY:OpenOps Meetup September'24
+UID:edf402ea-b52c-44cf-8953-6b82123aaee2@edf4.org
+DESCRIPTION:We'll continue with Open Operations in 2024! The topic for this
+  meeting will be updated later and published at 
+ https://www.meetup.com/open-operations-meetup/events/
+LOCATION:https://conf.scs.koeln:8443/Open-Operations
+DTSTAMP:20251110T134310Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20241202T150000
+DURATION:PT1H
+SUMMARY:OpenOps Meetup December'24
+UID:9e3eb677-440c-43f8-9915-a3922f673f3a@9e3e.org
+DESCRIPTION:Open and transparent Operations with the SCS Status Page
+LOCATION:https://conf.scs.koeln:8443/Open-Operations
+DTSTAMP:20251110T134310Z
+END:VEVENT
+NAME:Open Operations meetings
+X-WR-CALNAME:Open Operations meetings
+END:VCALENDAR
