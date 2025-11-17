@@ -172,7 +172,7 @@ events:
     duration:
       minutes: 50
     description: |
-      The monthly meeting for the broader SCS community. Everyone is welcome - bring your questions, stories, ideas! This is the replacement date for the one we skip on easter friday.
+      The monthly meeting for the broader SCS community. Everyone is welcome - bring your questions, stories, ideas! This is the replacement date for the one we skipped on 2025-11-28.
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Dial-In: +49-221-292772-611
   - summary: "Bug Squashing Fest"
