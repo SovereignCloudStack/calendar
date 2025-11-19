@@ -66,3 +66,14 @@ events:
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Reviving the monthly Team IaaS call"
+    begin: 2025-12-03 14:05:00
+    duration:
+      minutes: 30
+    description: |
+      We should discuss if there is currently enough input and interest to
+      revive the monthly Team IaaS calls.
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Jan Klare <klare[at]osism.tech>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
