@@ -157,6 +157,17 @@ events:
       
       Speaker: Freerk-Ole Zakfeld, Head of Cloud Operations at ScaleUp Technologies
     location: "Online webinar"
+  - summary: "SCS Connect - Sovereign AI - Customize, Host & Manage Secure AI Infrastructure on SCS Cloud"
+    begin: 2025-12-10 11:00:00
+    duration:
+      minutes: 60
+    description: |
+      As organizations demand greater control, compliance, and data sovereignty over their AI workloads, building and operating sovereign AI infrastructure has become a strategic imperative. In this webcast, Christian takes you behind the scenes of how they design, host, manage, and deploy fully sovereign AI infrastructure on top of their SCS Cloud — ensuring data residency, regulatory compliance, and operational autonomy without sacrificing performance or scalability.
+
+      To participate, please register here for free: https://events.sovereigncloudstack.org/SCSConnect-2/
+
+      Speaker: Christian Schwaller, Chief Sales Officer at artcodix GmbH
+    location: "Online webinar"
   - summary: "Lean SCS Operator Coffee"
     begin: 2025-11-20 10:05:00
     duration:
