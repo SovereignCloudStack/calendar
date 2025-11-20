@@ -178,3 +178,20 @@ events:
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers - fkr[at]osb-alliance.com
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "SCS Community Meeting"
+    begin: 2025-12-05 11:05:00
+    duration:
+      minutes: 50
+    description: |
+      The monthly meeting for the broader SCS community. Everyone is welcome - bring your questions, stories, ideas! This is the replacement date for the one we skipped on 2025-11-28.
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+  - summary: "Bug Squashing Fest"
+    begin: 2025-11-18 11:05:00
+    duration:
+      minutes: 240
+    description: |
+      Bug Squashing Fest for SIG Std/Crt. Everyone who actively wants to work on minimize the amount of open issues and PRs is welcome!
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Coordinator: Felix Kronlage-Dammers - fkr[at]osb-alliance.com
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
