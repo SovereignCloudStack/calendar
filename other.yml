@@ -149,3 +149,31 @@ events:
         - 2025-10-03 11:05:00  # Public Holiday in Germany
         - 2025-10-31 11:05:00  # Public Holiday in parts of Germany
         - 2025-11-28 11:05:00  # Moved to December
+  - summary: "SCS Community Meeting"
+    begin: 2026-01-23 11:05:00
+    duration:
+      minutes: 50
+    description: |
+      The monthly meeting for the broader SCS community. Everyone is welcome - bring your questions, stories, ideas!
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: The SCS Project Board - <project-board[at]lists.scs.community>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 4
+      until: 2026-12-18 # required
+  - summary: "Lean SCS Operator Coffee"
+    begin: 2026-01-08 10:05:00
+    duration:
+      minutes: 50
+    description: |
+      This format offers a place where SCS operators can meet and discuss operating SCS with the various topics around that.
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 4
+      until: 2026-12-18 # required
