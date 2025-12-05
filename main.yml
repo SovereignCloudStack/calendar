@@ -4,7 +4,6 @@ include:
   - team_meetings.yml
   - onetimes.yml
   - other.yml
-  - openops.yml
   - teams/iaas/onetimes.yml
   - teams/iaas/team_meetings.yml
   - teams/container/onetimes.yml
