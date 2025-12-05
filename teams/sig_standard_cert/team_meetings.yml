@@ -113,6 +113,7 @@ events:
       except_on:
         - 2025-10-28 10:05:00  # too many people won't make it
         - 2025-11-04 10:05:00  # ALASCA Summit 2025
+        - 2025-12-09 10:05:00  # too many people won't make it
   - summary: "SIG Standardization/Certification"
     begin: 2026-01-15 14:05:00
     duration:
