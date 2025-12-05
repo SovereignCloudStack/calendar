@@ -4,6 +4,7 @@ timezone: Europe/Berlin
 events:
   - summary: "Container Hacking Session"
     begin: 2025-07-18 10:05:00
+    uid: container-hacking-session-2025-07-18@docs.scs.community
     duration:
       minutes: 50
     location: "https://conf.scs.koeln:8443/SCS-Tech"

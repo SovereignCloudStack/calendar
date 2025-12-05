@@ -5,7 +5,7 @@ include:
   - onetimes.yml
   - other.yml
   - teams/iaas/onetimes.yml
-  - teams/iaas/team_meetings.yml
+#  - teams/iaas/team_meetings.yml
   - teams/container/onetimes.yml
   - teams/container/team_meetings.yml
   - teams/sig_standard_cert/onetimes.yml
