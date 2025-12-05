@@ -2,25 +2,3 @@ name: Lightning Talks
 timezone: Europe/Berlin
 
 events:
-  - summary: "Short presentation of the technical preview of the SCS Status Page"
-    begin: 2024-04-18 15:45:00         # uses default timezone above
-    duration:
-      minutes: 15
-    description: |
-      A short overview of the now available (as a technical preview) SCS Status Page, the new frontend to our Status API Server.
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "Short presentation of the technical preview about how is a pentesting in SCS"
-    begin: 2024-04-25 15:45:00         # uses default timezone above
-    duration:
-      minutes: 15
-    description: |
-      A short overview of how we made automatized pentesting in SCS actually.
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "Overview of the Moin Cluster"
-    begin: 2024-06-27 15:45:00         # uses default timezone above
-    duration:
-      minutes: 15
-    description: |
-      In the SCS community we use a Kubernetes cluster called Moin Cluster for dogfooding.
-      Let's discover the Moin Cluster in this Lightning Talk.
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
