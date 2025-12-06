@@ -4,7 +4,7 @@ timezone: Europe/Berlin
 events:
   - summary: "SIG Standardization/Certification"
     begin: 2025-01-23 14:05:00
-    uid: sig-std-crt-1-2025@docs.scs.community
+    uid: sig-std-crt-2025-a@docs.scs.community
     duration:
       minutes: 50
     description: |
