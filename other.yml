@@ -48,7 +48,6 @@ events:
       Dial-In: +49-221-292772-611
       Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
-    uid: lean-scs-operator-coffee@scs.community
     repeat:
       interval:
         weeks: 4
