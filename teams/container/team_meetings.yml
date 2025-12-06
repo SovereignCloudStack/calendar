@@ -4,6 +4,7 @@ timezone: Europe/Berlin
 events:
   - summary: "Team Container Meeting"
     begin: 2025-02-21 09:05:00
+    uid: team-container-2025@docs.scs.community
     duration:
       minutes: 50
     description: |

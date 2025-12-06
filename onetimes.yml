@@ -2,150 +2,9 @@ name: One-Time Events
 timezone: Europe/Berlin
 
 events:
-  - summary: "SCS Hackathon #4"
-    begin: 2024-04-16 10:00:00
-    duration:
-      minutes: 480
-    description: |
-      We meet as community to develop, think, collect, and hack together. All information here: https://input.scs.community/Hy0HqULMTGeeVIcy0vmBgA
-      Coordinator: Friederike Zelke <zelke[at]osb-alliance.com>
-    location: "GONICUS GmbH, Möhnestraße 55, 59755 Arnsberg, Germany"
-  - summary: "SCS Hackathon #5 - 2025"
-    begin: 2025-04-29 12:00:00
-    duration:
-      minutes: 1500
-    description: |
-      We meet as community to develop, think, collect, and hack together. All information here: https://input.scs.community/uKDOOIPFSi-mg8g4h6Bztg
-      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
-    location: "Regionales Rechenzentrum Erlangen (RRZE), Martensstraße 1, 91058 Erlangen"
-  - summary: "SCS Community Meeting"
-    begin: 2025-01-16 15:05:00
-    duration:
-      minutes: 40
-    description: |
-      To start into the new year, we will meet in an interactive round. Right before this meeting the SIG Standardization and Certification will meet as well.
-
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Felix Kronlage-Dammers - fkr[at]osb-alliance.com
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "SCS Cluster Stacks Meeting"
-    begin: 2025-01-28 14:05:00
-    duration:
-      minutes: 50
-    description: |
-      Future of Cluster Stacks
-
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Matej Feder - matej.feder[at]dnation.cloud
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "SCS Community Meeting #2 2025"
-    begin: 2025-02-21 11:05:00
-    duration:
-      minutes: 50
-    description: |
-      The Project Board has been elected and as such we (the Project Board) want to give an opportunity to have an interactive session on what things should be tackled next in our community and the broader SCS scope. 
-
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Felix Kronlage-Dammers - fkr[at]osb-alliance.com
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "SCS Community Meeting"
-    begin: 2025-04-25 10:05:00
-    duration:
-      minutes: 50
-    description: |
-      The monthly meeting for the broader SCS community. Everyone is welcome - bring your questions, stories, ideas! This is the replacement date for the one we skip on easter friday.
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Felix Kronlage-Dammers - fkr[at]osb-alliance.com
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "Lean SCS Operator Coffee"
-    begin: 2025-04-24 10:05:00
-    duration:
-      minutes: 50
-    description: |
-      This format offers a place where SCS operators can meet and discuss operating SCS with the various topics around that.
-      This is a replacement date for the Lean Coffee that would happen on 1st of May 2025.
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "Lean SCS Operator Coffee"
-    begin: 2025-06-12 10:05:00
-    duration:
-      minutes: 50
-    description: |
-      This format offers a place where SCS operators can meet and discuss operating SCS with the various topics around that.
-      This is a replacement date for the Lean Coffee that would happen on 1st of May 2025.
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "SCS Summit 2025"
-    begin: 2025-09-24 09:00:00
-    duration:
-      minutes: 780
-    description: |
-      It’s that time again – the SCS Summit 2025 is just around the corner, and I’m excited to invite you to join us on September 24, 2025, in Berlin!
-      
-      Guided by the theme “Standardization. Collaboration. Continuity.”, we’ll be hosting our 3rd annual summit. It’s the key gathering of the Sovereign Cloud Stack community – bringing together developers, practitioners, public sector representatives, researchers, and community leads to exchange ideas and shape the future of interoperable cloud infrastructure in the context of digital sovereignty. Get ready for exciting sessions, tasty food, a relaxed vibe – and lots of time to connect and chat.
-      
-      All event details can be found HERE: https://sovereigncloudstack.org/summit2025/
-      Reserve your free ticket HERE: https://events.sovereigncloudstack.org/scs-summit-2025/
-      
-      Interested in contributing to the program? Our Call for Papers is open until August 1, 2025 – we’d love to hear from you! Additional information is available on the event page as well.
-      
-      If you have any questions about the summit, feel free to reach out to Lisa Seifert (seifert[at]osb-alliance.com) directly.
-      
-      We’re looking forward to seeing you in Berlin!
-    location: "Palisa, Palisadenstrasse 48, 10243 Berlin"
-  - summary: "SCS Project Board"
-    begin: 2025-07-07 12:05:00
-    duration:
-      minutes: 50
-    description: |
-      The SCS Project Board as described in SCS-0005. The SCS Project Board governs the SCS Open Source Project.
-
-      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/project-board
-      Etherpad: https://input.scs.community/2025-scs-project-board
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: The SCS Project Board
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "SCS Community Meeting"
-    begin: 2025-10-10 11:05:00
-    duration:
-      minutes: 50
-    description: |
-      The monthly meeting for the broader SCS community. Everyone is welcome - bring your questions, stories, ideas! This is the replacement date for the one we skip on easter friday.
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Felix Kronlage-Dammers - fkr[at]osb-alliance.com
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "Lean SCS Operator Coffee"
-    begin: 2025-10-16 10:05:00
-    duration:
-      minutes: 50
-    description: |
-      This format offers a place where SCS operators can meet and discuss operating SCS with the various topics around that.
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Martin Pilka <martin.pilka[at]dnation.cloud>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "SCS Community Meeting"
-    begin: 2025-11-07 11:05:00
-    duration:
-      minutes: 50
-    description: |
-      The monthly meeting for the broader SCS community. Everyone is welcome - bring your questions, stories, ideas! This is the replacement date for the one we skip on easter friday.
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Felix Kronlage-Dammers - fkr[at]osb-alliance.com
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "SCS Connect - Supporting IPv6 Connectivity in OpenStack"
     begin: 2025-11-20 15:00:00
+    uid: scs-connect-2025-11-20@docs.scs.community
     duration:
       minutes: 60
     description: |
@@ -159,6 +18,7 @@ events:
     location: "Online webinar"
   - summary: "SCS Connect - Sovereign AI - Customize, Host & Manage Secure AI Infrastructure on SCS Cloud"
     begin: 2025-12-10 11:00:00
+    uid: scs-connect-2025-12-10@docs.scs.community
     duration:
       minutes: 60
     description: |
@@ -170,6 +30,7 @@ events:
     location: "Online webinar"
   - summary: "Lean SCS Operator Coffee"
     begin: 2025-11-20 10:05:00
+    uid: scs-lean-coffee-2025-11-20@docs.scs.community
     duration:
       minutes: 50
     description: |
@@ -180,6 +41,7 @@ events:
     location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "SCS Community Meeting"
     begin: 2025-12-05 11:05:00
+    uid: scs-community-meeting-2025-12-05@docs.scs.community
     duration:
       minutes: 50
     description: |

@@ -2,136 +2,9 @@ name: Other community related events
 timezone: Europe/Berlin
 
 events:
-  - summary: "Lean SCS Operator Coffee"
-    begin: 2024-01-15 15:05:00
-    duration:
-      minutes: 50
-    description: |
-      This format offers a place where SCS operators can meet and discuss operating SCS with the various topics around that.
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-    repeat:
-      interval:
-        weeks: 4
-      until: 2024-12-22 # required
-      except_on:
-        - 2024-12-16 15:05:00
-  - summary: "Blocker: SCS Team Overflow/Replacement Slot"
-    begin: 2024-01-08 15:05:00
-    duration:
-      minutes: 50
-    description: |
-      Overflow/Replacement slot for SCS team meetings. May not take place every week. Concrete topic is announcend as parallel event in the public calendar. Ask on Matrix if in doubt.
-      Dial-In: +49-221-292772-611
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-    repeat:
-      interval:
-        weeks: 1
-      until: 2024-12-22 # required
-      except_on:
-        - 2024-05-20 15:05:00
-  - summary: "Open Door Operator Office Hours"
-    begin: 2024-01-11 12:05:00
-    duration:
-      minutes: 50
-    description: |
-      Open Door Operator Office Hours. Operators are welcome to join this coffee session with felix in order to discuss product aspects of the SCS full-stack.
-      Jitsi server on https://conf.scs.koeln:8443/SCS-fkr
-      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
-    location: "https://conf.scs.koeln:8443/SCS-fkr"
-    repeat:
-      interval:
-        weeks: 2
-      until: 2024-05-30 # required
-      except_on:
-        - 2024-01-24 12:05:00
-        - 2024-03-21 12:05:00
-        - 2024-04-04 12:05:00
-        - 2024-05-02 12:05:00
-        - 2024-05-16 12:05:00
-        - 2024-05-30 12:05:00
-  - summary: "Open Door Integrator Office Hours"
-    begin: 2024-02-01 12:05:00
-    duration:
-      minutes: 50
-    description: |
-      Open Door Integrator Office Hours. Integrators are welcome to join this coffee session with felix in order to discuss product aspects of the SCS full-stack.
-      Jitsi server on https://conf.scs.koeln:8443/SCS-fkr
-      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
-    location: "https://conf.scs.koeln:8443/SCS-fkr"
-    repeat:
-      interval:
-        weeks: 2
-      until: 2024-06-06 # required
-      except_on:
-        - 2024-02-15 12:05:00
-        - 2024-03-14 12:05:00
-        - 2024-03-28 12:05:00
-        - 2024-04-25 12:05:00
-        - 2024-05-09 12:05:00
-        - 2024-05-23 12:05:00
-        - 2024-06-06 12:05:00
-  - summary: "Hacking Session"
-    begin: 2024-05-10 11:35:00
-    duration:
-      minutes: 80
-    description: |
-      In this meeting, we will mainly be doing hands-on sessions on our projects.
-      Everyone is invited to actively participate.
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Coordinator: Jan Schoone <schoone[at]osb-alliance.com>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-    repeat:
-      interval:
-        weeks: 1
-      until: 2024-09-30 # required
-      except_on:
-        - 2024-06-07 11:35:00
-        - 2024-08-30 11:35:00
-        - 2024-09-06 11:35:00
-  - summary: "Office Hours - for SCS Community & Forum SCS-Standards"
-    begin: 2025-02-11 09:05:00
-    duration:
-      minutes: 50
-    description: |
-      Office hours for SCS Community & Forum SCS-Standards members. Feel invited to join to discuss SCS and related matters.
-      https://opentalk.mailbox.org/room/38941461-325e-4d0b-a731-c7ffbe4a3c16?invite=8faa2f09-354e-49fd-92d3-941f34e71fa9
-      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
-    location: "https://opentalk.mailbox.org/room/38941461-325e-4d0b-a731-c7ffbe4a3c16?invite=8faa2f09-354e-49fd-92d3-941f34e71fa9"
-    repeat:
-      interval:
-        weeks: 1
-      until: 2025-06-24 # required
-      except_on:
-        - 2025-03-11 09:05:00
-        - 2025-03-25 09:05:00
-        - 2025-04-15 09:05:00
-        - 2025-05-13 09:05:00
-        - 2025-06-03 09:05:00
-        - 2025-06-10 09:05:00
-  - summary: "Lean SCS Operator Coffee"
-    begin: 2025-03-06 10:05:00
-    duration:
-      minutes: 50
-    description: |
-      This format offers a place where SCS operators can meet and discuss operating SCS with the various topics around that.
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-    repeat:
-      interval:
-        weeks: 4
-      until: 2025-12-19 # required
-      except_on:
-        - 2025-05-01 10:05:00
-        - 2025-05-29 10:05:00 # public holiday in Germany. 12th of June is the replacement.
-        - 2025-10-16 10:05:00 # Martin Pilka will facilitate. Updated item in onetimes.yml
-        - 2025-11-13 10:05:00 # OSBA Connect is on this day, moved by a week
   - summary: "SCS Community Meeting"
     begin: 2025-03-21 11:05:00
+    uid: scs-community-meeting-2025@docs.scs.community
     duration:
       minutes: 50
     description: |
@@ -151,6 +24,7 @@ events:
         - 2025-11-28 11:05:00  # Moved to December
   - summary: "SCS Community Meeting"
     begin: 2026-01-23 11:05:00
+    uid: scs-community-meeting-2026@docs.scs.community
     duration:
       minutes: 50
     description: |
@@ -165,6 +39,7 @@ events:
       until: 2026-12-18 # required
   - summary: "Lean SCS Operator Coffee"
     begin: 2026-01-08 10:05:00
+    uid: scs-lean-coffee-2026@docs.scs.community
     duration:
       minutes: 50
     description: |

@@ -2,33 +2,9 @@ name: Technical team meetings
 timezone: Europe/Berlin
 
 events:
-  - summary: "SCS Product Board"
-    begin: 2024-01-15 14:05:00
-    duration:
-      minutes: 50
-    description: |
-      Our SCS Product Board: This is our virtual technical leadership team: CPO, Team/SIG POs/Speakers, Key contributors. This tactically prepares the team meetings (sprint planning).
-      But more importantly it takes a look at more strategic topics:
-      - What is our roadmap?
-      - How do we grow?
-      - How do we organize ourselves?
-      - What are key OSS/industry trends to take into account?
-
-      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/product-board
-      Etherpad: https://input.scs.community/2024-scs-product-board
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-    repeat:
-      interval:
-        weeks: 2
-      until: 2024-12-22
-      except_on:
-        - 2024-05-20 14:05:00
-        - 2024-07-29 14:05:00
   - summary: "SCS Project Board"
     begin: 2025-01-27 14:05:00
+    uid: scs-project-board-2025@docs.scs.community
     duration:
       minutes: 50
     description: |
@@ -54,6 +30,7 @@ events:
         - 2025-10-13 14:05:00 # No topics
   - summary: "SCS Project Board"
     begin: 2026-01-12 14:05:00
+    uid: scs-project-board-2026@docs.scs.community
     duration:
       minutes: 50
     description: |

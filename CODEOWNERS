@@ -1,0 +1,5 @@
+sig_standard_cert.yml      @mbuechse
+teams/sig_standard_cert/*  @mbuechse
+iaas.yml                   @jklare
+teams/iaas/*               @jklare
+*                          @sovereigncloudstack/project-board

@@ -2,72 +2,9 @@ name: One-Time Events
 timezone: Europe/Berlin
 
 events:
-  - summary: "IaaS Breakout room - E2EE between OpenStack services in ansible Kolla"
-    begin: 2024-01-12 14:05:00
-    duration:
-      minutes: 50
-    description: |
-      This is a breakout room from the IaaS team focused around #462 epic.
-      We want to discuss the current state of encryption and which services
-      do we want to encrypt and in what way we implement the E2E encryption.
-
-      Github EPIC: https://github.com/SovereignCloudStack/issues/issues/462
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Filip Dobrovolny <filip.dobrovolny[at]dnation.cloud>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "IaaS Breakout room - Migration Requirements for existing Ceph Cluster"
-    begin: 2024-02-05 15:05:00
-    duration:
-      minutes: 50
-    description: |
-      This is a breakout room from the IaaS team focused around #515 and the
-      corresponding requirements for migration of existing ceph clusters.
-      Issue Link: https://github.com/SovereignCloudStack/issues/issues/515
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "IaaS Breakout room - Classification of SCS-supported OpenStack components and services"
-    begin: 2024-03-18 15:05:00
-    duration:
-      minutes: 50
-    description: |
-      See this hedgedoc:
-      https://input.scs.community/list-of-required-recommended-and-optional-openstack-projects
-      Issue Link: https://github.com/SovereignCloudStack/issues/issues/528
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "IaaS Breakout room - IPv4/6 Network Standardization"
-    begin: 2024-04-11 14:05:00
-    duration:
-      minutes: 50
-    description: |
-      See this hedgedoc:
-      https://input.scs.community/2023-scs-team-iaas?view#2024-03-27:~:text=breakout%20session%20for%20discussion%20of%20the%20whole%20standard%20will%20be%20organized
-      Issue Link: https://github.com/SovereignCloudStack/issues/issues/167
-      PR Link: https://github.com/SovereignCloudStack/standards/pull/522
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Patrick Thiem <patrick.thiem[at]cloudandheat.com>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "IaaS Breakout room - DNS Standardization"
-    begin: 2024-06-24 15:05:00
-    duration:
-      minutes: 50
-    description: |
-      See this hedgedoc:
-      https://input.scs.community/2023-scs-team-iaas#DNS-Standard-markus-hentsch
-      Issue Link: https://github.com/SovereignCloudStack/issues/issues/229
-      PR Link: https://github.com/SovereignCloudStack/standards/pull/570
-      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
-      Dial-In: +49-221-292772-611
-      Coordinator: Felix Kronlage-Dammers <fkr[at]osb-alliance.com>
-    location: "https://conf.scs.koeln:8443/SCS-Tech"
   - summary: "Reviving the monthly Team IaaS call"
     begin: 2025-12-03 14:05:00
+    uid: team-iaas-2025-12-03@docs.scs.community
     duration:
       minutes: 30
     description: |

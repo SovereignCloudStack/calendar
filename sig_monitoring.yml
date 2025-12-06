@@ -1,5 +1,0 @@
-name: Calendar of SCS community related events for team SIG Monitoring
-timezone: Europe/Berlin
-include:
-#  - teams/sig_monitoring/onetimes.yml
-  - teams/sig_monitoring/team_meetings.yml

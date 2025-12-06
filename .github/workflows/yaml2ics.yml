@@ -22,21 +22,11 @@ jobs:
         pip install ics-vtimezones==2020.1
         pip install yaml2ics==0.2
         pip install pyyaml
-    - name: Run communitycall.py
-      run: |
-        python communitycall.py
     - name: Execute yaml2ics
       run: |
         mkdir ./calendar
         yaml2ics main.yml > ./calendar/scs.ics
         yaml2ics openops.yml > ./calendar/openops.ics
-        yaml2ics iaas.yml > ./calendar/iaas.ics
-        yaml2ics iam_n_sec.yml > ./calendar/iam_n_sec.ics
-        yaml2ics ops.yml > ./calendar/ops.ics
-        yaml2ics sig_central_api.yml > ./calendar/sig_central_api.ics
-        yaml2ics sig_community.yml > ./calendar/sig_community.ics
-        yaml2ics sig_docs.yml > ./calendar/sig_docs.ics
-        yaml2ics sig_monitoring.yml > ./calendar/sig_monitoring.ics
         yaml2ics sig_standard_cert.yml > ./calendar/sig_standard_cert.ics
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
