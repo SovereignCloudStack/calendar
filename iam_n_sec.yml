@@ -1,5 +1,0 @@
-name: Calendar of SCS community related events for team IAM and Security
-timezone: Europe/Berlin
-include:
-#  - teams/iam_n_sec/onetimes.yml
-  - teams/iam_n_sec/team_meetings.yml
