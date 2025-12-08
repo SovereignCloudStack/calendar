@@ -83,5 +83,5 @@ events:
     location: "https://conf.scs.koeln:8443/SCS-Tech"
     repeat:
       interval:
-        weeks: 1
+        weeks: 2
       until: 2026-12-18
