@@ -28,6 +28,24 @@ events:
 
       Speaker: Christian Schwaller, Chief Sales Officer at artcodix GmbH
     location: "Online webinar"
+  - summary: "SCS Connect – SCS Standards in Practice: From Implementation to Certification"
+    begin: 2026-01-20 11:00:00
+    uid: scs-connect-2026-01-20@docs.scs.community
+    duration:
+      minutes: 60
+    description: |
+      SCS Connect is our webinar series about SCS – with exciting topics ranging from technical insights and practical applications to tips on certification. The webinars are open to everyone and offer space for questions and discussion.
+
+      Sovereign Cloud Stack (SCS) is a European open-source project that develops standards for sovereign cloud infrastructures. The focus is on a cloud infrastructure with genuine freedom of choice: secure, interoperable, vendor-independent and cloud-native.
+      This webinar answers the most important questions about the available certificates and the entire certification process.
+      It is aimed at organizations, cloud providers, developers and decision-makers who are looking for a clear and practical introduction to the SCS certification.
+
+      To participate, please register here for free: https://events.sovereigncloudstack.org/SCSConnect-3/
+
+      This webinar will be held in German.
+
+      Speaker: Marvin Frommhold, Standardization & Certification Engineer at Forum SCS-Standards
+    location: "Online webinar"
   - summary: "Lean SCS Operator Coffee"
     begin: 2025-11-20 10:05:00
     uid: scs-lean-coffee-2025-11-20@docs.scs.community
