@@ -1,1 +1,1 @@
-yaml2ics==0.2
+yaml2ics==0.3
