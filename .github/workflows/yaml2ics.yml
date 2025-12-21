@@ -28,8 +28,11 @@ jobs:
       run: |
         mkdir ./calendar
         yaml2ics main.yml > ./calendar/scs.ics
+        python fix_ics_rrule.py ./calendar/scs.ics
         yaml2ics openops.yml > ./calendar/openops.ics
+        python fix_ics_rrule.py ./calendar/openops.ics
         yaml2ics sig_standard_cert.yml > ./calendar/sig_standard_cert.ics
+        python fix_ics_rrule.py ./calendar/sig_standard_cert.ics
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
