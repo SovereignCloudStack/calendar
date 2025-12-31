@@ -22,4 +22,23 @@ events:
         weeks: 2
       until: 2025-12-19
       except_on:
-        - 2025-07-04 09:05:00 # Unavailable
+        - 2025-07-04 09:05:00 # Unavailableevents:
+  - summary: "Team OPS/Sec/IAM Tooling Meeting"
+    begin: 2026-01-16 09:05:00
+    uid: team-ops-sec-iam-2026@docs.scs.community
+    duration:
+      minutes: 50
+    description: |
+      This is our monthly meeting to align any topics in the tooling around the functional stack.
+      Operational tools, Security practices and tooling, Identity and Access Management, etc.
+      
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/ops
+      Etherpad: https://input.scs.community/2026-scs-team-opsseciam
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Kurt Garloff <garloff[at]osb-alliance.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        months: 1
+      until: 2026-12-19
