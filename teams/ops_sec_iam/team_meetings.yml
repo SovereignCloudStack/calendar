@@ -22,7 +22,7 @@ events:
         weeks: 2
       until: 2025-12-19
       except_on:
-        - 2025-07-04 09:05:00 # Unavailableevents:
+        - 2025-07-04 09:05:00 # Unavailable
   - summary: "Team OPS/Sec/IAM Tooling Meeting"
     begin: 2026-01-16 09:05:00
     uid: team-ops-sec-iam-2026@docs.scs.community
