@@ -14,3 +14,14 @@ events:
       Dial-In: +49-221-292772-611
       Coordinator: Jan Klare <klare[at]osism.tech>
     location: "https://conf.scs.koeln:8443/SCS-Tech"
+  - summary: "Team IaaS call"
+    begin: 2026-01-28 14:05:00
+    uid: team-iaas-2026-01-28@docs.scs.community
+    duration:
+      minutes: 30
+    description: |
+      Let's discuss all current SCS IaaS topics, questions and news.
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Jan Klare <klare[at]osism.tech>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
