@@ -46,6 +46,20 @@ events:
 
       Speaker: Marvin Frommhold, Standardization & Certification Engineer at Forum SCS-Standards
     location: "Online webinar"
+  - summary: "SCS Hackathon #6"
+    begin: 2026-02-17 12:00:00
+    uid: scs-hackathon-6@docs.scs.community
+    duration:
+      minutes: 1500
+    description: |
+      The hackathon is organized for the SCS Community and brings together everyone interested in advancing digital sovereign cloud infrastructure within the context of the SCS project. While it is called a "hackathon", participation is not limited to coding: contributions range from hacking on code, improving documentation, shaping and reviewing standards, sharing knowledge, to simply exchanging ideas with like-minded experts.
+
+      This edition will specifically focus on SCS Kubernetes-as-a-Service (KaaS) standards and certification. If you work with Kubernetes, want to actively contribute to the development of standards, and aim to move toward SCS certification, this hackathon provides the ideal environment to do so collaboratively and hands-on. The joint agenda and topics will be collected in a HedgeDoc. You can already add your topic suggestions there now.
+
+      Registration and further information: https://sovereigncloudstack.org/event/sovereign-cloud-stack-hackathon-6/
+      Joint agenda and topics: https://input.scs.community/s/i6pZ-8o66n
+      Coordination and informal exchange: https://matrix.to/#/#scs-hackathons:matrix.org
+    location: "Rechenzentrum Nürnberg-Fürth – ScaleUp Technologies, Hermann-Glockner-Straße 7, 90763 Fürth, Germany"
   - summary: "Lean SCS Operator Coffee"
     begin: 2025-11-20 10:05:00
     uid: scs-lean-coffee-2025-11-20@docs.scs.community
