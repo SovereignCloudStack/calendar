@@ -23,3 +23,26 @@ events:
       until: 2025-12-22
       except_on:
         - 2025-04-18 09:05:00
+  - summary: "Team Container Meeting"
+    begin: 2026-01-23 09:05:00
+    uid: team-container@docs.scs.community
+    duration:
+      minutes: 50
+    description: |
+      This is our bi-weekly meeting for Team Container in which we deep-dive into topics.
+
+      Minutes: https://github.com/SovereignCloudStack/minutes/tree/main/container
+      HedgeDoc: https://input.scs.community/scs-team-container
+      Matrix room: https://matrix.to/#/!NZpJdPGjAHISXnHUil:matrix.org?via=matrix.org
+      Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
+      Dial-In: +49-221-292772-611
+      Coordinator: Jan Schoone <jan.schoone[at]uhurutec.com>
+    location: "https://conf.scs.koeln:8443/SCS-Tech"
+    repeat:
+      interval:
+        weeks: 2
+      until: 2026-12-18
+      except_on:
+        - 2026-04-03 09:05:00 # Good Friday
+        - 2026-05-01 09:05:00 # Labour Day
+
