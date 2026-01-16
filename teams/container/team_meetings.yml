@@ -25,7 +25,7 @@ events:
         - 2025-04-18 09:05:00
   - summary: "Team Container Meeting"
     begin: 2026-01-23 09:05:00
-    uid: team-container@docs.scs.community
+    uid: team-container-2026@docs.scs.community
     duration:
       minutes: 50
     description: |
