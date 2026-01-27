@@ -46,6 +46,22 @@ events:
 
       Speaker: Marvin Frommhold, Standardization & Certification Engineer at Forum SCS-Standards
     location: "Online webinar"
+  - summary: "SCS Connect – Sovereign Cloud Competence"
+    begin: 2026-02-24 16:00:00
+    uid: scs-connect-2026-02-24@docs.scs.community
+    duration:
+      minutes: 60
+    description: |
+      SCS Connect is our webinar series about SCS – with exciting topics ranging from technical insights and practical applications to tips on certification. The webinars are open to everyone and offer space for questions and discussion.
+
+      In this webinar, you will gain first-hand insights into how the GovStack Initiative, together with the Sovereign Cloud Stack (SCS), enables sovereign cloud infrastructures worldwide. Through concrete international examples, our speakers will show how countries use SCS to operate secure, open, and independent government clouds while strengthening digital sovereignty. You will learn how open standards and open source help avoid dependencies and build sustainable cloud ecosystems. The speakers will also introduce the practical training and education offerings of GovStack and SCS. You will discover how to use these materials to build your own cloud expertise and receive support when getting started with SCS. Of course, there will be plenty of time for questions and discussion. Get inspired and benefit from international experiences around sovereign cloud infrastructures.
+
+      We look forward to the exciting insights from Friederike and Kurt and to engaging discussions with you!
+
+      To participate, please register here for free: https://events.sovereigncloudstack.org/SCSConnect-4/
+
+      Speaker: Friederike Zelke, Digital Government Consultant, ITU, and Kurt Garloff, CEO of S7n Cloud Services GmbH
+    location: "Online webinar"
   - summary: "SCS Hackathon #6"
     begin: 2026-02-17 12:00:00
     uid: scs-hackathon-6@docs.scs.community
