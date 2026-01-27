@@ -105,13 +105,16 @@ events:
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Coordinator: Felix Kronlage-Dammers - fkr[at]osb-alliance.com
     location: "https://conf.scs.koeln:8443/SCS-Tech"
-  - summary: "SCS Standardization & Certification Workshop"
-    begin: 2026-02-24 10:05:00
+  - summary: "Feedback workshop on SCS certification"
+    begin: 2026-02-24 10:00:00
     uid: scs-std-crt-workshop-2026-02-24@docs.scs.community
     duration:
-      minutes: 360
+      minutes: 300
     description: |
-      Online Workshop to accomodate the feedback that has been raised as part of the first certifications. We want to dive into the certification process and directly digest the feedback from the stakeholders and see where our Standards need to be refined.
+      This online workshop is intended to gather feedback from the first certifications that have taken place. We actively dive into the certification process and directly digest the feedback from the stakeholders (*you*) and see where our Standards need to be refined.
+
+      More information and how to take part: https://input.scs.community/htJPtRxDToqvBR4f6BNuoQ
+
       Jitsi server on https://conf.scs.koeln:8443/SCS-Tech
       Coordinator: Marvin Frommhold - frommhold[at]osb-alliance.com
     location: "https://conf.scs.koeln:8443/SCS-Tech"
