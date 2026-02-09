@@ -46,3 +46,5 @@ events:
       interval:
         weeks: 1
       until: 2026-12-18
+      except_on:
+        - 2026-02-16 14:05:00 # Karneval, Hackathon
