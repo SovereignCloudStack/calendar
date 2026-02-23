@@ -1,0 +1,473 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev0 - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:/ics.py/2020.1/Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+RDATE:19700329T020000
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+RDATE:19701025T030000
+TZNAME:CET
+END:STANDARD
+LAST-MODIFIED:20200620T153818Z
+X-LIC-LOCATION:Europe/Berlin
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20250221T090500
+DURATION:PT50M
+SUMMARY:Team Container Meeting
+UID:team-container-2025@docs.scs.community
+DESCRIPTION:This is our bi-weekly meeting for Team Container in which we 
+ deep-dive into topics.\n\nMinutes: https://github.com/SovereignCloudStack/
+ minutes/tree/main/container\nHedgeDoc: 
+ https://input.scs.community/2025-scs-team-container\nMatrix room: 
+ https://matrix.to/#/!NZpJdPGjAHISXnHUil:matrix.org?via=matrix.org\nJitsi 
+ server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Matej Feder 
+ <matej.feder[at]dnation.cloud>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20251222T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20250418T090500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20260123T090500
+DURATION:PT50M
+SUMMARY:Team Container Meeting
+UID:team-container-2026@docs.scs.community
+DESCRIPTION:This is our bi-weekly meeting for Team Container in which we 
+ deep-dive into topics.\n\nMinutes: https://github.com/SovereignCloudStack/
+ minutes/tree/main/container\nHedgeDoc: https://input.scs.community/scs-
+ team-container\nMatrix room: 
+ https://matrix.to/#/!NZpJdPGjAHISXnHUil:matrix.org?via=matrix.org\nJitsi 
+ server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Jan Schoone <jan.schoone[at]uhurutec.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20260403T090500,20260501T090500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20251203T140500
+DURATION:PT30M
+SUMMARY:Reviving the monthly Team IaaS call
+UID:team-iaas-2025-12-03@docs.scs.community
+DESCRIPTION:We should discuss if there is currently enough input and 
+ interest to\nrevive the monthly Team IaaS calls.\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Jan Klare <klare[at]osism.tech>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20260128T140500
+DURATION:PT30M
+SUMMARY:Team IaaS call
+UID:team-iaas-2026-01-28@docs.scs.community
+DESCRIPTION:Let's discuss all current SCS IaaS topics\, questions and 
+ news.\nJitsi server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Jan Klare <klare[at]osism.tech>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20251120T150000
+DURATION:PT1H
+SUMMARY:SCS Connect - Supporting IPv6 Connectivity in OpenStack
+UID:scs-connect-2025-11-20@docs.scs.community
+DESCRIPTION:SCS Connect is our webinar series all about SCS – featuring 
+ exciting topics from technical insights and practical applications to 
+ certification guidance. The webinars are open to everyone and include time
+  for questions and discussion.\n\nIn this online webinar\, Freerk will 
+ show how to implement IPv6 connectivity in OpenStack environments\, 
+ explain the benefits of IPv6\, and talk about the challenges regional 
+ cloud providers face when assigning public IPv6 addresses and setting up 
+ dynamic routing for tenant networks. He’ll also share practical solutions 
+ using Neutron Subnet Pools and Neutron Dynamic Routing (BGP). The session 
+ is mainly aimed at Cloud Service Providers (CSPs) and operators of 
+ OpenStack or SCS reference implementations.\n\nTo participate\, please 
+ register here for free: 
+ https://events.sovereigncloudstack.org/SCSConnect/\n\nSpeaker: Freerk-Ole 
+ Zakfeld\, Head of Cloud Operations at ScaleUp Technologies
+LOCATION:Online webinar
+DTSTAMP:20260223T084358Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20251210T110000
+DURATION:PT1H
+SUMMARY:SCS Connect - Sovereign AI - Customize\, Host & Manage Secure AI 
+ Infrastructure on SCS Cloud
+UID:scs-connect-2025-12-10@docs.scs.community
+DESCRIPTION:As organizations demand greater control\, compliance\, and data
+  sovereignty over their AI workloads\, building and operating sovereign AI
+  infrastructure has become a strategic imperative. In this webcast\, 
+ Christian takes you behind the scenes of how they design\, host\, manage\,
+  and deploy fully sovereign AI infrastructure on top of their SCS Cloud — 
+ ensuring data residency\, regulatory compliance\, and operational autonomy
+  without sacrificing performance or scalability.\n\nTo participate\, 
+ please register here for free: 
+ https://events.sovereigncloudstack.org/SCSConnect-2/\n\nSpeaker: Christian
+  Schwaller\, Chief Sales Officer at artcodix GmbH
+LOCATION:Online webinar
+DTSTAMP:20260223T084358Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20260120T110000
+DURATION:PT1H
+SUMMARY:SCS Connect – SCS Standards in Practice: From Implementation to 
+ Certification
+UID:scs-connect-2026-01-20@docs.scs.community
+DESCRIPTION:SCS Connect is our webinar series about SCS – with exciting 
+ topics ranging from technical insights and practical applications to tips 
+ on certification. The webinars are open to everyone and offer space for 
+ questions and discussion.\n\nSovereign Cloud Stack (SCS) is a European 
+ open-source project that develops standards for sovereign cloud 
+ infrastructures. The focus is on a cloud infrastructure with genuine 
+ freedom of choice: secure\, interoperable\, vendor-independent and cloud-
+ native.\nThis webinar answers the most important questions about the 
+ available certificates and the entire certification process.\nIt is aimed 
+ at organizations\, cloud providers\, developers and decision-makers who 
+ are looking for a clear and practical introduction to the SCS 
+ certification.\n\nTo participate\, please register here for free: 
+ https://events.sovereigncloudstack.org/SCSConnect-3/\n\nThis webinar will 
+ be held in German.\n\nSpeaker: Marvin Frommhold\, Standardization & 
+ Certification Engineer at Forum SCS-Standards
+LOCATION:Online webinar
+DTSTAMP:20260223T084358Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20260224T160000
+DURATION:PT1H
+SUMMARY:SCS Connect – Sovereign Cloud Competence
+UID:scs-connect-2026-02-24@docs.scs.community
+DESCRIPTION:SCS Connect is our webinar series about SCS – with exciting 
+ topics ranging from technical insights and practical applications to tips 
+ on certification. The webinars are open to everyone and offer space for 
+ questions and discussion.\n\nIn this webinar\, you will gain first-hand 
+ insights into how the GovStack Initiative\, together with the Sovereign 
+ Cloud Stack (SCS)\, enables sovereign cloud infrastructures worldwide. 
+ Through concrete international examples\, our speakers will show how 
+ countries use SCS to operate secure\, open\, and independent government 
+ clouds while strengthening digital sovereignty. You will learn how open 
+ standards and open source help avoid dependencies and build sustainable 
+ cloud ecosystems. The speakers will also introduce the practical training 
+ and education offerings of GovStack and SCS. You will discover how to use 
+ these materials to build your own cloud expertise and receive support when
+  getting started with SCS. Of course\, there will be plenty of time for 
+ questions and discussion. Get inspired and benefit from international 
+ experiences around sovereign cloud infrastructures.\n\nWe look forward to 
+ the exciting insights from Friederike and Kurt and to engaging discussions
+  with you!\n\nTo participate\, please register here for free: 
+ https://events.sovereigncloudstack.org/SCSConnect-4/\n\nSpeaker: 
+ Friederike Zelke\, Digital Government Consultant\, ITU\, and Kurt 
+ Garloff\, CEO of S7n Cloud Services GmbH
+LOCATION:Online webinar
+DTSTAMP:20260223T084358Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20260217T120000
+DURATION:P1DT1H
+SUMMARY:SCS Hackathon #6
+UID:scs-hackathon-6@docs.scs.community
+DESCRIPTION:The hackathon is organized for the SCS Community and brings 
+ together everyone interested in advancing digital sovereign cloud 
+ infrastructure within the context of the SCS project. While it is called a
+  "hackathon"\, participation is not limited to coding: contributions range
+  from hacking on code\, improving documentation\, shaping and reviewing 
+ standards\, sharing knowledge\, to simply exchanging ideas with like-
+ minded experts.\n\nThis edition will specifically focus on SCS Kubernetes-
+ as-a-Service (KaaS) standards and certification. If you work with 
+ Kubernetes\, want to actively contribute to the development of standards\,
+  and aim to move toward SCS certification\, this hackathon provides the 
+ ideal environment to do so collaboratively and hands-on. The joint agenda 
+ and topics will be collected in a HedgeDoc. You can already add your topic
+  suggestions there now.\n\nRegistration and further information: 
+ https://sovereigncloudstack.org/event/sovereign-cloud-stack-
+ hackathon-6/\nJoint agenda and topics: 
+ https://input.scs.community/s/i6pZ-8o66n\nCoordination and informal 
+ exchange: https://matrix.to/#/#scs-hackathons:matrix.org
+LOCATION:Rechenzentrum Nürnberg-Fürth – ScaleUp Technologies\, Hermann-
+ Glockner-Straße 7\, 90763 Fürth\, Germany
+DTSTAMP:20260223T084358Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20251120T100500
+DURATION:PT50M
+SUMMARY:Lean SCS Operator Coffee
+UID:scs-lean-coffee-2025-11-20@docs.scs.community
+DESCRIPTION:This format offers a place where SCS operators can meet and 
+ discuss operating SCS with the various topics around that.\nJitsi server 
+ on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Felix Kronlage-Dammers - fkr[at]osb-
+ alliance.com
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20251205T110500
+DURATION:PT50M
+SUMMARY:SCS Community Meeting
+UID:scs-community-meeting-2025-12-05@docs.scs.community
+DESCRIPTION:The monthly meeting for the broader SCS community. Everyone is 
+ welcome - bring your questions\, stories\, ideas! This is the replacement 
+ date for the one we skipped on 2025-11-28.\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: +49-221-292772-611
+DTSTAMP:20260223T084358Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20251118T110500
+DURATION:PT4H
+SUMMARY:Bug Squashing Fest
+UID:808b155b-d065-4de8-96aa-51c4b321fd25@808b.org
+DESCRIPTION:Bug Squashing Fest for SIG Std/Crt. Everyone who actively wants
+  to work on minimize the amount of open issues and PRs is welcome!\nJitsi 
+ server on https://conf.scs.koeln:8443/SCS-Tech\nCoordinator: Felix 
+ Kronlage-Dammers - fkr[at]osb-alliance.com
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20260224T100000
+DURATION:PT5H
+SUMMARY:Feedback workshop on SCS certification
+UID:scs-std-crt-workshop-2026-02-24@docs.scs.community
+DESCRIPTION:This online workshop is intended to gather feedback from the 
+ first certifications that have taken place. We actively dive into the 
+ certification process and directly digest the feedback from the 
+ stakeholders (*you*) and see where our Standards need to be 
+ refined.\n\nMore information and how to take part: 
+ https://input.scs.community/htJPtRxDToqvBR4f6BNuoQ\n\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nCoordinator: Marvin Frommhold - 
+ frommhold[at]osb-alliance.com
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20250314T090500
+DURATION:PT50M
+SUMMARY:Team OPS/Sec/IAM Tooling Meeting
+UID:team-ops-sec-iam-2025@docs.scs.community
+DESCRIPTION:This is our bi-weekly meeting to align any topics in the 
+ tooling around the functional stack.\nOperational tools\, Security 
+ practices and tooling\, Identity and Access Management\, etc.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/ops\nHedgeDoc: 
+ https://input.scs.community/2025-scs-team-opsseciam\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Kurt Garloff <garloff[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20251219T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20250704T090500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20260116T090500
+DURATION:PT50M
+SUMMARY:Team OPS/Sec/IAM Tooling Meeting
+UID:team-ops-sec-iam-2026@docs.scs.community
+DESCRIPTION:This is our monthly meeting to align any topics in the tooling 
+ around the functional stack.\nOperational tools\, Security practices and 
+ tooling\, Identity and Access Management\, etc.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/ops\nHedgeDoc: 
+ https://input.scs.community/2026-scs-team-opsseciam\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Kurt Garloff <garloff[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+RRULE:FREQ=MONTHLY;UNTIL=20261219T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20250321T110500
+DURATION:PT50M
+SUMMARY:SCS Community Meeting
+UID:scs-community-meeting-2025@docs.scs.community
+DESCRIPTION:The monthly meeting for the broader SCS community. Everyone is 
+ welcome - bring your questions\, stories\, ideas!\nJitsi server on 
+ https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: The SCS Project Board - <project-
+ board[at]lists.scs.community>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+RRULE:FREQ=WEEKLY;INTERVAL=4;UNTIL=20251219T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20250418T110500,20251003T110500,20
+ 251031T110500,20251128T110500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20260123T110500
+DURATION:PT50M
+SUMMARY:SCS Community Meeting
+UID:scs-community-meeting-2026@docs.scs.community
+DESCRIPTION:The monthly meeting for the broader SCS community. Everyone is 
+ welcome - bring your questions\, stories\, ideas!\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/community-
+ meeting\nHedgeDoc: https://input.scs.community/community-
+ meeting?both\nPresentation: https://input.scs.community/p/community-
+ meeting#/\nMatrix room: https://matrix.to/#/#scs-general:matrix.org\nJitsi
+  server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: The SCS Project Board - <project-
+ board[at]lists.scs.community>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+RRULE:FREQ=WEEKLY;INTERVAL=4;UNTIL=20261218T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20260108T100500
+DURATION:PT50M
+SUMMARY:Lean SCS Operator Coffee
+UID:scs-lean-coffee-2026@docs.scs.community
+DESCRIPTION:This format offers a place where SCS operators can meet and 
+ discuss operating SCS with the various topics around that.\nJitsi server 
+ on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: Felix Kronlage-Dammers <fkr[at]osb-
+ alliance.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+RRULE:FREQ=WEEKLY;INTERVAL=4;UNTIL=20261218T000000
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20250116T140500
+DURATION:PT50M
+SUMMARY:Resumption of SIG Standardization/Certification
+UID:sig-std-crt-2025-01-16@docs.scs.community
+DESCRIPTION:Let's resume the work of SIG Standardization/Certification in 
+ 2025.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/sig-
+ standardization\nHedgeDoc: https://input.scs.community/2025-scs-sig-
+ standardization\nJitsi server on https://conf.scs.koeln:8443/SCS-
+ Tech\nDial-In: +49-221-292772-611\nCoordinator: Matthias Büchse 
+ <matthias.buechse[at]cloudandheat.com>
+DTSTAMP:20260223T084358Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20250123T140500
+DURATION:PT50M
+SUMMARY:SIG Standardization/Certification
+UID:sig-std-crt-2025-a@docs.scs.community
+DESCRIPTION:In this Special Interest Group\, we discuss and align our 
+ activities and approach to standardization and certification. That is to 
+ say\, we devise and refine the relevant concepts and processes\; we work 
+ on a roadmap for new certificate versions\; and we align on which 
+ standards are desireable for each certificate subject. We then work with 
+ the teams to align on existing or new standards.\n\nBesides aspects of 
+ openness and sovereignty\, the main goal of our standards is 
+ interoperability. We should take the user perspective: As a member of a 
+ DevOps team developing a service (think SaaS or PaaS) for SCS\, I need 
+ XYZ. Every standard should be abstract enough to work regardless of the 
+ SCS reference implementation.\n\nThis SIG is a joint effort by SCS and 
+ ALASCA.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/sig-
+ standardization\nHedgeDoc: https://input.scs.community/2025-scs-sig-
+ standardization\nJitsi server on https://conf.scs.koeln:8443/SCS-
+ Tech\nDial-In: +49-221-292772-611\nCoordinator: Matthias Büchse 
+ <matthias.buechse[at]cloudandheat.com>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+RRULE:FREQ=WEEKLY;UNTIL=20251003T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20250130T140500,20250227T140500,20
+ 250313T140500,20250327T140500,20250417T140500,20250424T140500,20250501T140
+ 500,20250529T140500,20250605T140500,20250619T140500,20250814T140500,202509
+ 25T140500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20251007T100500
+DURATION:PT50M
+SUMMARY:SIG Standardization/Certification
+UID:sig-std-crt-2025-b@docs.scs.community
+DESCRIPTION:In this Special Interest Group\, we discuss and align our 
+ activities and approach to standardization and certification. That is to 
+ say\, we devise and refine the relevant concepts and processes\; we work 
+ on a roadmap for new certificate versions\; and we align on which 
+ standards are desireable for each certificate subject. We then work with 
+ the teams to align on existing or new standards.\n\nBesides aspects of 
+ openness and sovereignty\, the main goal of our standards is 
+ interoperability. We should take the user perspective: As a member of a 
+ DevOps team developing a service (think SaaS or PaaS) for SCS\, I need 
+ XYZ. Every standard should be abstract enough to work regardless of the 
+ SCS reference implementation.\n\nThis SIG is a joint effort by SCS and 
+ ALASCA.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/sig-
+ standardization\nHedgeDoc: https://input.scs.community/2025-scs-sig-
+ standardization\nJitsi server on https://conf.scs.koeln:8443/SCS-
+ Tech\nDial-In: +49-221-292772-611\nCoordinator: Matthias Büchse 
+ <matthias.buechse[at]alasca.cloud>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+RRULE:FREQ=WEEKLY;UNTIL=20251219T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20251028T100500,20251104T100500,20
+ 251209T100500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20260115T140500
+DURATION:PT50M
+SUMMARY:SIG Standardization/Certification
+UID:sig-std-crt-2026@docs.scs.community
+DESCRIPTION:In this Special Interest Group\, we discuss and align our 
+ activities and approach to standardization and certification. That is to 
+ say\, we devise and refine the relevant concepts and processes\; we work 
+ on a roadmap for new certificate versions\; and we align on which 
+ standards are desireable for each certificate subject. We then work with 
+ the teams to align on existing or new standards.\n\nBesides aspects of 
+ openness and sovereignty\, the main goal of our standards is 
+ interoperability. We should take the user perspective: As a member of a 
+ DevOps team developing a service (think SaaS or PaaS) for SCS\, I need 
+ XYZ. Every standard should be abstract enough to work regardless of the 
+ SCS reference implementation.\n\nThis SIG is a joint effort by SCS and 
+ ALASCA.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/sig-
+ standardization\nHedgeDoc: https://input.scs.community/2026-scs-sig-
+ standardization\nJitsi server on https://conf.scs.koeln:8443/SCS-
+ Tech\nDial-In: +49-221-292772-611\nCoordinator: Matthias Büchse 
+ <matthias.buechse[at]alasca.cloud>
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20261218T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20260226T140500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20250127T140500
+DURATION:PT50M
+SUMMARY:SCS Project Board
+UID:scs-project-board-2025@docs.scs.community
+DESCRIPTION:The SCS Project Board as described in SCS-0005. The SCS Project
+  Board governs the SCS Open Source Project.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/project-
+ board\nHedgeDoc: https://input.scs.community/2025-scs-project-board\nJitsi
+  server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: The SCS Project Board
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+RRULE:FREQ=WEEKLY;UNTIL=20251216T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20250414T140500,20250421T140500,20
+ 250428T140500,20250609T140500,20250707T140500,20250908T140500,20251013T140
+ 500
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/Europe/Berlin:20260112T140500
+DURATION:PT50M
+SUMMARY:SCS Project Board
+UID:scs-project-board-2026@docs.scs.community
+DESCRIPTION:The SCS Project Board as described in SCS-0005. The SCS Project
+  Board governs the SCS Open Source Project.\n\nMinutes: 
+ https://github.com/SovereignCloudStack/minutes/tree/main/project-
+ board\nHedgeDoc: https://input.scs.community/scs-project-board\nJitsi 
+ server on https://conf.scs.koeln:8443/SCS-Tech\nDial-In: 
+ +49-221-292772-611\nCoordinator: The SCS Project Board
+LOCATION:https://conf.scs.koeln:8443/SCS-Tech
+DTSTAMP:20260223T084358Z
+RRULE:FREQ=WEEKLY;UNTIL=20261218T000000
+EXDATE;TZID=/ics.py/2020.1/Europe/Berlin:20260216T140500
+END:VEVENT
+NAME:Overall calendar of SCS community related events
+X-WR-CALNAME:Overall calendar of SCS community related events
+END:VCALENDAR
