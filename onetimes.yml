@@ -62,6 +62,24 @@ events:
 
       Speaker: Friederike Zelke, Digital Government Consultant, ITU, and Kurt Garloff, CEO of S7n Cloud Services GmbH
     location: "Online webinar"
+  - summary: "SCS Connect – Migration from VMWare to OpenStack"
+    begin: 2026-03-19 15:00:00
+    uid: scs-connect-2026-03-19@docs.scs.community
+    duration:
+      minutes: 60
+    description: |
+      SCS Connect is our webinar series about SCS – with exciting topics ranging from technical insights and practical applications to tips on certification. The webinars are open to everyone and offer space for questions and discussion.
+
+      In this webinar, stackXperts will show how to migrate virtual machines from VMWare to OpenStack with open source tools with little effort and minimal downtime. The migration will be demonstrated in a testbed setup, pitfalls will be explained, and follow-up work for Windows, for example, will be discussed. The focus will be on exchange, learning, and practical insights that invite joint discussion.
+
+      We look forward to Enrico's exciting insights and to exchanging ideas with you!
+
+      To participate, please register here for free: https://events.sovereigncloudstack.org/SCSConnect-5/
+
+      The webinar will be held in German.
+
+      Speaker: Enrico Kern, CEO stackXperts GmbH
+    location: "Online webinar"
   - summary: "SCS Hackathon #6"
     begin: 2026-02-17 12:00:00
     uid: scs-hackathon-6@docs.scs.community
