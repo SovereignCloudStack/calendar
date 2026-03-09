@@ -46,3 +46,5 @@ events:
       interval:
         weeks: 1
       until: 2026-12-18
+      except_on:
+        - 2026-03-09 14:05:00 # People travelling to Forums meeting
