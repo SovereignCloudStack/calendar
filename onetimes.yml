@@ -80,6 +80,25 @@ events:
 
       Speaker: Enrico Kern, CEO stackXperts GmbH
     location: "Online webinar"
+  - summary: "SCS Connect – ECO:DIGIT meets SCS: Measure what you manage"
+    begin: 2026-04-23 15:00:00
+    uid: scs-connect-2026-04-23@docs.scs.community
+    duration:
+      minutes: 60
+    description: |
+      SCS Connect is our webinar series about SCS – with exciting topics ranging from technical insights and practical applications to tips on certification. The webinars are open to everyone and offer space for questions and discussion.
+
+      At the next SCS Connect, Josefine Kipke will provide insights into the ECO:DIGIT project and its contribution to sustainable digital transformation. The focus is on the question of how resource consumption and the resulting environmental impact of cloud workloads can be measured transparently and comprehensibly across different levels of the cloud infrastructure.
+      The project shows how sustainability monitoring can support cloud providers in providing companies with reliable data for their ICT carbon footprint. It also highlights the role of the Sovereign Cloud Stack as a technological foundation and the concrete findings and results that have already been achieved.
+
+      A session for all those who not only think about Green IT conceptually, but also want to implement it based on data.
+
+      We look forward to the exciting insight and the exchange with you!
+
+      To participate, please register here for free: https://events.sovereigncloudstack.org/SCSConnect-6/
+
+      Speaker: Josefine Kipke, System Engineer Sustainability Monitoring, OSBA
+    location: "Online webinar"
   - summary: "SCS Hackathon #6"
     begin: 2026-02-17 12:00:00
     uid: scs-hackathon-6@docs.scs.community
