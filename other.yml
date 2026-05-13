@@ -42,6 +42,8 @@ events:
       interval:
         weeks: 4
       until: 2026-12-18 # required
+      except_on:
+        - 2026-05-15 11:05:00  # Skip due to bridge day
   - summary: "Lean SCS Operator Coffee"
     begin: 2026-01-08 10:05:00
     uid: scs-lean-coffee-2026@docs.scs.community
