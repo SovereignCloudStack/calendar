@@ -88,7 +88,7 @@ events:
       except_on:
         - 2026-02-26 14:05:00  # Yaook-SCS-operator Hackathon
         - 2026-05-21 14:05:00  # SCS Summit 2026
-  - summary: "SIG Standardization/Certification"
+  - summary: "SIG Standardization/Certification" # Move back by a week due to ALASCA Hackathon and Summit
     begin: 2026-07-09 14:05:00
     uid: sig-std-crt-2026-b@docs.scs.community
     duration:
