@@ -99,6 +99,26 @@ events:
 
       Speaker: Josefine Kipke, System Engineer Sustainability Monitoring, OSBA
     location: "Online webinar"
+  - summary: "SCS Connect – Non-Persistent VDI in OpenStack"
+    begin: 2026-08-27 15:00:00
+    uid: scs-connect-2026-08-27@docs.scs.community
+    duration:
+      minutes: 60
+    description: |
+      SCS Connect is our webinar series about SCS – with exciting topics ranging from technical insights and practical applications to tips on certification. The webinars are open to everyone and offer space for questions and discussion.
+
+      Managing a large number of terminal servers, coordinating updates and scaling in VDI (Virtual Desktop Infrastructure) scenarios require a high degree of control, planning and automation.
+
+      With template-based, short-lived VM instances, UPONU offers an intelligent method for deploying and deleting terminal servers. UPONU uses this approach to enable the VDI infrastructure to be scaled up or down easily and to facilitate centralised software updates. In this presentation, Lucas and Jan will introduce their deployment pipeline for creating and customising short-lived VDI instances in OpenStack. UPONU combines OpenTofu, Ansible and PowerShell to orchestrate all the necessary components – both on OpenStack and Omnissa Horizon, as well as within the guest operating system. Furthermore, UPONU offers a user-friendly interface with semaphores, which is particularly useful for the service desk. During the webinar, participants will learn about a specific implementation of non-persistent VDI instances and gain an insight into the underlying concepts.
+
+      We look forward to exchanging ideas with you!
+
+      To participate, please register here for free: https://events.sovereigncloudstack.org/SCSConnect-9/
+
+      The webinar will be held in German.
+
+      Speaker: Lucas Grümbel (Project Management Team Leader) & Jan Mußmann (Managing Director), UPONU GmbH
+    location: "Online webinar"
   - summary: "SCS Hackathon #6"
     begin: 2026-02-17 12:00:00
     uid: scs-hackathon-6@docs.scs.community
