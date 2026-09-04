@@ -119,6 +119,26 @@ events:
 
       Speaker: Lucas Grümbel (Project Management Team Leader) & Jan Mußmann (Managing Director), UPONU GmbH
     location: "Online webinar"
+  - summary: "SCS Connect – AI-powered operations tools – an OVN analyser for OpenStack as a case study"
+    begin: 2026-09-22 15:00:00
+    uid: scs-connect-2026-09-22@docs.scs.community
+    duration:
+      minutes: 60
+    description: |
+      SCS Connect is our webinar series about SCS – with exciting topics ranging from technical insights and practical applications to tips on certification. The webinars are open to everyone and offer space for questions and discussion.
+
+      With OVN (Open Virtual Networking), the truth about a Neutron network lies in the northbound and southbound databases. In practice, troubleshooting there means using `ovn-nbctl`, `ovn-sbctl` and `ovs-vsctl`, manually piecing together UUIDs across multiple hosts and working out the connections in your head.
+      In the first part of the webinar, Christian „Northwatch“ – an analyser that connects directly to NB, SB and Open vSwitch, keeps both databases in memory in real time and generates a unified view from them. This includes searching across both databases by IP, MAC or UUID, the correlation of intent and implementation (Logical_Switch_Port, Port_Binding, Chassis), topology visualisation, snapshots including diffs and offline replay, as well as the enrichment of UUIDs with Neutron names. Using specific examples – such as unbound ports, outdated entries or divergent flows – it becomes clear which CLI sessions this renders redundant.
+      The second part focuses on the tool’s development history: from the initial idea, through a README as the earliest artefact, to planning, architectural decisions and implementation using Claude Code – including an honest assessment of what worked well, where domain knowledge remained indispensable, and what this means for the cost-effectiveness of niche tools in operation.
+
+      We look forward to exchanging ideas with you!
+
+      To participate, please register here for free: https://events.sovereigncloudstack.org/SCSConnect-10/
+
+      The webinar will be held in German.
+
+      Speaker: Christian Berendt (Founder OSISM GmbH)
+    location: "Online webinar"
   - summary: "SCS Hackathon #6"
     begin: 2026-02-17 12:00:00
     uid: scs-hackathon-6@docs.scs.community
