@@ -1,0 +1,6 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py 0.8.0-dev0 - http://git.io/lLljaA
+NAME:Open Operations meetings
+X-WR-CALNAME:Open Operations meetings
+END:VCALENDAR
