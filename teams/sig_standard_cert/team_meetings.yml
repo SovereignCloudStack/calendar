@@ -112,3 +112,4 @@ events:
       until: 2026-12-18
       except_on:
         - 2026-09-17 14:05:00  # SCS Community Hackathon #7
+        - 2026-11-12 14:05:00  # collision with OSBA general assembly
