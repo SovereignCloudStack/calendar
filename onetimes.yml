@@ -140,8 +140,8 @@ events:
       Speaker: Christian Berendt (Founder OSISM GmbH)
     location: "Online webinar"
   - summary: "SCS Connect – SCS Certification: How It Works"
-    begin: 2026-11-26 15:00:00
-    uid: scs-connect-2026-11-26@docs.scs.community
+    begin: 2026-12-03 15:00:00
+    uid: scs-connect-2026-12-03@docs.scs.community
     duration:
       minutes: 60
     description: |
@@ -158,6 +158,8 @@ events:
       We look forward to talking with you!
 
       To participate, please register here for free: https://events.sovereigncloudstack.org/SCSConnect-12/
+      
+      This webinar will be held in German.
 
       Speaker: Marvin Frommhold, Standardization & Certification Engineer at Forum SCS-Standards
     location: "Online webinar"
